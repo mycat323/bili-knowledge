@@ -90,6 +90,28 @@ const base = computed(() => site.value.base || '/bili-knowledge/');
 .catalog-note { display: flex; gap: 24px; margin-top: 72px; padding-top: 24px; border-top: 1px solid var(--vp-c-divider); }
 .catalog-note span { color: var(--vp-c-brand-1); font-size: 12px; font-weight: 700; }
 .catalog-note p { color: var(--vp-c-text-3); font-size: 13px; }
+/* 宽屏一行排 4 个知识库：容器放宽 + 卡片瘦身。
+   卡片原本是按 2 列（每张约 570px）设计的：标题 nowrap、插画 220px、
+   头像 74px、正文/统计还带 96px 左缩进。直接改成 4 列会把每一列
+   压到 ~280px，标题会溢出。所以宽屏下垂一套紧凑尺寸。 */
+@media (min-width: 1280px) {
+  .catalog-page { max-width: 1520px; }
+  .catalog-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+  .catalog-card { min-height: 520px; padding: 26px 24px 28px; }
+  .catalog-card::before { inset: 7px; }
+  .card-illustration { height: 140px; margin: 20px 0 16px; }
+  .card-illustration::after { display: none; }
+  .card-identity { gap: 14px; margin-top: 14px; }
+  .avatar-placeholder { width: 54px; height: 54px; flex-basis: 54px; box-shadow: inset 0 0 0 5px rgb(255 250 243 / .68); }
+  .card-identity h2 { font-size: clamp(20px, 1.7vw, 26px); white-space: normal; word-break: normal; }
+  .card-content { margin-left: 0; }
+  .card-description { max-width: none; margin-top: 14px; font-size: 13px; line-height: 1.7; }
+  .card-tags { margin-top: 16px; }
+  .card-stats { width: 100%; margin: 18px 0 0; padding: 16px 0; gap: 10px; }
+  .card-stats dt { font-size: 15px; }
+  .card-action { width: 100%; margin-left: 0; }
+}
+
 @media (max-width: 899px) {
   .catalog-page { padding: 24px 0 48px; }
   .catalog-header { grid-template-columns: 1fr; gap: 12px; padding-bottom: 32px; }

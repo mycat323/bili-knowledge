@@ -68,11 +68,11 @@
     ],
     "illustration": "knowledge-still-life.png",
     "avatar": "avatar-bidao.jpg",
-    "total": 579,
+    "total": 647,
     "counts": {
-      "knowledge": 4,
-      "articles": 72,
-      "atoms": 503
+      "knowledge": 46,
+      "articles": 76,
+      "atoms": 525
     }
   },
   {
@@ -92,6 +92,40 @@
       "knowledge": 14,
       "articles": 10,
       "atoms": 68
+    }
+  },
+  {
+    "key": "deeptheo",
+    "name": "深度进化Theo",
+    "subject": "综合",
+    "description": "来自 深度进化Theo 的 B 站视频，按体系化阅读、逐视频文章与原子笔记三层结构整理。",
+    "tags": [
+      "综合"
+    ],
+    "illustration": "knowledge-still-life.png",
+    "avatar": "avatar-deeptheo.jpg",
+    "total": 36,
+    "counts": {
+      "knowledge": 2,
+      "articles": 4,
+      "atoms": 30
+    }
+  },
+  {
+    "key": "mediators",
+    "name": "Mediators_",
+    "subject": "综合",
+    "description": "来自 Mediators_ 的 B 站视频，按体系化阅读、逐视频文章与原子笔记三层结构整理。",
+    "tags": [
+      "综合"
+    ],
+    "illustration": "knowledge-still-life.png",
+    "avatar": "avatar-mediators.jpg",
+    "total": 37,
+    "counts": {
+      "knowledge": 3,
+      "articles": 3,
+      "atoms": 31
     }
   }
 ]

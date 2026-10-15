@@ -5,20 +5,188 @@
       "collapsed": false,
       "items": [
         {
-          "text": "第一章 · 液体与固体的光学戏法：从青红酒变色到厚缸放大",
-          "link": "/bidao/knowledge/01-液体与固体的光学戏法-从青红酒变色到厚缸放大.html"
+          "text": "第一章 · 科学思维的第一道门槛：眼见为实为什么靠不住",
+          "link": "/bidao/knowledge/01-科学思维的第一道门槛-眼见为实为什么靠不住.html"
         },
         {
-          "text": "第二章 · 沟槽反射与X形亮线：为什么眼睛看到的直线其实不存在",
-          "link": "/bidao/knowledge/02-沟槽反射与x形亮线-为什么眼睛看到的直线其实不存在.html"
+          "text": "第二章 · 从现象到原理：科学家怎么把「离谱」变成论文",
+          "link": "/bidao/knowledge/02-从现象到原理-科学家怎么把-离谱-变成论文.html"
         },
         {
-          "text": "第三章 · 科学思维如何拆解反直觉问题：从跑步机拦飞机说起",
-          "link": "/bidao/knowledge/03-科学思维如何拆解反直觉问题-从跑步机拦飞机说起.html"
+          "text": "第三章 · 论文的可信度从哪里来：复现、审稿与第三方验证",
+          "link": "/bidao/knowledge/03-论文的可信度从哪里来-复现-审稿与第三方验证.html"
         },
         {
-          "text": "第四章 · 科学思维如何面对未知：选题、路径与工具",
-          "link": "/bidao/knowledge/04-科学思维如何面对未知-选题-路径与工具.html"
+          "text": "第四章 · 数学的地基有多稳：悖论、公理与希尔伯特纲领",
+          "link": "/bidao/knowledge/04-数学的地基有多稳-悖论-公理与希尔伯特纲领.html"
+        },
+        {
+          "text": "第五章 · 时间、熵与决定论：物理规律是否注定了你的一生",
+          "link": "/bidao/knowledge/05-时间-熵与决定论-物理规律是否注定了你的一生.html"
+        },
+        {
+          "text": "第六章 · 科研的真实过程：迷茫、水 idea 与自我和解",
+          "link": "/bidao/knowledge/06-科研的真实过程-迷茫-水-idea-与自我和解.html"
+        },
+        {
+          "text": "第七章 · 选择与决策：局部最优解、试错成本与一时冲动",
+          "link": "/bidao/knowledge/07-选择与决策-局部最优解-试错成本与一时冲动.html"
+        },
+        {
+          "text": "第八章 · 科普作为一种方法：选题、制作与知识区的运作",
+          "link": "/bidao/knowledge/08-科普作为一种方法-选题-制作与知识区的运作.html"
+        },
+        {
+          "text": "第九章 · 颜色从哪里来：吸收、厚度与氧化",
+          "link": "/bidao/knowledge/09-颜色从哪里来-吸收-厚度与氧化.html"
+        },
+        {
+          "text": "第十章 · 折射与放大：圆柱容器如何欺骗眼睛",
+          "link": "/bidao/knowledge/10-折射与放大-圆柱容器如何欺骗眼睛.html"
+        },
+        {
+          "text": "第十一章 · 荧光与发光：当液体自己发出另一种颜色",
+          "link": "/bidao/knowledge/11-荧光与发光-当液体自己发出另一种颜色.html"
+        },
+        {
+          "text": "第十二章 · 几何光学中的虚像：水中物体到底在哪里",
+          "link": "/bidao/knowledge/12-几何光学中的虚像-水中物体到底在哪里.html"
+        },
+        {
+          "text": "第十三章 · 散射与反射：湿裤子、彩虹与沟槽亮线",
+          "link": "/bidao/knowledge/13-散射与反射-湿裤子-彩虹与沟槽亮线.html"
+        },
+        {
+          "text": "第十四章 · 颜色的量化：从视锥细胞到口红色号坐标",
+          "link": "/bidao/knowledge/14-颜色的量化-从视锥细胞到口红色号坐标.html"
+        },
+        {
+          "text": "第十五章 · 高速摄影与微距：把光学现象拍下来",
+          "link": "/bidao/knowledge/15-高速摄影与微距-把光学现象拍下来.html"
+        },
+        {
+          "text": "第十六章 · 从汤膜到冰墙：蒸发、冻结与颗粒堆积如何塑造材料强度",
+          "link": "/bidao/knowledge/16-从汤膜到冰墙-蒸发-冻结与颗粒堆积如何塑造材料强度.html"
+        },
+        {
+          "text": "第十七章 · 结构色与透明之谜：从蓝莓果蜡到玻璃态",
+          "link": "/bidao/knowledge/17-结构色与透明之谜-从蓝莓果蜡到玻璃态.html"
+        },
+        {
+          "text": "第十八章 · 冰面、指甲与滑冰：表面与界面的力学结构",
+          "link": "/bidao/knowledge/18-冰面-指甲与滑冰-表面与界面的力学结构.html"
+        },
+        {
+          "text": "第十九章 · 从螺旋便便到卷绳效应：粘性流体下落的形态控制",
+          "link": "/bidao/knowledge/19-从螺旋便便到卷绳效应-粘性流体下落的形态控制.html"
+        },
+        {
+          "text": "第二十章 · 辣椒驱水与马兰戈尼效应：表面张力梯度如何驱动液体",
+          "link": "/bidao/knowledge/20-辣椒驱水与马兰戈尼效应-表面张力梯度如何驱动液体.html"
+        },
+        {
+          "text": "第二十一章 · 干冰白雾的真正来源：教材解释错在哪",
+          "link": "/bidao/knowledge/21-干冰白雾的真正来源-教材解释错在哪.html"
+        },
+        {
+          "text": "第二十二章 · 往开水里尿尿会怎样：沃辛顿射流与飞溅的临界条件",
+          "link": "/bidao/knowledge/22-往开水里尿尿会怎样-沃辛顿射流与飞溅的临界条件.html"
+        },
+        {
+          "text": "第二十三章 · 牙膏彩条为什么不混：宾汉流体、雷诺数与德波拉数",
+          "link": "/bidao/knowledge/23-牙膏彩条为什么不混-宾汉流体-雷诺数与德波拉数.html"
+        },
+        {
+          "text": "第二十四章 · 水火相撞的0.01秒：不同火灾为什么不能用同一种方式灭",
+          "link": "/bidao/knowledge/24-水火相撞的0-01秒-不同火灾为什么不能用同一种方式灭.html"
+        },
+        {
+          "text": "第二十五章 · 非随机性：石头剪刀布与麻将中的概率优势",
+          "link": "/bidao/knowledge/25-非随机性-石头剪刀布与麻将中的概率优势.html"
+        },
+        {
+          "text": "第二十六章 · 等待与检查：为什么你总觉得公交车来得慢、朋友比你受欢迎",
+          "link": "/bidao/knowledge/26-等待与检查-为什么你总觉得公交车来得慢-朋友比你受欢迎.html"
+        },
+        {
+          "text": "第二十七章 · 无穷操作与概率极限：花瓶悖论与调和级数",
+          "link": "/bidao/knowledge/27-无穷操作与概率极限-花瓶悖论与调和级数.html"
+        },
+        {
+          "text": "第二十八章 · 博弈建模：狼人杀中的随机策略、角色压制与游戏精炼度",
+          "link": "/bidao/knowledge/28-博弈建模-狼人杀中的随机策略-角色压制与游戏精炼度.html"
+        },
+        {
+          "text": "第二十九章 · 概率视角下的游戏智慧：从蜥蜴求偶到放下胜负",
+          "link": "/bidao/knowledge/29-概率视角下的游戏智慧-从蜥蜴求偶到放下胜负.html"
+        },
+        {
+          "text": "第三十章 · 高斯绝妙定理：为什么有些曲面永远展不平",
+          "link": "/bidao/knowledge/30-高斯绝妙定理-为什么有些曲面永远展不平.html"
+        },
+        {
+          "text": "第三十一章 · 海岸线悖论与分形：为什么你永远测不出海岸线的长度",
+          "link": "/bidao/knowledge/31-海岸线悖论与分形-为什么你永远测不出海岸线的长度.html"
+        },
+        {
+          "text": "第三十二章 · 两小儿辩日的几何真相：太阳早上近还是中午近",
+          "link": "/bidao/knowledge/32-两小儿辩日的几何真相-太阳早上近还是中午近.html"
+        },
+        {
+          "text": "第三十三章 · 右手定则的几何根源：叉乘为什么只在三维空间存在",
+          "link": "/bidao/knowledge/33-右手定则的几何根源-叉乘为什么只在三维空间存在.html"
+        },
+        {
+          "text": "第三十四章 · 声学振动的日常入口：从倒水声、粘滑声到烧水声",
+          "link": "/bidao/knowledge/34-声学振动的日常入口-从倒水声-粘滑声到烧水声.html"
+        },
+        {
+          "text": "第三十五章 · 声音灭火的真相：振膜风、声压与百年误判",
+          "link": "/bidao/knowledge/35-声音灭火的真相-振膜风-声压与百年误判.html"
+        },
+        {
+          "text": "第三十六章 · 决定论在牛顿力学中的边界：从穹顶小球到因果链的断裂",
+          "link": "/bidao/knowledge/36-决定论在牛顿力学中的边界-从穹顶小球到因果链的断裂.html"
+        },
+        {
+          "text": "第三十七章 · 摩擦的双重面孔：从活塞五亿次到粘滑运动",
+          "link": "/bidao/knowledge/37-摩擦的双重面孔-从活塞五亿次到粘滑运动.html"
+        },
+        {
+          "text": "第三十八章 · 酸奶的残留、质地与增稠：从包装死区到酪蛋白网络",
+          "link": "/bidao/knowledge/38-酸奶的残留-质地与增稠-从包装死区到酪蛋白网络.html"
+        },
+        {
+          "text": "第三十九章 · 奶粉冲泡：奶豆豆、疏水性与润湿渗透的四阶段",
+          "link": "/bidao/knowledge/39-奶粉冲泡-奶豆豆-疏水性与润湿渗透的四阶段.html"
+        },
+        {
+          "text": "第四十章 · 绿豆汤的红与绿：多酚氧化、漆酶与水质之争",
+          "link": "/bidao/knowledge/40-绿豆汤的红与绿-多酚氧化-漆酶与水质之争.html"
+        },
+        {
+          "text": "第四十一章 · 酸性的度量：从拉平效应到哈米特函数",
+          "link": "/bidao/knowledge/41-酸性的度量-从拉平效应到哈米特函数.html"
+        },
+        {
+          "text": "第四十二章 · 超酸家族：魔酸与氟锑酸如何突破酸性极限",
+          "link": "/bidao/knowledge/42-超酸家族-魔酸与氟锑酸如何突破酸性极限.html"
+        },
+        {
+          "text": "第四十三章 · 锂电池的化学反应：热失控、温度与能量密度的三角约束",
+          "link": "/bidao/knowledge/43-锂电池的化学反应-热失控-温度与能量密度的三角约束.html"
+        },
+        {
+          "text": "第四十四章 · 从生活现象到科学原理：日常事物的物理与化学解释",
+          "link": "/bidao/knowledge/44-从生活现象到科学原理-日常事物的物理与化学解释.html"
+        },
+        {
+          "text": "第四十五章 · 科学分类与学科边界：诺贝尔奖的错位与科学思维",
+          "link": "/bidao/knowledge/45-科学分类与学科边界-诺贝尔奖的错位与科学思维.html"
+        },
+        {
+          "text": "第四十六章 · 科学思维与研究方法：从控制变量到模型建构",
+          "link": "/bidao/knowledge/46-科学思维与研究方法-从控制变量到模型建构.html"
         }
       ]
     },
@@ -93,6 +261,10 @@
             {
               "text": "【毕导】挖坑一时爽，填坑火葬场！我流着泪做完了这期视频",
               "link": "/bidao/articles/毕导-挖坑一时爽-填坑火葬场-我流着泪做完了这期视频.html"
+            },
+            {
+              "text": "【毕导】我用坐标科学地描述了口红色号，这个七夕直男们可以翻身了！",
+              "link": "/bidao/articles/毕导-我用坐标科学地描述了口红色号-这个七夕直男们可以翻身了.html"
             },
             {
               "text": "【毕导】我预言了一个物理规律，历时100天我证明了它",
@@ -171,6 +343,10 @@
             {
               "text": "【毕导】好笑吗，我只看到了一名绝望的机长",
               "link": "/bidao/articles/毕导-好笑吗-我只看到了一名绝望的机长.html"
+            },
+            {
+              "text": "【毕导】何时结婚？小学二年级哪上的？SNP哪天大一统？读评论#1",
+              "link": "/bidao/articles/毕导-何时结婚-小学二年级哪上的-snp哪天大一统-读评论1.html"
             },
             {
               "text": "【毕导】和！罗！翔！老！师！一！起！rap！",
@@ -265,6 +441,10 @@
               "link": "/bidao/articles/哔哩哔哩第一套新春广播体操.html"
             },
             {
+              "text": "二 年 级 赘 婿 之 歪 嘴 学 神",
+              "link": "/bidao/articles/二-年-级-赘-婿-之-歪-嘴-学-神.html"
+            },
+            {
               "text": "上B站！弹幕看春晚",
               "link": "/bidao/articles/上b站-弹幕看春晚.html"
             }
@@ -357,6 +537,10 @@
             {
               "text": "【毕导】看了这个视频，你会释怀你倒霉的一生",
               "link": "/bidao/articles/毕导-看了这个视频-你会释怀你倒霉的一生.html"
+            },
+            {
+              "text": "【毕导】如何成为麻将高手，包你一学就会，一打就废！",
+              "link": "/bidao/articles/毕导-如何成为麻将高手-包你一学就会-一打就废.html"
             },
             {
               "text": "【毕导】小白秒变高玩！如何用数学在桌游局里slay全场？",
@@ -683,6 +867,14 @@
               "link": "/bidao/atoms/科学科普-光学现象-镜面反射假说.html"
             },
             {
+              "text": "可见光波长范围",
+              "link": "/bidao/atoms/科学科普-光学现象-可见光波长范围.html"
+            },
+            {
+              "text": "口红色号坐标化",
+              "link": "/bidao/atoms/科学科普-光学现象-口红色号坐标化.html"
+            },
+            {
               "text": "朗伯比尔定律",
               "link": "/bidao/atoms/科学科普-光学现象-朗伯比尔定律.html"
             },
@@ -705,6 +897,14 @@
             {
               "text": "日落倒影压扁证明地球是球",
               "link": "/bidao/atoms/科学科普-光学现象-日落倒影压扁证明地球是球.html"
+            },
+            {
+              "text": "三种视锥细胞",
+              "link": "/bidao/atoms/科学科普-光学现象-三种视锥细胞.html"
+            },
+            {
+              "text": "色彩心理学",
+              "link": "/bidao/atoms/科学科普-光学现象-色彩心理学.html"
             },
             {
               "text": "湿裤子颜色变深",
@@ -771,6 +971,10 @@
               "link": "/bidao/atoms/科学科普-光学现象-亚历山大带.html"
             },
             {
+              "text": "颜色是主观感受",
+              "link": "/bidao/atoms/科学科普-光学现象-颜色是主观感受.html"
+            },
+            {
               "text": "氧化导致吸收光谱红移",
               "link": "/bidao/atoms/科学科普-光学现象-氧化导致吸收光谱红移.html"
             },
@@ -801,6 +1005,10 @@
             {
               "text": "子午像与弧矢像",
               "link": "/bidao/atoms/科学科普-光学现象-子午像与弧矢像.html"
+            },
+            {
+              "text": "CIE色度图",
+              "link": "/bidao/atoms/科学科普-光学现象-cie色度图.html"
             },
             {
               "text": "LED白光中的蓝光",
@@ -1113,8 +1321,16 @@
               "link": "/bidao/atoms/科学科普-科学思维-耳机打结的物理机制.html"
             },
             {
+              "text": "二年级赘婿身份反转",
+              "link": "/bidao/atoms/科学科普-科学思维-二年级赘婿身份反转.html"
+            },
+            {
               "text": "二色性被排除",
               "link": "/bidao/atoms/科学科普-科学思维-二色性被排除.html"
+            },
+            {
+              "text": "发型决定第一印象",
+              "link": "/bidao/atoms/科学科普-科学思维-发型决定第一印象.html"
             },
             {
               "text": "反应扩散系统",
@@ -1127,6 +1343,10 @@
             {
               "text": "分子结与索烃",
               "link": "/bidao/atoms/科学科普-科学思维-分子结与索烃.html"
+            },
+            {
+              "text": "粉丝性别结构会随内容变化",
+              "link": "/bidao/atoms/科学科普-科学思维-粉丝性别结构会随内容变化.html"
             },
             {
               "text": "复学后的身份落差",
@@ -1183,6 +1403,10 @@
             {
               "text": "广播体操作为拜年载体",
               "link": "/bidao/atoms/科学科普-科学思维-广播体操作为拜年载体.html"
+            },
+            {
+              "text": "过柱子",
+              "link": "/bidao/atoms/科学科普-科学思维-过柱子.html"
             },
             {
               "text": "喊话数字的鲁棒性",
@@ -1485,6 +1709,14 @@
               "link": "/bidao/atoms/科学科普-科学思维-视觉欺骗源于物理规律.html"
             },
             {
+              "text": "视频选题的学科壁垒",
+              "link": "/bidao/atoms/科学科普-科学思维-视频选题的学科壁垒.html"
+            },
+            {
+              "text": "视频制作的分工与周期",
+              "link": "/bidao/atoms/科学科普-科学思维-视频制作的分工与周期.html"
+            },
+            {
               "text": "首次rap的练习建议",
               "link": "/bidao/atoms/科学科普-科学思维-首次rap的练习建议.html"
             },
@@ -1609,6 +1841,10 @@
               "link": "/bidao/atoms/科学科普-科学思维-选择城市即选择生活方式.html"
             },
             {
+              "text": "选专业应避免局部最优解",
+              "link": "/bidao/atoms/科学科普-科学思维-选专业应避免局部最优解.html"
+            },
+            {
               "text": "学术观点难以强行说服",
               "link": "/bidao/atoms/科学科普-科学思维-学术观点难以强行说服.html"
             },
@@ -1635,6 +1871,10 @@
             {
               "text": "音乐杀人事件的普法",
               "link": "/bidao/atoms/科学科普-科学思维-音乐杀人事件的普法.html"
+            },
+            {
+              "text": "吲哚浓度决定香臭",
+              "link": "/bidao/atoms/科学科普-科学思维-吲哚浓度决定香臭.html"
             },
             {
               "text": "游戏复现历史奇谋",
@@ -1667,6 +1907,10 @@
             {
               "text": "知识区年终rap的分工结构",
               "link": "/bidao/atoms/科学科普-科学思维-知识区年终rap的分工结构.html"
+            },
+            {
+              "text": "知识区战事紧急",
+              "link": "/bidao/atoms/科学科普-科学思维-知识区战事紧急.html"
             },
             {
               "text": "知识区作为提问入口",
@@ -1705,6 +1949,10 @@
               "link": "/bidao/atoms/科学科普-科学思维-主动控制鸡皮疙瘩.html"
             },
             {
+              "text": "自搜狂魔的算法成因",
+              "link": "/bidao/atoms/科学科普-科学思维-自搜狂魔的算法成因.html"
+            },
+            {
               "text": "自学新方向的信心",
               "link": "/bidao/atoms/科学科普-科学思维-自学新方向的信心.html"
             },
@@ -1727,6 +1975,10 @@
             {
               "text": "左右手定则统一为叉乘",
               "link": "/bidao/atoms/科学科普-科学思维-左右手定则统一为叉乘.html"
+            },
+            {
+              "text": "做视频的最大收获是认清自己",
+              "link": "/bidao/atoms/科学科普-科学思维-做视频的最大收获是认清自己.html"
             },
             {
               "text": "AI不会讲笑话",
@@ -2315,6 +2567,26 @@
             {
               "text": "狼人杀马尔可夫过程建模",
               "link": "/bidao/atoms/科学科普-数学概率-狼人杀马尔可夫过程建模.html"
+            },
+            {
+              "text": "麻将不完全信息博弈",
+              "link": "/bidao/atoms/科学科普-数学概率-麻将不完全信息博弈.html"
+            },
+            {
+              "text": "麻将等待胡牌的概率修正",
+              "link": "/bidao/atoms/科学科普-数学概率-麻将等待胡牌的概率修正.html"
+            },
+            {
+              "text": "麻将胡牌公式",
+              "link": "/bidao/atoms/科学科普-数学概率-麻将胡牌公式.html"
+            },
+            {
+              "text": "麻将记牌与出牌顺序",
+              "link": "/bidao/atoms/科学科普-数学概率-麻将记牌与出牌顺序.html"
+            },
+            {
+              "text": "麻将先验与后验概率",
+              "link": "/bidao/atoms/科学科普-数学概率-麻将先验与后验概率.html"
             },
             {
               "text": "马尔可夫性质",
@@ -2957,6 +3229,476 @@
             {
               "text": "AI做图接单流程",
               "link": "/sai/atoms/ai副业-ai赚钱案例-ai做图接单流程.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/deeptheo/": [
+    {
+      "text": "体系化阅读",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "第一章 · 从被动到主动：用实践哲学夺回人生掌控权",
+          "link": "/deeptheo/knowledge/01-从被动到主动-用实践哲学夺回人生掌控权.html"
+        },
+        {
+          "text": "第二章 · 顺应天时：在迷茫与冬季中完成深扎根",
+          "link": "/deeptheo/knowledge/02-顺应天时-在迷茫与冬季中完成深扎根.html"
+        }
+      ]
+    },
+    {
+      "text": "逐视频文章",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "后知后觉",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "读懂毛选我才明白：人生注定是一场巨大的后知后觉 | 第16期 【教员智慧】",
+              "link": "/deeptheo/articles/读懂毛选我才明白-人生注定是一场巨大的后知后觉-第16期-教员智慧.html"
+            }
+          ]
+        },
+        {
+          "text": "迷茫应对",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "天道成事哲学：人在最迷茫困顿时，究竟该怎么办？",
+              "link": "/deeptheo/articles/天道成事哲学-人在最迷茫困顿时-究竟该怎么办.html"
+            }
+          ]
+        },
+        {
+          "text": "人生倦怠",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "如何走出对枯燥生活的倦怠？夺回人生主动权的三大打法 | 第15期 【教员智慧】",
+              "link": "/deeptheo/articles/如何走出对枯燥生活的倦怠-夺回人生主动权的三大打法-第15-3a2c1446.html"
+            }
+          ]
+        },
+        {
+          "text": "社交恐惧",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "为什么读懂毛选后，社交恐惧会彻底消失？ | 第18期 【教员智慧】",
+              "link": "/deeptheo/articles/为什么读懂毛选后-社交恐惧会彻底消失-第18期-教员智慧.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "原子笔记",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "教员智慧-后知后觉",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "从战争中学习战争",
+              "link": "/deeptheo/atoms/教员智慧-后知后觉-从战争中学习战争.html"
+            },
+            {
+              "text": "复盘三问",
+              "link": "/deeptheo/atoms/教员智慧-后知后觉-复盘三问.html"
+            },
+            {
+              "text": "感觉不等于理解",
+              "link": "/deeptheo/atoms/教员智慧-后知后觉-感觉不等于理解.html"
+            },
+            {
+              "text": "后知后觉是认识常态",
+              "link": "/deeptheo/atoms/教员智慧-后知后觉-后知后觉是认识常态.html"
+            },
+            {
+              "text": "失败是认识学费",
+              "link": "/deeptheo/atoms/教员智慧-后知后觉-失败是认识学费.html"
+            },
+            {
+              "text": "停止审判过去的自己",
+              "link": "/deeptheo/atoms/教员智慧-后知后觉-停止审判过去的自己.html"
+            },
+            {
+              "text": "土城战役复盘",
+              "link": "/deeptheo/atoms/教员智慧-后知后觉-土城战役复盘.html"
+            }
+          ]
+        },
+        {
+          "text": "教员智慧-人生倦怠",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "根据地是固定时间结构",
+              "link": "/deeptheo/atoms/教员智慧-人生倦怠-根据地是固定时间结构.html"
+            },
+            {
+              "text": "局部主动战三标准",
+              "link": "/deeptheo/atoms/教员智慧-人生倦怠-局部主动战三标准.html"
+            },
+            {
+              "text": "绝境中收缩战线",
+              "link": "/deeptheo/atoms/教员智慧-人生倦怠-绝境中收缩战线.html"
+            },
+            {
+              "text": "平淡是相持阶段常态",
+              "link": "/deeptheo/atoms/教员智慧-人生倦怠-平淡是相持阶段常态.html"
+            },
+            {
+              "text": "实践击碎脑内虚无",
+              "link": "/deeptheo/atoms/教员智慧-人生倦怠-实践击碎脑内虚无.html"
+            },
+            {
+              "text": "躺平治不好倦怠",
+              "link": "/deeptheo/atoms/教员智慧-人生倦怠-躺平治不好倦怠.html"
+            },
+            {
+              "text": "消极防御是假防御",
+              "link": "/deeptheo/atoms/教员智慧-人生倦怠-消极防御是假防御.html"
+            },
+            {
+              "text": "心气是主动发起的能力",
+              "link": "/deeptheo/atoms/教员智慧-人生倦怠-心气是主动发起的能力.html"
+            }
+          ]
+        },
+        {
+          "text": "教员智慧-社交恐惧",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "改变社恐要经历持久战三阶段",
+              "link": "/deeptheo/atoms/教员智慧-社交恐惧-持久战三阶段脱敏.html"
+            },
+            {
+              "text": "格局有多大，恐惧的空间就有多小",
+              "link": "/deeptheo/atoms/教员智慧-社交恐惧-格局大则恐惧小.html"
+            },
+            {
+              "text": "群众路线：把焦点从自己转到别人",
+              "link": "/deeptheo/atoms/教员智慧-社交恐惧-群众路线转移焦点.html"
+            },
+            {
+              "text": "社恐本质是一场隐秘的精神自恋",
+              "link": "/deeptheo/atoms/教员智慧-社交恐惧-社恐是隐秘的精神自恋.html"
+            },
+            {
+              "text": "社恐的哲学根源是主观唯心主义",
+              "link": "/deeptheo/atoms/教员智慧-社交恐惧-社恐是主观唯心主义.html"
+            },
+            {
+              "text": "统一战线：放弃让所有人喜欢你的狂妄",
+              "link": "/deeptheo/atoms/教员智慧-社交恐惧-统一战线放弃全员好感.html"
+            },
+            {
+              "text": "战略上藐视，战术上重视",
+              "link": "/deeptheo/atoms/教员智慧-社交恐惧-战略藐视战术重视.html"
+            },
+            {
+              "text": "自力更生：把表演型社交换成价值型交换",
+              "link": "/deeptheo/atoms/教员智慧-社交恐惧-自力更生价值型交换.html"
+            }
+          ]
+        },
+        {
+          "text": "人生成长-迷茫应对",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "法地之藏：深扎根",
+              "link": "/deeptheo/atoms/人生成长-迷茫应对-法地之藏深扎根.html"
+            },
+            {
+              "text": "法天之静：止妄动",
+              "link": "/deeptheo/atoms/人生成长-迷茫应对-法天之静止妄动.html"
+            },
+            {
+              "text": "迷茫期乱抓是自残",
+              "link": "/deeptheo/atoms/人生成长-迷茫应对-迷茫期努力是自残.html"
+            },
+            {
+              "text": "迷茫是人生冬季信号",
+              "link": "/deeptheo/atoms/人生成长-迷茫应对-迷茫是人生冬季信号.html"
+            },
+            {
+              "text": "乾卦潜龙勿用：蓄力",
+              "link": "/deeptheo/atoms/人生成长-迷茫应对-乾卦潜龙勿用蓄力.html"
+            },
+            {
+              "text": "破除线性成长幻觉",
+              "link": "/deeptheo/atoms/人生成长-迷茫应对-线性成长幻觉破除.html"
+            },
+            {
+              "text": "应时之动：顺天而起",
+              "link": "/deeptheo/atoms/人生成长-迷茫应对-应时之动顺天而起.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/mediators/": [
+    {
+      "text": "体系化阅读",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "第一章 · 智能的边界：从压缩到不可计算",
+          "link": "/mediators/knowledge/01-智能的边界-从压缩到不可计算.html"
+        },
+        {
+          "text": "第二章 · 大脑没有总司令：自由意志的神经科学真相",
+          "link": "/mediators/knowledge/02-大脑没有总司令-自由意志的神经科学真相.html"
+        },
+        {
+          "text": "第三章 · 智能替代的连锁反应：从白领失业到全球重构",
+          "link": "/mediators/knowledge/03-智能替代的连锁反应-从白领失业到全球重构.html"
+        }
+      ]
+    },
+    {
+      "text": "逐视频文章",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "经济重构",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "2028全球智能危机：智能时代的失业潮与经济重构",
+              "link": "/mediators/articles/2028全球智能危机-智能时代的失业潮与经济重构.html"
+            }
+          ]
+        },
+        {
+          "text": "意识与自由",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "谁说了算？大脑与自由意志的真相",
+              "link": "/mediators/articles/谁说了算-大脑与自由意志的真相.html"
+            }
+          ]
+        },
+        {
+          "text": "智能本质",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "数字的极限",
+              "link": "/mediators/articles/数字的极限.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "原子笔记",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "认知科学-情绪决策",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "电车难题：直觉在先理性在后",
+              "link": "/mediators/atoms/认知科学-情绪决策-电车难题与道德直觉.html"
+            }
+          ]
+        },
+        {
+          "text": "认知科学-意识与自由",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "多重实现性：条条大路通罗马",
+              "link": "/mediators/atoms/认知科学-意识与自由-多重实现性.html"
+            },
+            {
+              "text": "割裂脑实验：解释器如何编故事",
+              "link": "/mediators/atoms/认知科学-意识与自由-割裂脑实验.html"
+            },
+            {
+              "text": "模块竞价：大脑没有总司令",
+              "link": "/mediators/atoms/认知科学-意识与自由-模块竞价.html"
+            },
+            {
+              "text": "社会脑与邓巴数",
+              "link": "/mediators/atoms/认知科学-意识与自由-社会脑与邓巴数.html"
+            },
+            {
+              "text": "十秒预判：选择可被提前读出",
+              "link": "/mediators/atoms/认知科学-意识与自由-十秒预判实验.html"
+            },
+            {
+              "text": "用系统设计代替意志力",
+              "link": "/mediators/atoms/认知科学-意识与自由-系统设计代替意志力.html"
+            },
+            {
+              "text": "涌现与向下因果：心智不是傀儡",
+              "link": "/mediators/atoms/认知科学-意识与自由-涌现与向下因果.html"
+            },
+            {
+              "text": "准备电位：决定早于意识",
+              "link": "/mediators/atoms/认知科学-意识与自由-准备电位.html"
+            },
+            {
+              "text": "左脑解释器：事后找补的发言人",
+              "link": "/mediators/atoms/认知科学-意识与自由-左脑解释器.html"
+            }
+          ]
+        },
+        {
+          "text": "认知科学-智能本质",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "理解即压缩",
+              "link": "/mediators/atoms/认知科学-智能本质-理解即压缩.html"
+            },
+            {
+              "text": "生命作为开放程序",
+              "link": "/mediators/atoms/认知科学-智能本质-生命作为开放程序.html"
+            },
+            {
+              "text": "算法不可压缩性",
+              "link": "/mediators/atoms/认知科学-智能本质-算法不可压缩性.html"
+            },
+            {
+              "text": "最小描述长度",
+              "link": "/mediators/atoms/认知科学-智能本质-最小描述长度.html"
+            }
+          ]
+        },
+        {
+          "text": "社会经济-分配公平",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "劳动报酬份额滑坡",
+              "link": "/mediators/atoms/社会经济-分配公平-劳动报酬份额滑坡.html"
+            }
+          ]
+        },
+        {
+          "text": "社会经济-技术失业",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "白领向下沉降",
+              "link": "/mediators/atoms/社会经济-技术失业-白领向下沉降.html"
+            },
+            {
+              "text": "循环反噬",
+              "link": "/mediators/atoms/社会经济-技术失业-循环反噬.html"
+            }
+          ]
+        },
+        {
+          "text": "社会经济-经济重构",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "私有信贷串联赌注",
+              "link": "/mediators/atoms/社会经济-经济重构-私有信贷串联赌注.html"
+            },
+            {
+              "text": "优质房贷违约潮",
+              "link": "/mediators/atoms/社会经济-经济重构-优质房贷违约潮.html"
+            },
+            {
+              "text": "中间商经济崩塌",
+              "link": "/mediators/atoms/社会经济-经济重构-中间商经济崩塌.html"
+            }
+          ]
+        },
+        {
+          "text": "社会经济-全球危机",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "货币政策失效",
+              "link": "/mediators/atoms/社会经济-全球危机-货币政策失效.html"
+            }
+          ]
+        },
+        {
+          "text": "社会经济-未来趋势",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "数字宇宙与信息物理",
+              "link": "/mediators/atoms/社会经济-未来趋势-数字宇宙与信息物理.html"
+            },
+            {
+              "text": "幽灵经济",
+              "link": "/mediators/atoms/社会经济-未来趋势-幽灵经济.html"
+            },
+            {
+              "text": "智力溢价归零",
+              "link": "/mediators/atoms/社会经济-未来趋势-智力溢价归零.html"
+            }
+          ]
+        },
+        {
+          "text": "社会经济-政策治理",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "责任在社会契约里，不在脑子里",
+              "link": "/mediators/atoms/社会经济-政策治理-责任在社会契约.html"
+            }
+          ]
+        },
+        {
+          "text": "社会经济-智能产业",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "替代性经营成本",
+              "link": "/mediators/atoms/社会经济-智能产业-替代性经营成本.html"
+            }
+          ]
+        },
+        {
+          "text": "数学逻辑-计算复杂",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "欧米伽数",
+              "link": "/mediators/atoms/数学逻辑-计算复杂-欧米伽数.html"
+            },
+            {
+              "text": "停机问题",
+              "link": "/mediators/atoms/数学逻辑-计算复杂-停机问题.html"
+            }
+          ]
+        },
+        {
+          "text": "数学逻辑-形式系统",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "哥德尔不完备性",
+              "link": "/mediators/atoms/数学逻辑-形式系统-哥德尔不完备性.html"
+            },
+            {
+              "text": "信息守恒与不完备性",
+              "link": "/mediators/atoms/数学逻辑-形式系统-信息守恒与不完备性.html"
+            },
+            {
+              "text": "准经验主义数学",
+              "link": "/mediators/atoms/数学逻辑-形式系统-准经验主义数学.html"
             }
           ]
         }

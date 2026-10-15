@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
@@ -746,6 +747,19 @@ function resolveVaultScope() {
   };
 }
 
+function isDevServerRunning() {
+  // 只做一次成功即返回的探测，连不上就当没在跑，绝不影响 sync 本身。
+  try {
+    const out = execFileSync('netstat', ['-ano'], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    });
+    return /:(5173|5174|5175)\s.*LISTENING/i.test(out);
+  } catch {
+    return false;
+  }
+}
+
 function main() {
   const validation = validateVaultSources();
   if (validation.bomFiles.length || validation.fenceIssues.length) {
@@ -839,6 +853,15 @@ function main() {
   }
   console.log('Slug map written to', path.join(vpRoot, 'slug-map.json'));
   console.log('Sidebar written to', path.join(vpRoot, 'sidebar.generated.json'));
+
+  // config.mts 在启动时把 sidebar 读成常量，VitePress 不会热更新 themeConfig。
+  // 不重启就会出现「页面能打开、首页也变了、只有侧边栏是旧的」这种迷惑现象。
+  // 这里主动探测一下 dev server，把话说明白。
+  if (isDevServerRunning()) {
+    console.log('');
+    console.log('⚠️  检测到 dev server 正在运行（5173）。sidebar 属于 themeConfig，');
+    console.log('    必须重启 `npm run dev` 才会生效；否则新知识库的页面没有左侧导航。');
+  }
 }
 
 main();
