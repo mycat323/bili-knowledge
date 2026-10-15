@@ -11,8 +11,11 @@ permissions:
   id-token: write
 
 concurrency:
+  # 必须 cancel-in-progress：Pages 只认「最后一次成功的部署」，与提交新旧无关。
+  # 设成 false 时，一个旧提交的手动重跑（workflow_dispatch）如果比新提交晚完成，
+  # 会把线上站点回滚成旧内容——实测把 7 个知识库的站点盖成了 4 个。
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
