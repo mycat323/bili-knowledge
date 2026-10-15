@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import subprocess
 import time
@@ -69,10 +70,75 @@ class VideoDetail:
     uploader: str
     pubdate: int
     parts: list[VideoPart] = field(default_factory=list)
+    owner_mid: int = 0
+    owner_face: str = ""
 
     @property
     def is_multipart(self) -> bool:
         return len(self.parts) > 1
+
+
+@dataclass(slots=True)
+class UpProfile:
+    mid: int
+    name: str
+    face: str = ""
+    source_bvid: str = ""
+
+
+# 空间页 URL 的几种写法都要认：
+#   https://space.bilibili.com/254463269?spm_id_from=333.40138.feed-card.all.click
+#   space.bilibili.com/254463269/video
+#   254463269
+_SPACE_URL = re.compile(r"space\.bilibili\.com/(\d+)", re.I)
+_MID_PARAM = re.compile(r"[?&](?:mid|vmid)=(\d+)", re.I)
+
+
+def parse_up_id(value: str) -> int:
+    """从 UP 主空间 URL 或纯 UID 里取出 UID。"""
+    text = (value or "").strip()
+    if text.isdigit():
+        return int(text)
+    for pattern in (_SPACE_URL, _MID_PARAM):
+        match = pattern.search(text)
+        if match:
+            return int(match.group(1))
+    raise BilibiliError(
+        f"无法从 {value!r} 解析出 UID；请传 https://space.bilibili.com/<UID> 或直接传数字 UID"
+    )
+
+
+def up_profile(mid: int) -> UpProfile:
+    """取 UP 主昵称与头像。
+
+    不用 `x/space/*/acc/info`：它在无登录 cookie 时容易被风控（实测 -352，
+    即便补上 WBI 签名也不稳）。改用投稿列表里最新一条视频的 view 接口，
+    这条路径在整个抓取流程里已被反复验证稳定。
+    """
+    videos = list_videos(mid, 1)
+    if not videos:
+        raise BilibiliError(f"UID {mid} 没有取到任何投稿，无法确认 UP 主信息")
+    detail = video_detail(videos[0].bvid)
+    if not detail.uploader:
+        raise BilibiliError(f"UID {mid} 的视频未返回作者信息")
+    return UpProfile(
+        mid=detail.owner_mid or mid,
+        name=detail.uploader,
+        face=detail.owner_face,
+        source_bvid=detail.bvid,
+    )
+
+
+def download_image(url: str, destination: Path) -> Path:
+    """下载头像之类的静态图。"""
+    if not url:
+        raise BilibiliError("没有可下载的图片地址")
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    with _client() as client:
+        response = client.get(url, headers={**BROWSER_HEADERS, "Referer": "https://www.bilibili.com/"})
+        response.raise_for_status()
+        destination.write_bytes(response.content)
+    return destination
 
 
 def _client() -> httpx.Client:
@@ -167,6 +233,8 @@ def video_detail(bvid: str) -> VideoDetail:
         uploader=((data.get("owner") or {}).get("name") or "").strip(),
         pubdate=int(data.get("pubdate") or 0),
         parts=parts,
+        owner_mid=int((data.get("owner") or {}).get("mid") or 0),
+        owner_face=((data.get("owner") or {}).get("face") or "").strip(),
     )
 
 

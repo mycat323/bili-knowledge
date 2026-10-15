@@ -65,24 +65,31 @@ def write_transcript(vault_dir: Path, bvid: str, title: str, transcript: str) ->
 
 
 def write_article(
-    vault_dir: Path, title: str, bvid: str, summary: str, body: str
+    vault_dir: Path, title: str, bvid: str, summary: str, body: str, group: str = ""
 ) -> Path:
-    frontmatter = f"---\ntitle: {_clean_inline(title)}\nBV号: {bvid}\n---\n\n"
+    # 「分组」供 build-content.mjs 使用：没有正则分组规则的新 UP 主靠它给文章
+    # 分组，否则上百篇文章会全部落进兜底的「其他」。已在 ARTICLE_GROUP_RULES
+    # 里注册过规则的知识库不受影响（规则优先于这个字段）。
+    group_line = f"分组: {_clean_inline(group)}\n" if group else ""
+    frontmatter = f"---\ntitle: {_clean_inline(title)}\nBV号: {bvid}\n{group_line}---\n\n"
     content = f"{frontmatter}# {_clean_inline(title)}\n\n**摘要**：{_clean_inline(summary)}\n\n{body}"
     return _write(vault_dir / SECTIONS["articles"] / f"{to_slug(title)}.md", content)
 
 
-def validate_atom_name(name: str) -> None:
-    """原子笔记名必须已经是规范 slug，否则分组与双链都会错位。"""
+def normalize_atom_name(name: str) -> str:
+    """把模型给的名字归一化成文件名 slug。
+
+    不能要求模型直接给出规范 slug：它天然会写 `AI副业-AI影视课程-xxx` 这种
+    带大写的形式，早期版本据此判定「不规范」并丢弃，结果 10 条视频只入库
+    1 张原子笔记。正确做法是归一化，只在归一到连三段都不剩时才报错。
+    """
     if not name or "-" not in name:
         raise VaultError(f"原子笔记名必须以「域-子题-概念」三段命名，当前为 {name!r}")
-    parts = [part for part in name.split("-") if part]
+    slug = to_slug(name)
+    parts = [part for part in slug.split("-") if part]
     if len(parts) < 3:
-        raise VaultError(f"原子笔记名少于三段，站点分组会失效：{name!r}")
-    if to_slug(name) != name:
-        raise VaultError(
-            f"原子笔记名不是规范 slug（含大写、空格或标点）：{name!r} → {to_slug(name)!r}"
-        )
+        raise VaultError(f"原子笔记名不足三段，站点分组会失效：{name!r} → {slug!r}")
+    return slug
 
 
 def write_atom(
@@ -96,7 +103,7 @@ def write_atom(
     related: list[str],
     source_title: str,
 ) -> Path:
-    validate_atom_name(name)
+    normalize_atom_name(name)
     links = "\n".join(f"- [[{item}]]" for item in related if item)
     related_block = f"\n\n## 相关原子\n\n{links}" if links else ""
     frontmatter = (

@@ -5,24 +5,20 @@
       "collapsed": false,
       "items": [
         {
-          "text": "第一章 · 科学方法：选题、排除与亲手验证",
-          "link": "/bidao/knowledge/01-科学方法-选题-排除与亲手验证.html"
+          "text": "第一章 · 液体与固体的光学戏法：从青红酒变色到厚缸放大",
+          "link": "/bidao/knowledge/01-液体与固体的光学戏法-从青红酒变色到厚缸放大.html"
         },
         {
-          "text": "第二章 · 青红酒为什么在坛里是绿的：一场荧光实验",
-          "link": "/bidao/knowledge/02-青红酒为什么在坛里是绿的-一场荧光实验.html"
+          "text": "第二章 · 沟槽反射与X形亮线：为什么眼睛看到的直线其实不存在",
+          "link": "/bidao/knowledge/02-沟槽反射与x形亮线-为什么眼睛看到的直线其实不存在.html"
         },
         {
-          "text": "第三章 · 折射率、放大与浓度梯度：液体光学里的三种成因",
-          "link": "/bidao/knowledge/03-折射率-放大与浓度梯度-液体光学里的三种成因.html"
+          "text": "第三章 · 科学思维如何拆解反直觉问题：从跑步机拦飞机说起",
+          "link": "/bidao/knowledge/03-科学思维如何拆解反直觉问题-从跑步机拦飞机说起.html"
         },
         {
-          "text": "第四章 · 跑步机能不能拦住飞机：一条公式、两种同步与一个自指",
-          "link": "/bidao/knowledge/04-跑步机能不能拦住飞机-一条公式-两种同步与一个自指.html"
-        },
-        {
-          "text": "第五章 · 路口那个 X 并不存在：沟槽反射与圆锥曲线",
-          "link": "/bidao/knowledge/05-路口那个-x-并不存在-沟槽反射与圆锥曲线.html"
+          "text": "第四章 · 科学思维如何面对未知：选题、路径与工具",
+          "link": "/bidao/knowledge/04-科学思维如何面对未知-选题-路径与工具.html"
         }
       ]
     },
@@ -31,26 +27,84 @@
       "collapsed": true,
       "items": [
         {
-          "text": "脑洞问题",
+          "text": "生活实验",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】搞黄色的科学依据？！为什么黄色才是世间万物的注定归宿！",
+              "link": "/bidao/articles/毕导-搞黄色的科学依据-为什么黄色才是世间万物的注定归宿.html"
+            },
+            {
+              "text": "【毕导】鸡 爷 结 ！我给出了耳机不打结的完美方法！",
+              "link": "/bidao/articles/毕导-鸡-爷-结-我给出了耳机不打结的完美方法.html"
+            }
+          ]
+        },
+        {
+          "text": "材料结构",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】曹操竟是古代第一基建狂魔？《三国》的一夜筑冰城真的可行吗？",
+              "link": "/bidao/articles/毕导-曹操竟是古代第一基建狂魔-三国-的一夜筑冰城真的可行吗.html"
+            },
+            {
+              "text": "【毕导】打个赌，你说不出第二种蓝色的水果！为什么蓝莓是蓝色的？",
+              "link": "/bidao/articles/毕导-打个赌-你说不出第二种蓝色的水果-为什么蓝莓是蓝色的.html"
+            },
+            {
+              "text": "【毕导】或许是史上最枯燥的vlog——看电镜！",
+              "link": "/bidao/articles/毕导-或许是史上最枯燥的vlog-看电镜.html"
+            },
+            {
+              "text": "【毕导】如何剪指甲不乱飞？从今天起优雅从容不飞溅！",
+              "link": "/bidao/articles/毕导-如何剪指甲不乱飞-从今天起优雅从容不飞溅.html"
+            },
+            {
+              "text": "【毕导】偷 偷 学 ，如何加速沙漏下落让饭店免单，内部资料勿传",
+              "link": "/bidao/articles/毕导-偷-偷-学-如何加速沙漏下落让饭店免单-内部资料勿传.html"
+            },
+            {
+              "text": "【毕导】王濛都不一定懂的滑冰理论，我悄悄传授给你！",
+              "link": "/bidao/articles/毕导-王濛都不一定懂的滑冰理论-我悄悄传授给你.html"
+            },
+            {
+              "text": "【毕导】这可能是世界上唯一科普这种皱纹的视频……？",
+              "link": "/bidao/articles/毕导-这可能是世界上唯一科普这种皱纹的视频.html"
+            },
+            {
+              "text": "【毕导】这是科学史上最难理解的悖论",
+              "link": "/bidao/articles/毕导-这是科学史上最难理解的悖论.html"
+            }
+          ]
+        },
+        {
+          "text": "光学现象",
           "collapsed": true,
           "items": [
             {
               "text": "【毕导】被网友打脸了！居然真能这样？！",
               "link": "/bidao/articles/毕导-被网友打脸了-居然真能这样.html"
-            }
-          ]
-        },
-        {
-          "text": "其他",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "【毕导】好笑吗，我只看到了一名绝望的机长",
-              "link": "/bidao/articles/毕导-好笑吗-我只看到了一名绝望的机长.html"
             },
             {
-              "text": "【毕导】什么时候拿百大？今年高考能拿几分？800w粉丝读评论！",
-              "link": "/bidao/articles/毕导-什么时候拿百大-今年高考能拿几分-800w粉丝读评论.html"
+              "text": "【毕导】光一直在欺骗你，而只有开塞露可以揭穿它",
+              "link": "/bidao/articles/毕导-光一直在欺骗你-而只有开塞露可以揭穿它.html"
+            },
+            {
+              "text": "【毕导】挖坑一时爽，填坑火葬场！我流着泪做完了这期视频",
+              "link": "/bidao/articles/毕导-挖坑一时爽-填坑火葬场-我流着泪做完了这期视频.html"
+            },
+            {
+              "text": "【毕导】我预言了一个物理规律，历时100天我证明了它",
+              "link": "/bidao/articles/毕导-我预言了一个物理规律-历时100天我证明了它.html"
+            },
+            {
+              "text": "【毕导】一条打湿的裤子，竟然藏着光学的奥义！为什么湿裤子颜色更深？",
+              "link": "/bidao/articles/毕导-一条打湿的裤子-竟然藏着光学的奥义-为什么湿裤子颜色更深.html"
+            },
+            {
+              "text": "【毕导】在火锅店吃到了变色香油？！我还有救吗……",
+              "link": "/bidao/articles/毕导-在火锅店吃到了变色香油-我还有救吗.html"
             },
             {
               "text": "【毕导】这个X你肯定见过，但它其实根本不存在",
@@ -59,6 +113,276 @@
             {
               "text": "【毕导】这是什么妖术？酒在坛子里是绿色，舀出来瞬间变红！",
               "link": "/bidao/articles/毕导-这是什么妖术-酒在坛子里是绿色-舀出来瞬间变红.html"
+            },
+            {
+              "text": "【UP主画质改造】12小时暴改毕导工作室！",
+              "link": "/bidao/articles/up主画质改造-12小时暴改毕导工作室.html"
+            }
+          ]
+        },
+        {
+          "text": "化学反应",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】世界上最强的酸，比纯硫酸强一亿亿倍？",
+              "link": "/bidao/articles/毕导-世界上最强的酸-比纯硫酸强一亿亿倍.html"
+            }
+          ]
+        },
+        {
+          "text": "科学史",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】气 抖 冷 ！学化学的比不过学生物的？诺贝尔化学奖为何总颁给生物？",
+              "link": "/bidao/articles/毕导-气-抖-冷-学化学的比不过学生物的-诺贝尔化学奖为何总-2e24dc40.html"
+            }
+          ]
+        },
+        {
+          "text": "科学思维",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】13年过去了，我终于毕业啦！",
+              "link": "/bidao/articles/毕导-13年过去了-我终于毕业啦.html"
+            },
+            {
+              "text": "【毕导】别害怕，我将用8分钟夺走你的便便",
+              "link": "/bidao/articles/毕导-别害怕-我将用8分钟夺走你的便便.html"
+            },
+            {
+              "text": "【毕导】超实用技能！教你怎么加密电脑里珍藏的视频",
+              "link": "/bidao/articles/毕导-超实用技能-教你怎么加密电脑里珍藏的视频.html"
+            },
+            {
+              "text": "【毕导】大学如何不虚度？清华辅导员的50条真诚建议",
+              "link": "/bidao/articles/毕导-大学如何不虚度-清华辅导员的50条真诚建议.html"
+            },
+            {
+              "text": "【毕导】地球是平的？不要随便跟网友辩论……",
+              "link": "/bidao/articles/毕导-地球是平的-不要随便跟网友辩论.html"
+            },
+            {
+              "text": "【毕导】复旦团队用喝茶看见人体经络？我喝了一桶茶，你猜我看见了啥？",
+              "link": "/bidao/articles/毕导-复旦团队用喝茶看见人体经络-我喝了一桶茶-你猜我看见了啥.html"
+            },
+            {
+              "text": "【毕导】好笑吗，我只看到了一名绝望的机长",
+              "link": "/bidao/articles/毕导-好笑吗-我只看到了一名绝望的机长.html"
+            },
+            {
+              "text": "【毕导】和！罗！翔！老！师！一！起！rap！",
+              "link": "/bidao/articles/毕导-和-罗-翔-老-师-一-起-rap.html"
+            },
+            {
+              "text": "【毕导】计算机科学之父的业余爱好是什么？",
+              "link": "/bidao/articles/毕导-计算机科学之父的业余爱好是什么.html"
+            },
+            {
+              "text": "【毕导】看完这个视频，你会释怀这停滞不前的人生",
+              "link": "/bidao/articles/毕导-看完这个视频-你会释怀这停滞不前的人生.html"
+            },
+            {
+              "text": "【毕导】离谱，撒个尿也能发论文？？？",
+              "link": "/bidao/articles/毕导-离谱-撒个尿也能发论文.html"
+            },
+            {
+              "text": "【毕导】离谱，这也能发论文...? 第1期",
+              "link": "/bidao/articles/毕导-离谱-这也能发论文-第1期.html"
+            },
+            {
+              "text": "【毕导】离谱！起鸡皮疙瘩也是一种超能力？？",
+              "link": "/bidao/articles/毕导-离谱-起鸡皮疙瘩也是一种超能力.html"
+            },
+            {
+              "text": "【毕导】你会点进这个视频，并一脸懵逼地出去，而这一切已被物理规律注定了",
+              "link": "/bidao/articles/毕导-你会点进这个视频-并一脸懵逼地出去-而这一切已被物理-e1ae5649.html"
+            },
+            {
+              "text": "【毕导】你试过...用肛门呼吸吗？",
+              "link": "/bidao/articles/毕导-你试过-用肛门呼吸吗.html"
+            },
+            {
+              "text": "【毕导】你有一种连你自己都没意识到的超能力",
+              "link": "/bidao/articles/毕导-你有一种连你自己都没意识到的超能力.html"
+            },
+            {
+              "text": "【毕导】千 万 不 要 给 蜡 烛 放 这 首 歌 ！",
+              "link": "/bidao/articles/毕导-千-万-不-要-给-蜡-烛-放-这-首-歌.html"
+            },
+            {
+              "text": "【毕导】什么时候拿百大？今年高考能拿几分？800w粉丝读评论！",
+              "link": "/bidao/articles/毕导-什么时候拿百大-今年高考能拿几分-800w粉丝读评论.html"
+            },
+            {
+              "text": "【毕导】危！电量仅剩1%！如何彻底摆脱电量焦虑！",
+              "link": "/bidao/articles/毕导-危-电量仅剩1-如何彻底摆脱电量焦虑.html"
+            },
+            {
+              "text": "【毕导】我扒了全国50所高校的知网采购费，被坑得最惨的学校竟然是它……",
+              "link": "/bidao/articles/毕导-我扒了全国50所高校的知网采购费-被坑得最惨的学校竟然是它.html"
+            },
+            {
+              "text": "【毕导】我愿用百大换一篇paper！救救孩子T T",
+              "link": "/bidao/articles/毕导-我愿用百大换一篇paper-救救孩子t-t.html"
+            },
+            {
+              "text": "【毕导】在这个简单的问题上，你学的教材可能一直是错的",
+              "link": "/bidao/articles/毕导-在这个简单的问题上-你学的教材可能一直是错的.html"
+            },
+            {
+              "text": "【毕导】这个定律，预言了你的人生进度条",
+              "link": "/bidao/articles/毕导-这个定律-预言了你的人生进度条.html"
+            },
+            {
+              "text": "【毕导】这个视频里说的都是真的，但你却永远无法证明",
+              "link": "/bidao/articles/毕导-这个视频里说的都是真的-但你却永远无法证明.html"
+            },
+            {
+              "text": "【毕导】重大的决定有时往往只是一瞬间",
+              "link": "/bidao/articles/毕导-重大的决定有时往往只是一瞬间.html"
+            },
+            {
+              "text": "【毕导×美孚速霸】人过三十，如何抵抗生活中的摩擦？",
+              "link": "/bidao/articles/毕导-美孚速霸-人过三十-如何抵抗生活中的摩擦.html"
+            },
+            {
+              "text": "【毕业季】王冰冰X毕导：我们的校园时光",
+              "link": "/bidao/articles/毕业季-王冰冰x毕导-我们的校园时光.html"
+            },
+            {
+              "text": "【才浅X毕导】我们竟破解了美国军事机密！实现量子隐身技术！",
+              "link": "/bidao/articles/才浅x毕导-我们竟破解了美国军事机密-实现量子隐身技术.html"
+            },
+            {
+              "text": "【说唱】罗翔×毕导×圣代——做题超人！",
+              "link": "/bidao/articles/说唱-罗翔-毕导-圣代-做题超人.html"
+            },
+            {
+              "text": "哔哩哔哩第一套新春广播体操",
+              "link": "/bidao/articles/哔哩哔哩第一套新春广播体操.html"
+            },
+            {
+              "text": "上B站！弹幕看春晚",
+              "link": "/bidao/articles/上b站-弹幕看春晚.html"
+            }
+          ]
+        },
+        {
+          "text": "力学运动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】决定论的终结：小球、穹顶与牛顿第四定律",
+              "link": "/bidao/articles/毕导-决定论的终结-小球-穹顶与牛顿第四定律.html"
+            }
+          ]
+        },
+        {
+          "text": "流体与热",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】打个赌，你从没拉出过这种形状的便便",
+              "link": "/bidao/articles/毕导-打个赌-你从没拉出过这种形状的便便.html"
+            },
+            {
+              "text": "【毕导】水害怕辣椒？我找来了世界上最辣的死神辣椒",
+              "link": "/bidao/articles/毕导-水害怕辣椒-我找来了世界上最辣的死神辣椒.html"
+            },
+            {
+              "text": "【毕导】往开水里尿尿，开水会瞬间逆流而上烫伤你？请看VCR！",
+              "link": "/bidao/articles/毕导-往开水里尿尿-开水会瞬间逆流而上烫伤你-请看vcr.html"
+            },
+            {
+              "text": "【毕导】这个现象你肯定见过，但初中教材上的解释几乎都是错的",
+              "link": "/bidao/articles/毕导-这个现象你肯定见过-但初中教材上的解释几乎都是错的.html"
+            },
+            {
+              "text": "【毕导】SNP理论的重大突破！刷牙和便秘，人类的进出口竟然高度统一？",
+              "link": "/bidao/articles/毕导-snp理论的重大突破-刷牙和便秘-人类的进出口竟然高度统一.html"
+            },
+            {
+              "text": "替你试了！水火相撞的0.01秒，你会经历什么？",
+              "link": "/bidao/articles/替你试了-水火相撞的0-01秒-你会经历什么.html"
+            }
+          ]
+        },
+        {
+          "text": "声学振动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】超高速20000帧！识破响水不开，开水不响的秘密！",
+              "link": "/bidao/articles/毕导-超高速20000帧-识破响水不开-开水不响的秘密.html"
+            },
+            {
+              "text": "【毕导】为什么你的耳朵能听出冷水和热水的区别？进来测听力了！",
+              "link": "/bidao/articles/毕导-为什么你的耳朵能听出冷水和热水的区别-进来测听力了.html"
+            }
+          ]
+        },
+        {
+          "text": "食品科学",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】告别尴尬！酸奶如何优雅地喝到一滴不剩？",
+              "link": "/bidao/articles/毕导-告别尴尬-酸奶如何优雅地喝到一滴不剩.html"
+            },
+            {
+              "text": "【毕导】绿豆汤究竟是红色，还是绿色？今天我来终结这个问题！",
+              "link": "/bidao/articles/毕导-绿豆汤究竟是红色-还是绿色-今天我来终结这个问题.html"
+            },
+            {
+              "text": "【毕导】如何冲出没有奶豆豆的完美牛奶？冲完后，我悟透了……",
+              "link": "/bidao/articles/毕导-如何冲出没有奶豆豆的完美牛奶-冲完后-我悟透了.html"
+            }
+          ]
+        },
+        {
+          "text": "数学概率",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】击溃你的常识！无穷之后的世界是什么样？",
+              "link": "/bidao/articles/毕导-击溃你的常识-无穷之后的世界是什么样.html"
+            },
+            {
+              "text": "【毕导】记住两句简单口诀，保你石头剪刀布胜率超过80%！",
+              "link": "/bidao/articles/毕导-记住两句简单口诀-保你石头剪刀布胜率超过80.html"
+            },
+            {
+              "text": "【毕导】看了这个视频，你会释怀你倒霉的一生",
+              "link": "/bidao/articles/毕导-看了这个视频-你会释怀你倒霉的一生.html"
+            },
+            {
+              "text": "【毕导】小白秒变高玩！如何用数学在桌游局里slay全场？",
+              "link": "/bidao/articles/毕导-小白秒变高玩-如何用数学在桌游局里slay全场.html"
+            }
+          ]
+        },
+        {
+          "text": "数学几何",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】你有一种绝妙的方法吃披萨，但你并不知道为什么",
+              "link": "/bidao/articles/毕导-你有一种绝妙的方法吃披萨-但你并不知道为什么.html"
+            },
+            {
+              "text": "【毕导】太阳究竟早上近还是中午近？两小儿辩日的答案，99%的人都想不到",
+              "link": "/bidao/articles/毕导-太阳究竟早上近还是中午近-两小儿辩日的答案-99的人都想不到.html"
+            },
+            {
+              "text": "【毕导】右手是你生活在三维空间的铁证",
+              "link": "/bidao/articles/毕导-右手是你生活在三维空间的铁证.html"
+            },
+            {
+              "text": "【毕导】这条线看得清摸得着，但你永远测不出它的长度",
+              "link": "/bidao/articles/毕导-这条线看得清摸得着-但你永远测不出它的长度.html"
             }
           ]
         }
@@ -69,9 +393,235 @@
       "collapsed": true,
       "items": [
         {
+          "text": "科学科普-材料结构",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "巴西果效应",
+              "link": "/bidao/atoms/科学科普-材料结构-巴西果效应.html"
+            },
+            {
+              "text": "贝弗洛定律",
+              "link": "/bidao/atoms/科学科普-材料结构-贝弗洛定律.html"
+            },
+            {
+              "text": "宾汉流体",
+              "link": "/bidao/atoms/科学科普-材料结构-宾汉流体.html"
+            },
+            {
+              "text": "宾汉流体的屈服应力",
+              "link": "/bidao/atoms/科学科普-材料结构-宾汉流体屈服应力.html"
+            },
+            {
+              "text": "冰表面预融化水膜",
+              "link": "/bidao/atoms/科学科普-材料结构-冰表面预融化水膜.html"
+            },
+            {
+              "text": "冰面摩擦系数零点零二",
+              "link": "/bidao/atoms/科学科普-材料结构-冰面摩擦系数零点零二.html"
+            },
+            {
+              "text": "玻璃态是未解之谜",
+              "link": "/bidao/atoms/科学科普-材料结构-玻璃态是未解之谜.html"
+            },
+            {
+              "text": "玻璃透明源于宽能带隙",
+              "link": "/bidao/atoms/科学科普-材料结构-玻璃透明源于宽能带隙.html"
+            },
+            {
+              "text": "导电固体多不透明",
+              "link": "/bidao/atoms/科学科普-材料结构-导电固体多不透明.html"
+            },
+            {
+              "text": "电池充放电习惯影响寿命",
+              "link": "/bidao/atoms/科学科普-材料结构-电池充放电习惯影响寿命.html"
+            },
+            {
+              "text": "电池能量密度与安全性的权衡",
+              "link": "/bidao/atoms/科学科普-材料结构-电池能量密度与安全性的权衡.html"
+            },
+            {
+              "text": "高分子链缠绕",
+              "link": "/bidao/atoms/科学科普-材料结构-高分子链缠绕.html"
+            },
+            {
+              "text": "拱形结构堵塞沙漏",
+              "link": "/bidao/atoms/科学科普-材料结构-拱形结构堵塞沙漏.html"
+            },
+            {
+              "text": "共轭体系与颜色深浅",
+              "link": "/bidao/atoms/科学科普-材料结构-共轭体系与颜色深浅.html"
+            },
+            {
+              "text": "机油抗磨保护",
+              "link": "/bidao/atoms/科学科普-材料结构-机油抗磨保护.html"
+            },
+            {
+              "text": "结构色需要深色底色衬托",
+              "link": "/bidao/atoms/科学科普-材料结构-结构色需要深色底色衬托.html"
+            },
+            {
+              "text": "结构色与色素色的区别",
+              "link": "/bidao/atoms/科学科普-材料结构-结构色与色素色的区别.html"
+            },
+            {
+              "text": "菌丝体生物混合机器人",
+              "link": "/bidao/atoms/科学科普-材料结构-菌丝体生物混合机器人.html"
+            },
+            {
+              "text": "颗粒材料休止角",
+              "link": "/bidao/atoms/科学科普-材料结构-颗粒材料休止角.html"
+            },
+            {
+              "text": "颗粒对流的空隙填充解释",
+              "link": "/bidao/atoms/科学科普-材料结构-颗粒对流空隙填充.html"
+            },
+            {
+              "text": "颗粒分层与粒径匹配",
+              "link": "/bidao/atoms/科学科普-材料结构-颗粒分层与粒径匹配.html"
+            },
+            {
+              "text": "颗粒分层的直径密度判据",
+              "link": "/bidao/atoms/科学科普-材料结构-颗粒分层直径密度判据.html"
+            },
+            {
+              "text": "颗粒流",
+              "link": "/bidao/atoms/科学科普-材料结构-颗粒流.html"
+            },
+            {
+              "text": "蓝莓蓝色来自果蜡结构色",
+              "link": "/bidao/atoms/科学科普-材料结构-蓝莓蓝色来自果蜡结构色.html"
+            },
+            {
+              "text": "奶皮皱纹源于蒸发",
+              "link": "/bidao/atoms/科学科普-材料结构-奶皮皱纹源于蒸发.html"
+            },
+            {
+              "text": "枇杷表皮也有纳米结构",
+              "link": "/bidao/atoms/科学科普-材料结构-枇杷表皮也有纳米结构.html"
+            },
+            {
+              "text": "泊松效应导致拉伸起皱",
+              "link": "/bidao/atoms/科学科普-材料结构-泊松效应导致拉伸起皱.html"
+            },
+            {
+              "text": "屈服应力流体",
+              "link": "/bidao/atoms/科学科普-材料结构-屈服应力流体.html"
+            },
+            {
+              "text": "屈曲产生皱纹",
+              "link": "/bidao/atoms/科学科普-材料结构-屈曲产生皱纹.html"
+            },
+            {
+              "text": "扫描电镜观察水果表皮制样",
+              "link": "/bidao/atoms/科学科普-材料结构-扫描电镜观察水果表皮制样.html"
+            },
+            {
+              "text": "扫描电子显微镜观察水果表皮",
+              "link": "/bidao/atoms/科学科普-材料结构-扫描电子显微镜观察水果表皮.html"
+            },
+            {
+              "text": "沙子加水增强强度",
+              "link": "/bidao/atoms/科学科普-材料结构-沙子加水增强强度.html"
+            },
+            {
+              "text": "沙子剪胀性",
+              "link": "/bidao/atoms/科学科普-材料结构-沙子剪胀性.html"
+            },
+            {
+              "text": "湿沙冻土强度高于纯冰",
+              "link": "/bidao/atoms/科学科普-材料结构-湿沙冻土强度高于纯冰.html"
+            },
+            {
+              "text": "索烃与分子结",
+              "link": "/bidao/atoms/科学科普-材料结构-索烃与分子结.html"
+            },
+            {
+              "text": "汤膜与奶皮成膜机理",
+              "link": "/bidao/atoms/科学科普-材料结构-汤膜与奶皮成膜机理.html"
+            },
+            {
+              "text": "透明是辩证概念",
+              "link": "/bidao/atoms/科学科普-材料结构-透明是辩证概念.html"
+            },
+            {
+              "text": "牙膏彩条不混合",
+              "link": "/bidao/atoms/科学科普-材料结构-牙膏彩条不混合.html"
+            },
+            {
+              "text": "亚克力板热弯成型",
+              "link": "/bidao/atoms/科学科普-材料结构-亚克力板热弯成型.html"
+            },
+            {
+              "text": "液体膜润滑共性",
+              "link": "/bidao/atoms/科学科普-材料结构-液体膜润滑共性.html"
+            },
+            {
+              "text": "荧光增白剂流失导致泛黄",
+              "link": "/bidao/atoms/科学科普-材料结构-荧光增白剂流失导致泛黄.html"
+            },
+            {
+              "text": "纸刀切割",
+              "link": "/bidao/atoms/科学科普-材料结构-纸刀切割.html"
+            },
+            {
+              "text": "纸张做刀",
+              "link": "/bidao/atoms/科学科普-材料结构-纸张做刀.html"
+            },
+            {
+              "text": "指甲横向断裂功",
+              "link": "/bidao/atoms/科学科普-材料结构-指甲横向断裂功.html"
+            },
+            {
+              "text": "指甲三层角蛋白结构",
+              "link": "/bidao/atoms/科学科普-材料结构-指甲三层角蛋白结构.html"
+            },
+            {
+              "text": "皱纹波长与振幅公式",
+              "link": "/bidao/atoms/科学科普-材料结构-皱纹波长与振幅公式.html"
+            },
+            {
+              "text": "皱纹的跨尺度存在",
+              "link": "/bidao/atoms/科学科普-材料结构-皱纹的跨尺度存在.html"
+            },
+            {
+              "text": "最快的冰",
+              "link": "/bidao/atoms/科学科普-材料结构-最快的冰.html"
+            }
+          ]
+        },
+        {
           "text": "科学科普-光学现象",
           "collapsed": true,
           "items": [
+            {
+              "text": "埃氏全反射模型",
+              "link": "/bidao/atoms/科学科普-光学现象-埃氏全反射模型.html"
+            },
+            {
+              "text": "八比特与十比特色彩断层",
+              "link": "/bidao/atoms/科学科普-光学现象-八比特与十比特色彩断层.html"
+            },
+            {
+              "text": "彩虹二级成因",
+              "link": "/bidao/atoms/科学科普-光学现象-彩虹二级成因.html"
+            },
+            {
+              "text": "彩虹下方更亮",
+              "link": "/bidao/atoms/科学科普-光学现象-彩虹下方更亮.html"
+            },
+            {
+              "text": "彩虹下方天空更亮",
+              "link": "/bidao/atoms/科学科普-光学现象-彩虹下方天空更亮.html"
+            },
+            {
+              "text": "电子跃迁决定吸收颜色",
+              "link": "/bidao/atoms/科学科普-光学现象-电子跃迁决定吸收颜色.html"
+            },
+            {
+              "text": "二级彩虹成因",
+              "link": "/bidao/atoms/科学科普-光学现象-二级彩虹成因.html"
+            },
             {
               "text": "反射红光与荧光竞争",
               "link": "/bidao/atoms/科学科普-光学现象-反射红光与荧光竞争.html"
@@ -83,6 +633,14 @@
             {
               "text": "反射线极限为双曲线",
               "link": "/bidao/atoms/科学科普-光学现象-反射线极限为双曲线.html"
+            },
+            {
+              "text": "高速摄影拍电弧",
+              "link": "/bidao/atoms/科学科普-光学现象-高速摄影拍电弧.html"
+            },
+            {
+              "text": "高速摄影需要强光",
+              "link": "/bidao/atoms/科学科普-光学现象-高速摄影需要强光.html"
             },
             {
               "text": "高折射率液体的放大极限",
@@ -97,28 +655,152 @@
               "link": "/bidao/atoms/科学科普-光学现象-沟槽反射光锥.html"
             },
             {
+              "text": "黑色香油接出变黄",
+              "link": "/bidao/atoms/科学科普-光学现象-黑色香油接出变黄.html"
+            },
+            {
               "text": "厚缸放大倍率等于折射率",
               "link": "/bidao/atoms/科学科普-光学现象-厚缸放大倍率等于折射率.html"
+            },
+            {
+              "text": "厚缸放大的几何光学推导",
+              "link": "/bidao/atoms/科学科普-光学现象-厚缸放大几何光学推导.html"
+            },
+            {
+              "text": "厚缸内壁放大等于材质折射率",
+              "link": "/bidao/atoms/科学科普-光学现象-厚缸内壁放大等于材质折射率.html"
+            },
+            {
+              "text": "厚缸中固体不被放大",
+              "link": "/bidao/atoms/科学科普-光学现象-厚缸中固体不被放大.html"
+            },
+            {
+              "text": "化妆品瓶放大料体",
+              "link": "/bidao/atoms/科学科普-光学现象-化妆品瓶放大料体.html"
+            },
+            {
+              "text": "镜面反射假说",
+              "link": "/bidao/atoms/科学科普-光学现象-镜面反射假说.html"
+            },
+            {
+              "text": "朗伯比尔定律",
+              "link": "/bidao/atoms/科学科普-光学现象-朗伯比尔定律.html"
+            },
+            {
+              "text": "量子隐形盾牌",
+              "link": "/bidao/atoms/科学科普-光学现象-量子隐形盾牌.html"
             },
             {
               "text": "气体的折射率不被放大",
               "link": "/bidao/atoms/科学科普-光学现象-气体折射率不被放大.html"
             },
             {
+              "text": "前向散射增强理论",
+              "link": "/bidao/atoms/科学科普-光学现象-前向散射增强理论.html"
+            },
+            {
               "text": "青红酒光照变绿",
               "link": "/bidao/atoms/科学科普-光学现象-青红酒光照变绿.html"
+            },
+            {
+              "text": "日落倒影压扁证明地球是球",
+              "link": "/bidao/atoms/科学科普-光学现象-日落倒影压扁证明地球是球.html"
+            },
+            {
+              "text": "湿裤子颜色变深",
+              "link": "/bidao/atoms/科学科普-光学现象-湿裤子颜色变深.html"
+            },
+            {
+              "text": "水凹透镜使物体变细",
+              "link": "/bidao/atoms/科学科普-光学现象-水凹透镜使物体变细.html"
+            },
+            {
+              "text": "水本身带蓝色",
+              "link": "/bidao/atoms/科学科普-光学现象-水本身带蓝色.html"
+            },
+            {
+              "text": "水中物体虚像更靠近人",
+              "link": "/bidao/atoms/科学科普-光学现象-水中物体虚像更靠近人.html"
+            },
+            {
+              "text": "水中物体有两个虚像",
+              "link": "/bidao/atoms/科学科普-光学现象-水中物体有两个虚像.html"
+            },
+            {
+              "text": "水中物体最终感觉在正上方",
+              "link": "/bidao/atoms/科学科普-光学现象-水中物体最终感觉在正上方.html"
+            },
+            {
+              "text": "太阳高度决定彩虹大小",
+              "link": "/bidao/atoms/科学科普-光学现象-太阳高度决定彩虹大小.html"
+            },
+            {
+              "text": "太阳视大小一天内不变",
+              "link": "/bidao/atoms/科学科普-光学现象-太阳视大小一天内不变.html"
             },
             {
               "text": "糖水静置后的白色椭圆",
               "link": "/bidao/atoms/科学科普-光学现象-糖水静置后的白色椭圆.html"
             },
             {
+              "text": "贴壁放大倍率等于折射率",
+              "link": "/bidao/atoms/科学科普-光学现象-贴壁放大倍率等于折射率.html"
+            },
+            {
+              "text": "凸面镜成像纵向压缩",
+              "link": "/bidao/atoms/科学科普-光学现象-凸面镜成像纵向压缩.html"
+            },
+            {
+              "text": "微距镜头放大倍率",
+              "link": "/bidao/atoms/科学科普-光学现象-微距镜头放大倍率.html"
+            },
+            {
+              "text": "物质颜色来自吸收光谱",
+              "link": "/bidao/atoms/科学科普-光学现象-物质颜色来自吸收光谱.html"
+            },
+            {
+              "text": "物质颜色取决于吸收光谱",
+              "link": "/bidao/atoms/科学科普-光学现象-物质颜色取决于吸收光谱.html"
+            },
+            {
+              "text": "吸收光谱红移",
+              "link": "/bidao/atoms/科学科普-光学现象-吸收光谱红移.html"
+            },
+            {
+              "text": "亚历山大带",
+              "link": "/bidao/atoms/科学科普-光学现象-亚历山大带.html"
+            },
+            {
+              "text": "氧化导致吸收光谱红移",
+              "link": "/bidao/atoms/科学科普-光学现象-氧化导致吸收光谱红移.html"
+            },
+            {
+              "text": "氧化使白色物质变黄",
+              "link": "/bidao/atoms/科学科普-光学现象-氧化使白色物质变黄.html"
+            },
+            {
               "text": "液体的荧光颜色阶梯",
               "link": "/bidao/atoms/科学科普-光学现象-液体的荧光颜色阶梯.html"
             },
             {
+              "text": "液体颜色随厚度变化",
+              "link": "/bidao/atoms/科学科普-光学现象-液体颜色随厚度变化.html"
+            },
+            {
               "text": "荧光吸收高能发射低能",
               "link": "/bidao/atoms/科学科普-光学现象-荧光吸收高能发射低能.html"
+            },
+            {
+              "text": "圆柱容器贴壁放大",
+              "link": "/bidao/atoms/科学科普-光学现象-圆柱容器贴壁放大.html"
+            },
+            {
+              "text": "月亮错觉",
+              "link": "/bidao/atoms/科学科普-光学现象-月亮错觉.html"
+            },
+            {
+              "text": "子午像与弧矢像",
+              "link": "/bidao/atoms/科学科普-光学现象-子午像与弧矢像.html"
             },
             {
               "text": "LED白光中的蓝光",
@@ -131,24 +813,472 @@
           ]
         },
         {
+          "text": "科学科普-化学反应",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "超酸定义",
+              "link": "/bidao/atoms/科学科普-化学反应-超酸定义.html"
+            },
+            {
+              "text": "胆素原循环生成黄色色素",
+              "link": "/bidao/atoms/科学科普-化学反应-胆素原循环生成黄色色素.html"
+            },
+            {
+              "text": "氟锑酸",
+              "link": "/bidao/atoms/科学科普-化学反应-氟锑酸.html"
+            },
+            {
+              "text": "共轭体系越大颜色越深",
+              "link": "/bidao/atoms/科学科普-化学反应-共轭体系越大颜色越深.html"
+            },
+            {
+              "text": "哈米特函数H0",
+              "link": "/bidao/atoms/科学科普-化学反应-哈米特函数h0.html"
+            },
+            {
+              "text": "拉平效应",
+              "link": "/bidao/atoms/科学科普-化学反应-拉平效应.html"
+            },
+            {
+              "text": "锂电池热失控链式反应",
+              "link": "/bidao/atoms/科学科普-化学反应-锂电池热失控链式反应.html"
+            },
+            {
+              "text": "镁火不能用水和二氧化碳",
+              "link": "/bidao/atoms/科学科普-化学反应-镁火不能用水和二氧化碳.html"
+            },
+            {
+              "text": "魔酸",
+              "link": "/bidao/atoms/科学科普-化学反应-魔酸.html"
+            },
+            {
+              "text": "温度影响锂电池性能",
+              "link": "/bidao/atoms/科学科普-化学反应-温度影响锂电池性能.html"
+            },
+            {
+              "text": "pKa衡量酸性强弱",
+              "link": "/bidao/atoms/科学科普-化学反应-pka衡量酸性强弱.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-科学史",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "阿格尼斯·波克尔斯",
+              "link": "/bidao/atoms/科学科普-科学史-阿格尼斯波克尔斯.html"
+            },
+            {
+              "text": "宾汉流体命名史",
+              "link": "/bidao/atoms/科学科普-科学史-宾汉流体命名史.html"
+            },
+            {
+              "text": "玻璃推动科学进步",
+              "link": "/bidao/atoms/科学科普-科学史-玻璃推动科学进步.html"
+            },
+            {
+              "text": "戴文赛算两小儿辩日",
+              "link": "/bidao/atoms/科学科普-科学史-戴文赛算两小儿辩日.html"
+            },
+            {
+              "text": "戴文赛算日地距离变化",
+              "link": "/bidao/atoms/科学科普-科学史-戴文赛算日地距离变化.html"
+            },
+            {
+              "text": "恩尼格玛与图灵破译",
+              "link": "/bidao/atoms/科学科普-科学史-恩尼格玛与图灵破译.html"
+            },
+            {
+              "text": "化学家吐槽诺奖颁给非化学家",
+              "link": "/bidao/atoms/科学科普-科学史-化学家吐槽诺奖颁给非化学家.html"
+            },
+            {
+              "text": "开尔文漩涡原子假说",
+              "link": "/bidao/atoms/科学科普-科学史-开尔文漩涡原子假说.html"
+            },
+            {
+              "text": "诺贝尔化学奖颁给生物领域",
+              "link": "/bidao/atoms/科学科普-科学史-诺贝尔化学奖颁给生物领域.html"
+            },
+            {
+              "text": "生理学或医学奖关注人类疾病",
+              "link": "/bidao/atoms/科学科普-科学史-生理学或医学奖关注人类疾病.html"
+            },
+            {
+              "text": "声音灭火研究史",
+              "link": "/bidao/atoms/科学科普-科学史-声音灭火研究史.html"
+            },
+            {
+              "text": "史密斯耳机打结研究",
+              "link": "/bidao/atoms/科学科普-科学史-史密斯耳机打结研究.html"
+            },
+            {
+              "text": "图灵",
+              "link": "/bidao/atoms/科学科普-科学史-图灵.html"
+            }
+          ]
+        },
+        {
           "text": "科学科普-科学思维",
           "collapsed": true,
           "items": [
             {
+              "text": "澳大利亚引进屎壳郎",
+              "link": "/bidao/atoms/科学科普-科学思维-澳大利亚引进屎壳郎.html"
+            },
+            {
+              "text": "百大up主与实验室日常的反差",
+              "link": "/bidao/atoms/科学科普-科学思维-百大up主与实验室日常的反差.html"
+            },
+            {
+              "text": "拜年内容的仪式化传播",
+              "link": "/bidao/atoms/科学科普-科学思维-拜年内容的仪式化传播.html"
+            },
+            {
+              "text": "斑马黑底白纹",
+              "link": "/bidao/atoms/科学科普-科学思维-斑马黑底白纹.html"
+            },
+            {
+              "text": "斑马是黑底白纹",
+              "link": "/bidao/atoms/科学科普-科学思维-斑马是黑底白纹.html"
+            },
+            {
+              "text": "搬家打包的取舍检验",
+              "link": "/bidao/atoms/科学科普-科学思维-搬家打包的取舍检验.html"
+            },
+            {
+              "text": "爆炸原理",
+              "link": "/bidao/atoms/科学科普-科学思维-爆炸原理.html"
+            },
+            {
+              "text": "贝里悖论",
+              "link": "/bidao/atoms/科学科普-科学思维-贝里悖论.html"
+            },
+            {
+              "text": "背景复用率衡量投入价值",
+              "link": "/bidao/atoms/科学科普-科学思维-背景复用率衡量投入价值.html"
+            },
+            {
+              "text": "本福特定律",
+              "link": "/bidao/atoms/科学科普-科学思维-本福特定律.html"
+            },
+            {
+              "text": "毕业答辩与退场的双重性",
+              "link": "/bidao/atoms/科学科普-科学思维-毕业答辩与退场的双重性.html"
+            },
+            {
+              "text": "辩论无法说服闭环逻辑",
+              "link": "/bidao/atoms/科学科普-科学思维-辩论无法说服闭环逻辑.html"
+            },
+            {
+              "text": "冰面低摩擦是反常现象",
+              "link": "/bidao/atoms/科学科普-科学思维-冰面低摩擦是反常现象.html"
+            },
+            {
+              "text": "博士非正常毕业率",
+              "link": "/bidao/atoms/科学科普-科学思维-博士非正常毕业率.html"
+            },
+            {
+              "text": "不懂就要问",
+              "link": "/bidao/atoms/科学科普-科学思维-不懂就要问的学习态度.html"
+            },
+            {
+              "text": "侧斑蜥蜴求偶循环",
+              "link": "/bidao/atoms/科学科普-科学思维-侧斑蜥蜴求偶循环.html"
+            },
+            {
+              "text": "城市幸福感来自对比落差",
+              "link": "/bidao/atoms/科学科普-科学思维-城市幸福感来自对比落差.html"
+            },
+            {
+              "text": "春节祝福语的押韵机制",
+              "link": "/bidao/atoms/科学科普-科学思维-春节祝福语的押韵机制.html"
+            },
+            {
+              "text": "从做科普中反哺科研",
+              "link": "/bidao/atoms/科学科普-科学思维-从做科普中反哺科研.html"
+            },
+            {
+              "text": "答题赢现金的激励设计",
+              "link": "/bidao/atoms/科学科普-科学思维-答题赢现金的激励设计.html"
+            },
+            {
+              "text": "打结比解结更稳定",
+              "link": "/bidao/atoms/科学科普-科学思维-打结比解结更稳定.html"
+            },
+            {
+              "text": "大龄博士生融入新课题组",
+              "link": "/bidao/atoms/科学科普-科学思维-大龄博士生融入新课题组.html"
+            },
+            {
+              "text": "大脑的预判能力",
+              "link": "/bidao/atoms/科学科普-科学思维-大脑的预判能力.html"
+            },
+            {
+              "text": "大脑合成水中两个虚像",
+              "link": "/bidao/atoms/科学科普-科学思维-大脑合成水中两个虚像.html"
+            },
+            {
+              "text": "大学拒绝校园贷",
+              "link": "/bidao/atoms/科学科普-科学思维-大学拒绝校园贷.html"
+            },
+            {
+              "text": "大学考试不作弊底线",
+              "link": "/bidao/atoms/科学科普-科学思维-大学考试不作弊底线.html"
+            },
+            {
+              "text": "大学社交不迷信学长学姐",
+              "link": "/bidao/atoms/科学科普-科学思维-大学社交不迷信学长学姐.html"
+            },
+            {
+              "text": "大学试错成本最低",
+              "link": "/bidao/atoms/科学科普-科学思维-大学试错成本最低.html"
+            },
+            {
+              "text": "大学是发现自我的过程",
+              "link": "/bidao/atoms/科学科普-科学思维-大学是发现自我的过程.html"
+            },
+            {
+              "text": "大学选课不盲从",
+              "link": "/bidao/atoms/科学科普-科学思维-大学选课不盲从.html"
+            },
+            {
+              "text": "大学学习是局部最优解",
+              "link": "/bidao/atoms/科学科普-科学思维-大学学习是局部最优解.html"
+            },
+            {
+              "text": "大学尊重差异与包容",
+              "link": "/bidao/atoms/科学科普-科学思维-大学尊重差异与包容.html"
+            },
+            {
+              "text": "弹幕同步评论",
+              "link": "/bidao/atoms/科学科普-科学思维-弹幕同步评论.html"
+            },
+            {
+              "text": "挡板控制变量排除声波",
+              "link": "/bidao/atoms/科学科普-科学思维-挡板控制变量排除声波.html"
+            },
+            {
+              "text": "挡板控制变量实验",
+              "link": "/bidao/atoms/科学科普-科学思维-挡板控制变量实验.html"
+            },
+            {
+              "text": "导师课题的落地过程",
+              "link": "/bidao/atoms/科学科普-科学思维-导师课题的落地过程.html"
+            },
+            {
+              "text": "德波拉数",
+              "link": "/bidao/atoms/科学科普-科学思维-德波拉数.html"
+            },
+            {
+              "text": "地平说闭环逻辑",
+              "link": "/bidao/atoms/科学科普-科学思维-地平说闭环逻辑.html"
+            },
+            {
+              "text": "迪菲赫尔曼密码",
+              "link": "/bidao/atoms/科学科普-科学思维-迪菲赫尔曼密码.html"
+            },
+            {
+              "text": "电池技术是科技发展瓶颈",
+              "link": "/bidao/atoms/科学科普-科学思维-电池技术是科技发展瓶颈.html"
+            },
+            {
+              "text": "电量焦虑源于对电量的掌控力",
+              "link": "/bidao/atoms/科学科普-科学思维-电量焦虑源于对电量的掌控力.html"
+            },
+            {
               "text": "丁达尔效应被排除",
               "link": "/bidao/atoms/科学科普-科学思维-丁达尔效应被排除.html"
+            },
+            {
+              "text": "读研自我规划与剖析",
+              "link": "/bidao/atoms/科学科普-科学思维-读研自我规划与剖析.html"
+            },
+            {
+              "text": "对数感知与对数世界",
+              "link": "/bidao/atoms/科学科普-科学思维-对数感知与对数世界.html"
+            },
+            {
+              "text": "对数均匀分布",
+              "link": "/bidao/atoms/科学科普-科学思维-对数均匀分布.html"
+            },
+            {
+              "text": "对数时间感知",
+              "link": "/bidao/atoms/科学科普-科学思维-对数时间感知.html"
+            },
+            {
+              "text": "耳机打结的物理机制",
+              "link": "/bidao/atoms/科学科普-科学思维-耳机打结的物理机制.html"
             },
             {
               "text": "二色性被排除",
               "link": "/bidao/atoms/科学科普-科学思维-二色性被排除.html"
             },
             {
+              "text": "反应扩散系统",
+              "link": "/bidao/atoms/科学科普-科学思维-反应扩散系统.html"
+            },
+            {
+              "text": "防耳机打结的两种方法",
+              "link": "/bidao/atoms/科学科普-科学思维-防耳机打结的两种方法.html"
+            },
+            {
+              "text": "分子结与索烃",
+              "link": "/bidao/atoms/科学科普-科学思维-分子结与索烃.html"
+            },
+            {
+              "text": "复学后的身份落差",
+              "link": "/bidao/atoms/科学科普-科学思维-复学后的身份落差.html"
+            },
+            {
+              "text": "干冰白雾的教材解释错在哪",
+              "link": "/bidao/atoms/科学科普-科学思维-干冰白雾教材解释错误.html"
+            },
+            {
+              "text": "高分子链的缠绕与打结",
+              "link": "/bidao/atoms/科学科普-科学思维-高分子链的缠绕与打结.html"
+            },
+            {
+              "text": "高考错题的人生意义",
+              "link": "/bidao/atoms/科学科普-科学思维-高考错题的人生意义.html"
+            },
+            {
+              "text": "高考后的怅然若失",
+              "link": "/bidao/atoms/科学科普-科学思维-高考后的怅然若失.html"
+            },
+            {
               "text": "做一遍高考化学山东卷",
               "link": "/bidao/atoms/科学科普-科学思维-高考化学山东卷得分.html"
             },
             {
+              "text": "用高速摄影分析烧水声",
+              "link": "/bidao/atoms/科学科普-科学思维-高速摄影分析烧水声.html"
+            },
+            {
+              "text": "高维空间球密堆积纠错",
+              "link": "/bidao/atoms/科学科普-科学思维-高维空间球密堆积纠错.html"
+            },
+            {
+              "text": "高校停用知网事件",
+              "link": "/bidao/atoms/科学科普-科学思维-高校停用知网事件.html"
+            },
+            {
+              "text": "古埃及圣甲虫与太阳",
+              "link": "/bidao/atoms/科学科普-科学思维-古埃及圣甲虫与太阳.html"
+            },
+            {
+              "text": "广播体操的创意改编",
+              "link": "/bidao/atoms/科学科普-科学思维-广播体操的创意改编.html"
+            },
+            {
+              "text": "广播体操的节拍结构",
+              "link": "/bidao/atoms/科学科普-科学思维-广播体操的节拍结构.html"
+            },
+            {
+              "text": "广播体操的祝福语编码",
+              "link": "/bidao/atoms/科学科普-科学思维-广播体操的祝福语编码.html"
+            },
+            {
+              "text": "广播体操作为拜年载体",
+              "link": "/bidao/atoms/科学科普-科学思维-广播体操作为拜年载体.html"
+            },
+            {
+              "text": "喊话数字的鲁棒性",
+              "link": "/bidao/atoms/科学科普-科学思维-喊话数字的鲁棒性.html"
+            },
+            {
+              "text": "喊麦与rap的区别",
+              "link": "/bidao/atoms/科学科普-科学思维-喊麦与rap的区别.html"
+            },
+            {
+              "text": "好奇心比知识更重要",
+              "link": "/bidao/atoms/科学科普-科学思维-好奇心比知识更重要.html"
+            },
+            {
+              "text": "喝茶看经络论文背景",
+              "link": "/bidao/atoms/科学科普-科学思维-喝茶看经络论文背景.html"
+            },
+            {
+              "text": "喝茶看经络实验复现",
+              "link": "/bidao/atoms/科学科普-科学思维-喝茶看经络实验复现.html"
+            },
+            {
+              "text": "喝茶实验的严谨设计",
+              "link": "/bidao/atoms/科学科普-科学思维-喝茶实验的严谨设计.html"
+            },
+            {
+              "text": "黄色是时间的颜色彩色是生命的颜色",
+              "link": "/bidao/atoms/科学科普-科学思维-黄色是时间的颜色彩色是生命的颜色.html"
+            },
+            {
+              "text": "黄色是氧化终点而彩色是生命特征",
+              "link": "/bidao/atoms/科学科普-科学思维-黄色是氧化终点而彩色是生命特征.html"
+            },
+            {
+              "text": "火灾类型决定灭火方式",
+              "link": "/bidao/atoms/科学科普-科学思维-火灾类型决定灭火方式.html"
+            },
+            {
+              "text": "机器学习知识学不完",
+              "link": "/bidao/atoms/科学科普-科学思维-机器学习知识学不完.html"
+            },
+            {
+              "text": "鸡也会脸红",
+              "link": "/bidao/atoms/科学科普-科学思维-鸡也会脸红.html"
+            },
+            {
+              "text": "剪切是什么",
+              "link": "/bidao/atoms/科学科普-科学思维-剪切的定义.html"
+            },
+            {
+              "text": "剪指甲问题无统一解法",
+              "link": "/bidao/atoms/科学科普-科学思维-剪指甲问题无统一解法.html"
+            },
+            {
+              "text": "简洁是物理学的追求",
+              "link": "/bidao/atoms/科学科普-科学思维-简洁是物理学的追求.html"
+            },
+            {
+              "text": "教材插图三种画法之争",
+              "link": "/bidao/atoms/科学科普-科学思维-教材插图三种画法之争.html"
+            },
+            {
+              "text": "教材三种画法各有对错",
+              "link": "/bidao/atoms/科学科普-科学思维-教材三种画法各有对错.html"
+            },
+            {
               "text": "解释现象的两条路径",
               "link": "/bidao/atoms/科学科普-科学思维-解释现象的两条路径.html"
+            },
+            {
+              "text": "经络的中医定义",
+              "link": "/bidao/atoms/科学科普-科学思维-经络的中医定义.html"
+            },
+            {
+              "text": "经络与茶分类的对应质疑",
+              "link": "/bidao/atoms/科学科普-科学思维-经络与茶分类的对应质疑.html"
+            },
+            {
+              "text": "纠错码的三份冗余",
+              "link": "/bidao/atoms/科学科普-科学思维-纠错码三份冗余.html"
+            },
+            {
+              "text": "决定论的终结",
+              "link": "/bidao/atoms/科学科普-科学思维-决定论的终结.html"
+            },
+            {
+              "text": "军方资金支持标签",
+              "link": "/bidao/atoms/科学科普-科学思维-军方资金支持标签.html"
+            },
+            {
+              "text": "凯撒密码",
+              "link": "/bidao/atoms/科学科普-科学思维-凯撒密码.html"
+            },
+            {
+              "text": "科普创作的自我实现感",
+              "link": "/bidao/atoms/科学科普-科学思维-科普创作的自我实现感.html"
             },
             {
               "text": "科普选题的三个来源",
@@ -159,28 +1289,468 @@
               "link": "/bidao/atoms/科学科普-科学思维-科普选题能否走红难以预判.html"
             },
             {
+              "text": "科研中迷茫的心累最累",
+              "link": "/bidao/atoms/科学科普-科学思维-科研迷茫的心累最累.html"
+            },
+            {
+              "text": "科研迷茫期的应对",
+              "link": "/bidao/atoms/科学科普-科学思维-科研迷茫期的应对.html"
+            },
+            {
+              "text": "科研水idea的套路",
+              "link": "/bidao/atoms/科学科普-科学思维-科研水idea的套路.html"
+            },
+            {
+              "text": "科研心态的自我和解",
+              "link": "/bidao/atoms/科学科普-科学思维-科研心态的自我和解.html"
+            },
+            {
+              "text": "科研与科普的相互促进",
+              "link": "/bidao/atoms/科学科普-科学思维-科研与科普的相互促进.html"
+            },
+            {
+              "text": "科研与视频难以兼顾",
+              "link": "/bidao/atoms/科学科普-科学思维-科研与视频难以兼顾.html"
+            },
+            {
+              "text": "控制变量对比机油性能",
+              "link": "/bidao/atoms/科学科普-科学思维-控制变量对比机油性能.html"
+            },
+            {
+              "text": "控制变量对比实验",
+              "link": "/bidao/atoms/科学科普-科学思维-控制变量对比实验.html"
+            },
+            {
+              "text": "口号式祝福的信息压缩",
+              "link": "/bidao/atoms/科学科普-科学思维-口号式祝福的信息压缩.html"
+            },
+            {
+              "text": "狼人杀角色基础策略",
+              "link": "/bidao/atoms/科学科普-科学思维-狼人杀角色基础策略.html"
+            },
+            {
+              "text": "狼人杀是马尔可夫过程",
+              "link": "/bidao/atoms/科学科普-科学思维-狼人杀是马尔可夫过程.html"
+            },
+            {
+              "text": "狼人杀是社会的缩影",
+              "link": "/bidao/atoms/科学科普-科学思维-狼人杀是社会的缩影.html"
+            },
+            {
+              "text": "两小儿辩日的两个错误论证",
+              "link": "/bidao/atoms/科学科普-科学思维-两小儿辩日的两个错误论证.html"
+            },
+            {
+              "text": "两小儿辩日的两个错误前提",
+              "link": "/bidao/atoms/科学科普-科学思维-两小儿辩日的两个错误前提.html"
+            },
+            {
+              "text": "两小儿辩日的最终答案",
+              "link": "/bidao/atoms/科学科普-科学思维-两小儿辩日的最终答案.html"
+            },
+            {
               "text": "亮线只存在于眼中",
               "link": "/bidao/atoms/科学科普-科学思维-亮线只存在于眼中.html"
+            },
+            {
+              "text": "量变产生质变的知识积累",
+              "link": "/bidao/atoms/科学科普-科学思维-量变产生质变的知识积累.html"
+            },
+            {
+              "text": "绿豆汤红绿之争是氧化还原之争",
+              "link": "/bidao/atoms/科学科普-科学思维-绿豆汤红绿之争是氧化还原之争.html"
+            },
+            {
+              "text": "论文撤稿的伦理原因",
+              "link": "/bidao/atoms/科学科普-科学思维-论文撤稿的伦理原因.html"
+            },
+            {
+              "text": "论文结论的第三方验证",
+              "link": "/bidao/atoms/科学科普-科学思维-论文结论的第三方验证.html"
+            },
+            {
+              "text": "论文结论与商业推广的关联",
+              "link": "/bidao/atoms/科学科普-科学思维-论文结论与商业推广的关联.html"
+            },
+            {
+              "text": "论文配图与结论的落差",
+              "link": "/bidao/atoms/科学科普-科学思维-论文配图与结论的落差.html"
+            },
+            {
+              "text": "论文同行评审失效",
+              "link": "/bidao/atoms/科学科普-科学思维-论文同行评审失效.html"
+            },
+            {
+              "text": "论文乌龙与审稿失职",
+              "link": "/bidao/atoms/科学科普-科学思维-论文乌龙与审稿失职.html"
+            },
+            {
+              "text": "论文作者身份与期刊背景",
+              "link": "/bidao/atoms/科学科普-科学思维-论文作者身份与期刊背景.html"
+            },
+            {
+              "text": "罗素悖论",
+              "link": "/bidao/atoms/科学科普-科学思维-罗素悖论.html"
+            },
+            {
+              "text": "魔术欺骗依赖预判",
+              "link": "/bidao/atoms/科学科普-科学思维-魔术欺骗依赖预判.html"
+            },
+            {
+              "text": "纽结理论",
+              "link": "/bidao/atoms/科学科普-科学思维-纽结理论.html"
+            },
+            {
+              "text": "诺奖分类与高中理综分类错位",
+              "link": "/bidao/atoms/科学科普-科学思维-诺奖分类与高中理综分类错位.html"
+            },
+            {
+              "text": "拍摄间改造机位优先",
+              "link": "/bidao/atoms/科学科普-科学思维-拍摄间改造机位优先.html"
+            },
+            {
+              "text": "庞加莱复现与速度反演",
+              "link": "/bidao/atoms/科学科普-科学思维-庞加莱复现与速度反演.html"
+            },
+            {
+              "text": "频率分析法",
+              "link": "/bidao/atoms/科学科普-科学思维-频率分析法.html"
+            },
+            {
+              "text": "群体智能涌现",
+              "link": "/bidao/atoms/科学科普-科学思维-群体智能涌现.html"
+            },
+            {
+              "text": "热二违背概率极小",
+              "link": "/bidao/atoms/科学科普-科学思维-热二违背概率极小.html"
             },
             {
               "text": "AI 辅助科普工作流",
               "link": "/bidao/atoms/科学科普-科学思维-人工智能辅助科普工作流.html"
             },
             {
+              "text": "沙雕科研的实际价值",
+              "link": "/bidao/atoms/科学科普-科学思维-沙雕科研的实际价值.html"
+            },
+            {
+              "text": "沙雕论文的实际价值",
+              "link": "/bidao/atoms/科学科普-科学思维-沙雕论文的实际价值.html"
+            },
+            {
+              "text": "声音灭火的多种错误机理",
+              "link": "/bidao/atoms/科学科普-科学思维-声音灭火的多种错误机理.html"
+            },
+            {
+              "text": "声音灭火机理的百年误判",
+              "link": "/bidao/atoms/科学科普-科学思维-声音灭火机理的百年误判.html"
+            },
+            {
+              "text": "绳子长度与打结概率",
+              "link": "/bidao/atoms/科学科普-科学思维-绳子长度与打结概率.html"
+            },
+            {
+              "text": "湿身问题三种模型并存",
+              "link": "/bidao/atoms/科学科普-科学思维-湿身问题三种模型并存.html"
+            },
+            {
+              "text": "石头剪刀布的绝对随机方法",
+              "link": "/bidao/atoms/科学科普-科学思维-石头剪刀布绝对随机方法.html"
+            },
+            {
+              "text": "石头剪刀布是智力游戏",
+              "link": "/bidao/atoms/科学科普-科学思维-石头剪刀布是智力游戏.html"
+            },
+            {
+              "text": "石头剪刀布的心理战术",
+              "link": "/bidao/atoms/科学科普-科学思维-石头剪刀布心理战术.html"
+            },
+            {
+              "text": "屎壳郎靠天导航",
+              "link": "/bidao/atoms/科学科普-科学思维-屎壳郎靠天导航.html"
+            },
+            {
+              "text": "屎壳郎食性演化",
+              "link": "/bidao/atoms/科学科普-科学思维-屎壳郎食性演化.html"
+            },
+            {
+              "text": "屎壳郎跳舞导航",
+              "link": "/bidao/atoms/科学科普-科学思维-屎壳郎跳舞导航.html"
+            },
+            {
+              "text": "屎壳郎推粪球求偶",
+              "link": "/bidao/atoms/科学科普-科学思维-屎壳郎推粪球求偶.html"
+            },
+            {
+              "text": "视觉欺骗源于物理规律",
+              "link": "/bidao/atoms/科学科普-科学思维-视觉欺骗源于物理规律.html"
+            },
+            {
+              "text": "首次rap的练习建议",
+              "link": "/bidao/atoms/科学科普-科学思维-首次rap的练习建议.html"
+            },
+            {
+              "text": "数觉",
+              "link": "/bidao/atoms/科学科普-科学思维-数觉.html"
+            },
+            {
+              "text": "数觉的进化解释",
+              "link": "/bidao/atoms/科学科普-科学思维-数觉的进化解释.html"
+            },
+            {
+              "text": "数觉与数数的复杂度差异",
+              "link": "/bidao/atoms/科学科普-科学思维-数觉与数数的复杂度差异.html"
+            },
+            {
+              "text": "数觉在汉字与算盘中的体现",
+              "link": "/bidao/atoms/科学科普-科学思维-数觉在汉字与算盘中的体现.html"
+            },
+            {
+              "text": "数学公理",
+              "link": "/bidao/atoms/科学科普-科学思维-数学公理.html"
+            },
+            {
+              "text": "松鸦不被魔术欺骗",
+              "link": "/bidao/atoms/科学科普-科学思维-松鸦不被魔术欺骗.html"
+            },
+            {
               "text": "速度的因果链",
               "link": "/bidao/atoms/科学科普-科学思维-速度的因果链.html"
+            },
+            {
+              "text": "酸奶包装专利的产业化困境",
+              "link": "/bidao/atoms/科学科普-科学思维-酸奶包装专利的产业化困境.html"
+            },
+            {
+              "text": "跳出舒适圈创造新可能",
+              "link": "/bidao/atoms/科学科普-科学思维-跳出舒适圈创造新可能.html"
+            },
+            {
+              "text": "听觉分辨水温的统计",
+              "link": "/bidao/atoms/科学科普-科学思维-听觉分辨水温的统计.html"
+            },
+            {
+              "text": "通讯作者本人当志愿者",
+              "link": "/bidao/atoms/科学科普-科学思维-通讯作者本人当志愿者.html"
+            },
+            {
+              "text": "通讯作者充当实验对象",
+              "link": "/bidao/atoms/科学科普-科学思维-通讯作者充当实验对象.html"
+            },
+            {
+              "text": "图灵斑图",
+              "link": "/bidao/atoms/科学科普-科学思维-图灵斑图.html"
+            },
+            {
+              "text": "图灵斑图的超前与验证",
+              "link": "/bidao/atoms/科学科普-科学思维-图灵斑图的超前与验证.html"
+            },
+            {
+              "text": "图灵斑图的跨尺度存在",
+              "link": "/bidao/atoms/科学科普-科学思维-图灵斑图的跨尺度存在.html"
+            },
+            {
+              "text": "图灵斑图与生物条纹",
+              "link": "/bidao/atoms/科学科普-科学思维-图灵斑图与生物条纹.html"
+            },
+            {
+              "text": "图灵反应扩散模型",
+              "link": "/bidao/atoms/科学科普-科学思维-图灵反应扩散模型.html"
             },
             {
               "text": "危险化学品实验的法律限制",
               "link": "/bidao/atoms/科学科普-科学思维-危险化学品实验的法律限制.html"
             },
             {
+              "text": "韦伯费希纳定律",
+              "link": "/bidao/atoms/科学科普-科学思维-韦伯费希纳定律.html"
+            },
+            {
+              "text": "无穷不能套用有限直觉",
+              "link": "/bidao/atoms/科学科普-科学思维-无穷不能套用有限直觉.html"
+            },
+            {
+              "text": "五节动作的主题映射",
+              "link": "/bidao/atoms/科学科普-科学思维-五节动作的主题映射.html"
+            },
+            {
+              "text": "希尔伯特纲领",
+              "link": "/bidao/atoms/科学科普-科学思维-希尔伯特纲领.html"
+            },
+            {
+              "text": "蜥蜴的石头剪刀布求偶",
+              "link": "/bidao/atoms/科学科普-科学思维-蜥蜴的石头剪刀布求偶.html"
+            },
+            {
+              "text": "先做出保底成果建立信心",
+              "link": "/bidao/atoms/科学科普-科学思维-先做出保底成果建立信心.html"
+            },
+            {
+              "text": "先做出来再讲原理",
+              "link": "/bidao/atoms/科学科普-科学思维-先做出来再讲原理.html"
+            },
+            {
+              "text": "形式语言",
+              "link": "/bidao/atoms/科学科普-科学思维-形式语言.html"
+            },
+            {
+              "text": "幸存者偏差与检查悖论的区别",
+              "link": "/bidao/atoms/科学科普-科学思维-幸存者偏差与检查悖论的区别.html"
+            },
+            {
+              "text": "休学创业最长三年",
+              "link": "/bidao/atoms/科学科普-科学思维-休学创业最长三年.html"
+            },
+            {
               "text": "许愿派",
               "link": "/bidao/atoms/科学科普-科学思维-许愿派.html"
             },
             {
+              "text": "选择城市即选择生活方式",
+              "link": "/bidao/atoms/科学科普-科学思维-选择城市即选择生活方式.html"
+            },
+            {
+              "text": "学术观点难以强行说服",
+              "link": "/bidao/atoms/科学科普-科学思维-学术观点难以强行说服.html"
+            },
+            {
+              "text": "眼见为实原则的局限",
+              "link": "/bidao/atoms/科学科普-科学思维-眼见为实原则的局限.html"
+            },
+            {
+              "text": "阳台泄露隐私",
+              "link": "/bidao/atoms/科学科普-科学思维-阳台泄露隐私.html"
+            },
+            {
+              "text": "一次一密",
+              "link": "/bidao/atoms/科学科普-科学思维-一次一密.html"
+            },
+            {
+              "text": "衣架反射",
+              "link": "/bidao/atoms/科学科普-科学思维-衣架反射.html"
+            },
+            {
+              "text": "以尿会友的化学通讯",
+              "link": "/bidao/atoms/科学科普-科学思维-以尿会友的化学通讯.html"
+            },
+            {
+              "text": "音乐杀人事件的普法",
+              "link": "/bidao/atoms/科学科普-科学思维-音乐杀人事件的普法.html"
+            },
+            {
+              "text": "游戏复现历史奇谋",
+              "link": "/bidao/atoms/科学科普-科学思维-游戏复现历史奇谋.html"
+            },
+            {
+              "text": "游戏生态细节还原",
+              "link": "/bidao/atoms/科学科普-科学思维-游戏生态细节还原.html"
+            },
+            {
+              "text": "有结构才能被压缩",
+              "link": "/bidao/atoms/科学科普-科学思维-有结构才能被压缩.html"
+            },
+            {
+              "text": "预期之外的实验结果",
+              "link": "/bidao/atoms/科学科普-科学思维-预期之外的实验结果.html"
+            },
+            {
+              "text": "先预言再验证的研究路径",
+              "link": "/bidao/atoms/科学科普-科学思维-预言现象再验证的研究路径.html"
+            },
+            {
+              "text": "粘滑声恐惧的进化假说",
+              "link": "/bidao/atoms/科学科普-科学思维-粘滑声恐惧的进化假说.html"
+            },
+            {
+              "text": "粘滑运动的人生隐喻",
+              "link": "/bidao/atoms/科学科普-科学思维-粘滑运动的人生隐喻.html"
+            },
+            {
+              "text": "知识区年终rap的分工结构",
+              "link": "/bidao/atoms/科学科普-科学思维-知识区年终rap的分工结构.html"
+            },
+            {
+              "text": "知识区作为提问入口",
+              "link": "/bidao/atoms/科学科普-科学思维-知识区作为提问入口.html"
+            },
+            {
+              "text": "知网采购费地域差异",
+              "link": "/bidao/atoms/科学科普-科学思维-知网采购费地域差异.html"
+            },
+            {
+              "text": "知网采购费统计方法",
+              "link": "/bidao/atoms/科学科普-科学思维-知网采购费统计方法.html"
+            },
+            {
+              "text": "知网砍价能力对比",
+              "link": "/bidao/atoms/科学科普-科学思维-知网砍价能力对比.html"
+            },
+            {
+              "text": "知网两头收费模式",
+              "link": "/bidao/atoms/科学科普-科学思维-知网两头收费模式.html"
+            },
+            {
+              "text": "知网毛利率",
+              "link": "/bidao/atoms/科学科普-科学思维-知网毛利率.html"
+            },
+            {
+              "text": "知网涨价幅度",
+              "link": "/bidao/atoms/科学科普-科学思维-知网涨价幅度.html"
+            },
+            {
+              "text": "重大决定源于一时冲动",
+              "link": "/bidao/atoms/科学科普-科学思维-重大决定源于一时冲动.html"
+            },
+            {
+              "text": "主动控制鸡皮疙瘩",
+              "link": "/bidao/atoms/科学科普-科学思维-主动控制鸡皮疙瘩.html"
+            },
+            {
+              "text": "自学新方向的信心",
+              "link": "/bidao/atoms/科学科普-科学思维-自学新方向的信心.html"
+            },
+            {
+              "text": "自由意志与原子决定",
+              "link": "/bidao/atoms/科学科普-科学思维-自由意志与原子决定.html"
+            },
+            {
               "text": "自指悖论",
               "link": "/bidao/atoms/科学科普-科学思维-自指悖论.html"
+            },
+            {
+              "text": "组会前突击科研进展",
+              "link": "/bidao/atoms/科学科普-科学思维-组会前突击科研进展.html"
+            },
+            {
+              "text": "组会前一天突击出科研进展",
+              "link": "/bidao/atoms/科学科普-科学思维-组会前一天突击科研进展.html"
+            },
+            {
+              "text": "左右手定则统一为叉乘",
+              "link": "/bidao/atoms/科学科普-科学思维-左右手定则统一为叉乘.html"
+            },
+            {
+              "text": "AI不会讲笑话",
+              "link": "/bidao/atoms/科学科普-科学思维-ai不会讲笑话.html"
+            },
+            {
+              "text": "AI的追问式使用",
+              "link": "/bidao/atoms/科学科普-科学思维-ai的追问式使用.html"
+            },
+            {
+              "text": "NBC问题",
+              "link": "/bidao/atoms/科学科普-科学思维-nbc问题.html"
+            },
+            {
+              "text": "rap录音的律动与情绪",
+              "link": "/bidao/atoms/科学科普-科学思维-rap录音的律动与情绪.html"
+            },
+            {
+              "text": "rap语速的量化",
+              "link": "/bidao/atoms/科学科普-科学思维-rap语速的量化.html"
+            },
+            {
+              "text": "RSA 密码",
+              "link": "/bidao/atoms/科学科普-科学思维-rsa密码.html"
             }
           ]
         },
@@ -189,8 +1759,64 @@
           "collapsed": true,
           "items": [
             {
+              "text": "活塞摩擦次数计算",
+              "link": "/bidao/atoms/科学科普-力学运动-活塞摩擦次数计算.html"
+            },
+            {
+              "text": "静摩擦大于动摩擦",
+              "link": "/bidao/atoms/科学科普-力学运动-静摩擦大于动摩擦.html"
+            },
+            {
+              "text": "离心力加速沙漏",
+              "link": "/bidao/atoms/科学科普-力学运动-离心力加速沙漏.html"
+            },
+            {
+              "text": "洛伦兹力的叉乘形式",
+              "link": "/bidao/atoms/科学科普-力学运动-洛伦兹力叉乘形式.html"
+            },
+            {
+              "text": "摩擦系数衡量滑涩",
+              "link": "/bidao/atoms/科学科普-力学运动-摩擦系数衡量滑涩.html"
+            },
+            {
+              "text": "牛顿第二定律",
+              "link": "/bidao/atoms/科学科普-力学运动-牛顿第二定律.html"
+            },
+            {
+              "text": "牛顿力学决定论",
+              "link": "/bidao/atoms/科学科普-力学运动-牛顿力学决定论.html"
+            },
+            {
               "text": "起飞公式",
               "link": "/bidao/atoms/科学科普-力学运动-起飞公式.html"
+            },
+            {
+              "text": "穹顶小球自发离开",
+              "link": "/bidao/atoms/科学科普-力学运动-穹顶小球自发离开.html"
+            },
+            {
+              "text": "三十万公里等于绕地球七圈",
+              "link": "/bidao/atoms/科学科普-力学运动-三十万公里等于绕地球七圈.html"
+            },
+            {
+              "text": "三十万公里活塞摩擦量级",
+              "link": "/bidao/atoms/科学科普-力学运动-三十万公里活塞摩擦量级.html"
+            },
+            {
+              "text": "香蕉皮踩了才滑",
+              "link": "/bidao/atoms/科学科普-力学运动-香蕉皮踩了才滑.html"
+            },
+            {
+              "text": "粘滑现象",
+              "link": "/bidao/atoms/科学科普-力学运动-粘滑现象.html"
+            },
+            {
+              "text": "指甲弹性势能释放起飞",
+              "link": "/bidao/atoms/科学科普-力学运动-指甲弹性势能释放起飞.html"
+            },
+            {
+              "text": "指甲飞出初速度十米每秒",
+              "link": "/bidao/atoms/科学科普-力学运动-指甲飞出初速度十米每秒.html"
             },
             {
               "text": "追踪机身速度",
@@ -207,12 +1833,196 @@
           "collapsed": true,
           "items": [
             {
+              "text": "奥利奥流变学",
+              "link": "/bidao/atoms/科学科普-流体与热-奥利奥流变学.html"
+            },
+            {
+              "text": "巴雷诺数",
+              "link": "/bidao/atoms/科学科普-流体与热-巴雷诺数.html"
+            },
+            {
+              "text": "便秘的流变学解释",
+              "link": "/bidao/atoms/科学科普-流体与热-便秘的流变学解释.html"
+            },
+            {
+              "text": "冰瀑布咖啡的层流到湍流",
+              "link": "/bidao/atoms/科学科普-流体与热-冰瀑布咖啡的层流到湍流.html"
+            },
+            {
+              "text": "冻湿沙比冻纯水更难",
+              "link": "/bidao/atoms/科学科普-流体与热-冻湿沙比冻纯水更难.html"
+            },
+            {
+              "text": "蜂蜜麻酱卷绳实例",
+              "link": "/bidao/atoms/科学科普-流体与热-蜂蜜麻酱卷绳实例.html"
+            },
+            {
+              "text": "蜂蜜水油三层液体叠叠乐",
+              "link": "/bidao/atoms/科学科普-流体与热-蜂蜜水油三层液体叠叠乐.html"
+            },
+            {
+              "text": "白雾来自泡干冰的液体",
+              "link": "/bidao/atoms/科学科普-流体与热-干冰白雾来自浸泡液体.html"
+            },
+            {
+              "text": "干冰白雾的形成机理",
+              "link": "/bidao/atoms/科学科普-流体与热-干冰白雾形成机理.html"
+            },
+            {
+              "text": "高速摄影下的水射流",
+              "link": "/bidao/atoms/科学科普-流体与热-高速摄影下的水射流.html"
+            },
+            {
               "text": "机翼升力",
               "link": "/bidao/atoms/科学科普-流体与热-机翼升力.html"
             },
             {
+              "text": "挤牙膏为什么是层流",
+              "link": "/bidao/atoms/科学科普-流体与热-挤牙膏是层流.html"
+            },
+            {
+              "text": "剪切与剪切速率",
+              "link": "/bidao/atoms/科学科普-流体与热-剪切与剪切速率.html"
+            },
+            {
+              "text": "卷绳效应",
+              "link": "/bidao/atoms/科学科普-流体与热-卷绳效应.html"
+            },
+            {
+              "text": "卷绳效应的高度窗口",
+              "link": "/bidao/atoms/科学科普-流体与热-卷绳效应的高度窗口.html"
+            },
+            {
+              "text": "卡式炉气罐过热爆炸",
+              "link": "/bidao/atoms/科学科普-流体与热-卡式炉气罐过热爆炸.html"
+            },
+            {
+              "text": "开水飞溅更强",
+              "link": "/bidao/atoms/科学科普-流体与热-开水飞溅更强.html"
+            },
+            {
+              "text": "辣椒素驱水",
+              "link": "/bidao/atoms/科学科普-流体与热-辣椒素驱水.html"
+            },
+            {
+              "text": "干冰周围的气膜",
+              "link": "/bidao/atoms/科学科普-流体与热-莱顿弗罗斯特效应气膜.html"
+            },
+            {
+              "text": "雷诺数",
+              "link": "/bidao/atoms/科学科普-流体与热-雷诺数.html"
+            },
+            {
+              "text": "雷诺数决定流态",
+              "link": "/bidao/atoms/科学科普-流体与热-雷诺数决定流态.html"
+            },
+            {
+              "text": "临界韦伯数",
+              "link": "/bidao/atoms/科学科普-流体与热-临界韦伯数.html"
+            },
+            {
+              "text": "马兰戈尼效应",
+              "link": "/bidao/atoms/科学科普-流体与热-马兰戈尼效应.html"
+            },
+            {
+              "text": "葡萄干在苏打水中浮沉",
+              "link": "/bidao/atoms/科学科普-流体与热-葡萄干在苏打水中浮沉.html"
+            },
+            {
+              "text": "气泡链形成条件",
+              "link": "/bidao/atoms/科学科普-流体与热-气泡链形成条件.html"
+            },
+            {
+              "text": "亲水粉末收缩",
+              "link": "/bidao/atoms/科学科普-流体与热-亲水粉末收缩.html"
+            },
+            {
+              "text": "燃气泄漏遇火花爆炸",
+              "link": "/bidao/atoms/科学科普-流体与热-燃气泄漏遇火花爆炸.html"
+            },
+            {
+              "text": "热力学第二定律",
+              "link": "/bidao/atoms/科学科普-流体与热-热力学第二定律.html"
+            },
+            {
+              "text": "热力学第二定律与能量品位",
+              "link": "/bidao/atoms/科学科普-流体与热-热力学第二定律与能量品位.html"
+            },
+            {
+              "text": "沙漏下落波动",
+              "link": "/bidao/atoms/科学科普-流体与热-沙漏下落波动.html"
+            },
+            {
+              "text": "熵的统计本质",
+              "link": "/bidao/atoms/科学科普-流体与热-熵的统计本质.html"
+            },
+            {
+              "text": "湿筷子测油温的气泡",
+              "link": "/bidao/atoms/科学科普-流体与热-湿筷子测油温的气泡.html"
+            },
+            {
+              "text": "湿筷子测油温的气泡原理",
+              "link": "/bidao/atoms/科学科普-流体与热-湿筷子测油温的气泡原理.html"
+            },
+            {
+              "text": "湿头皮防雷击",
+              "link": "/bidao/atoms/科学科普-流体与热-湿头皮防雷击.html"
+            },
+            {
+              "text": "时间之矢",
+              "link": "/bidao/atoms/科学科普-流体与热-时间之矢.html"
+            },
+            {
+              "text": "疏水粉末铺展",
+              "link": "/bidao/atoms/科学科普-流体与热-疏水粉末铺展.html"
+            },
+            {
+              "text": "水温越高白雾越浓",
+              "link": "/bidao/atoms/科学科普-流体与热-水温越高干冰白雾越浓.html"
+            },
+            {
+              "text": "水中花园生长原理",
+              "link": "/bidao/atoms/科学科普-流体与热-水中花园生长原理.html"
+            },
+            {
+              "text": "酸奶残留死区",
+              "link": "/bidao/atoms/科学科普-流体与热-酸奶残留死区.html"
+            },
+            {
+              "text": "酸奶舔盖更浓稠",
+              "link": "/bidao/atoms/科学科普-流体与热-酸奶舔盖更浓稠.html"
+            },
+            {
+              "text": "随筑随冻建造策略",
+              "link": "/bidao/atoms/科学科普-流体与热-随筑随冻建造策略.html"
+            },
+            {
               "text": "糖水浓度梯度形成锥形液柱",
               "link": "/bidao/atoms/科学科普-流体与热-糖水浓度梯度锥形液柱.html"
+            },
+            {
+              "text": "沃辛顿射流",
+              "link": "/bidao/atoms/科学科普-流体与热-沃辛顿射流.html"
+            },
+            {
+              "text": "消防水枪两种模式",
+              "link": "/bidao/atoms/科学科普-流体与热-消防水枪两种模式.html"
+            },
+            {
+              "text": "油锅浇水爆燃",
+              "link": "/bidao/atoms/科学科普-流体与热-油锅浇水爆燃.html"
+            },
+            {
+              "text": "粘性决定卷绳",
+              "link": "/bidao/atoms/科学科普-流体与热-粘性决定卷绳.html"
+            },
+            {
+              "text": "直径与高度需配合",
+              "link": "/bidao/atoms/科学科普-流体与热-直径与高度需配合.html"
+            },
+            {
+              "text": "质地软硬影响螺旋",
+              "link": "/bidao/atoms/科学科普-流体与热-质地软硬影响螺旋.html"
             }
           ]
         },
@@ -221,8 +2031,112 @@
           "collapsed": true,
           "items": [
             {
+              "text": "便便也是宾汉流体",
+              "link": "/bidao/atoms/科学科普-生活实验-便便是宾汉流体.html"
+            },
+            {
+              "text": "冰淇淋模拟便便实验",
+              "link": "/bidao/atoms/科学科普-生活实验-冰淇淋模拟便便实验.html"
+            },
+            {
+              "text": "彩条牙膏捏不混",
+              "link": "/bidao/atoms/科学科普-生活实验-彩条牙膏捏不混.html"
+            },
+            {
               "text": "炒糖色复刻青红酒荧光",
               "link": "/bidao/atoms/科学科普-生活实验-炒糖色复刻青红酒荧光.html"
+            },
+            {
+              "text": "磁力搅拌器冲豆奶",
+              "link": "/bidao/atoms/科学科普-生活实验-磁力搅拌器冲豆奶.html"
+            },
+            {
+              "text": "耳机打结过程演示",
+              "link": "/bidao/atoms/科学科普-生活实验-耳机打结过程演示.html"
+            },
+            {
+              "text": "耳机捆绑防打结",
+              "link": "/bidao/atoms/科学科普-生活实验-耳机捆绑防打结.html"
+            },
+            {
+              "text": "耳机线打结实验",
+              "link": "/bidao/atoms/科学科普-生活实验-耳机线打结实验.html"
+            },
+            {
+              "text": "甘油浸玻璃砂显宝",
+              "link": "/bidao/atoms/科学科普-生活实验-甘油浸玻璃砂显宝.html"
+            },
+            {
+              "text": "肛门呼吸",
+              "link": "/bidao/atoms/科学科普-生活实验-肛门呼吸.html"
+            },
+            {
+              "text": "高速摄影看撕胶带粘滑",
+              "link": "/bidao/atoms/科学科普-生活实验-高速摄影看撕胶带粘滑.html"
+            },
+            {
+              "text": "胡椒粉驱水测辣度",
+              "link": "/bidao/atoms/科学科普-生活实验-胡椒粉驱水测辣度.html"
+            },
+            {
+              "text": "晃动沙漏加速下落",
+              "link": "/bidao/atoms/科学科普-生活实验-晃动沙漏加速下落.html"
+            },
+            {
+              "text": "卷披萨边变硬",
+              "link": "/bidao/atoms/科学科普-生活实验-卷披萨边变硬.html"
+            },
+            {
+              "text": "露出机头防打结",
+              "link": "/bidao/atoms/科学科普-生活实验-露出机头防打结.html"
+            },
+            {
+              "text": "排泄物黄色的来源",
+              "link": "/bidao/atoms/科学科普-生活实验-排泄物黄色的来源.html"
+            },
+            {
+              "text": "泡开塞露还原真实粗细",
+              "link": "/bidao/atoms/科学科普-生活实验-泡开塞露还原真实粗细.html"
+            },
+            {
+              "text": "浅景深相机测虚像位置",
+              "link": "/bidao/atoms/科学科普-生活实验-浅景深相机测虚像位置.html"
+            },
+            {
+              "text": "趣味装置对比抗磨表现",
+              "link": "/bidao/atoms/科学科普-生活实验-趣味装置对比抗磨表现.html"
+            },
+            {
+              "text": "染发褪色露出黄色本色",
+              "link": "/bidao/atoms/科学科普-生活实验-染发褪色露出黄色本色.html"
+            },
+            {
+              "text": "染发褪色露出头发本色",
+              "link": "/bidao/atoms/科学科普-生活实验-染发褪色露出头发本色.html"
+            },
+            {
+              "text": "手机膜气泡消不掉",
+              "link": "/bidao/atoms/科学科普-生活实验-手机膜气泡消不掉.html"
+            },
+            {
+              "text": "树叶变黄的色素基础",
+              "link": "/bidao/atoms/科学科普-生活实验-树叶变黄的色素基础.html"
+            },
+            {
+              "text": "树叶变黄的色素竞争",
+              "link": "/bidao/atoms/科学科普-生活实验-树叶变黄的色素竞争.html"
+            },
+            {
+              "text": "双缸对比测抗磨",
+              "link": "/bidao/atoms/科学科普-生活实验-双缸对比测抗磨.html"
+            },
+            {
+              "text": "水下观察湿裤子",
+              "link": "/bidao/atoms/科学科普-生活实验-水下观察湿裤子.html"
+            },
+            {
+              "text": "糖水加糖测折射率",
+              "link": "/bidao/atoms/科学科普-生活实验-糖水加糖测折射率.html"
             },
             {
               "text": "铁盘反射图案验证",
@@ -231,6 +2145,18 @@
             {
               "text": "无动力跑步机",
               "link": "/bidao/atoms/科学科普-生活实验-无动力跑步机.html"
+            },
+            {
+              "text": "橡皮筋拉物体观察粘滑",
+              "link": "/bidao/atoms/科学科普-生活实验-橡皮筋拉物体观察粘滑.html"
+            },
+            {
+              "text": "长焦相机对焦找虚像",
+              "link": "/bidao/atoms/科学科普-生活实验-长焦相机对焦找虚像.html"
+            },
+            {
+              "text": "纸板统计飞溅分布",
+              "link": "/bidao/atoms/科学科普-生活实验-纸板统计飞溅分布.html"
             }
           ]
         },
@@ -239,8 +2165,224 @@
           "collapsed": true,
           "items": [
             {
+              "text": "倒水声来源",
+              "link": "/bidao/atoms/科学科普-声学振动-倒水声来源.html"
+            },
+            {
+              "text": "低频更易灭火",
+              "link": "/bidao/atoms/科学科普-声学振动-低频更易灭火.html"
+            },
+            {
+              "text": "低频声音灭火效果更强",
+              "link": "/bidao/atoms/科学科普-声学振动-低频声音灭火效果更强.html"
+            },
+            {
+              "text": "鼓掌发声原理",
+              "link": "/bidao/atoms/科学科普-声学振动-鼓掌发声原理.html"
+            },
+            {
+              "text": "开水不响的低沉声来源",
+              "link": "/bidao/atoms/科学科普-声学振动-开水不响低沉声来源.html"
+            },
+            {
+              "text": "两千到四千赫兹刺耳",
+              "link": "/bidao/atoms/科学科普-声学振动-两千到四千赫兹刺耳.html"
+            },
+            {
               "text": "柔性管口振动发声",
               "link": "/bidao/atoms/科学科普-声学振动-柔性管口振动发声.html"
+            },
+            {
+              "text": "声波粒子位移微米级",
+              "link": "/bidao/atoms/科学科普-声学振动-声波粒子位移微米级.html"
+            },
+            {
+              "text": "声波灭火需极高声压",
+              "link": "/bidao/atoms/科学科普-声学振动-声波灭火需极高声压.html"
+            },
+            {
+              "text": "声音灭火实为振膜风",
+              "link": "/bidao/atoms/科学科普-声学振动-声音灭火实为振膜风.html"
+            },
+            {
+              "text": "听声辨水温",
+              "link": "/bidao/atoms/科学科普-声学振动-听声辨水温.html"
+            },
+            {
+              "text": "响水不开开水不响",
+              "link": "/bidao/atoms/科学科普-声学振动-响水不开开水不响.html"
+            },
+            {
+              "text": "响水不开的响声来源",
+              "link": "/bidao/atoms/科学科普-声学振动-响水不开响声来源.html"
+            },
+            {
+              "text": "音高感知对数",
+              "link": "/bidao/atoms/科学科普-声学振动-音高感知对数.html"
+            },
+            {
+              "text": "音乐驱蚊",
+              "link": "/bidao/atoms/科学科普-声学振动-音乐驱蚊.html"
+            },
+            {
+              "text": "粘滑发声机制",
+              "link": "/bidao/atoms/科学科普-声学振动-粘滑发声机制.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-食品科学",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "传统酸奶靠浓缩增稠",
+              "link": "/bidao/atoms/科学科普-食品科学-传统酸奶靠浓缩增稠.html"
+            },
+            {
+              "text": "碱性水加速绿豆汤变红",
+              "link": "/bidao/atoms/科学科普-食品科学-碱性水加速绿豆汤变红.html"
+            },
+            {
+              "text": "碱性水质加速绿豆汤变红",
+              "link": "/bidao/atoms/科学科普-食品科学-碱性水质加速绿豆汤变红.html"
+            },
+            {
+              "text": "金属离子催化多酚氧化",
+              "link": "/bidao/atoms/科学科普-食品科学-金属离子催化多酚氧化.html"
+            },
+            {
+              "text": "绿豆汤变红源于多酚氧化",
+              "link": "/bidao/atoms/科学科普-食品科学-绿豆汤变红源于多酚氧化.html"
+            },
+            {
+              "text": "奶豆豆形成机理",
+              "link": "/bidao/atoms/科学科普-食品科学-奶豆豆形成机理.html"
+            },
+            {
+              "text": "奶粉冲泡四阶段",
+              "link": "/bidao/atoms/科学科普-食品科学-奶粉冲泡四阶段.html"
+            },
+            {
+              "text": "奶粉疏水性",
+              "link": "/bidao/atoms/科学科普-食品科学-奶粉疏水性.html"
+            },
+            {
+              "text": "漆酶加速绿豆汤变红",
+              "link": "/bidao/atoms/科学科普-食品科学-漆酶加速绿豆汤变红.html"
+            },
+            {
+              "text": "润湿与渗透",
+              "link": "/bidao/atoms/科学科普-食品科学-润湿与渗透.html"
+            },
+            {
+              "text": "酸奶粘稠来自酪蛋白网络",
+              "link": "/bidao/atoms/科学科普-食品科学-酸奶粘稠来自酪蛋白网络.html"
+            },
+            {
+              "text": "煮出绿色绿豆汤的条件",
+              "link": "/bidao/atoms/科学科普-食品科学-煮出绿色绿豆汤的条件.html"
+            },
+            {
+              "text": "煮绿绿豆汤的方法",
+              "link": "/bidao/atoms/科学科普-食品科学-煮绿绿豆汤的方法.html"
+            },
+            {
+              "text": "自来水煮绿豆汤更易变红",
+              "link": "/bidao/atoms/科学科普-食品科学-自来水煮绿豆汤更易变红.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-数学概率",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "等待时间悖论",
+              "link": "/bidao/atoms/科学科普-数学概率-等待时间悖论.html"
+            },
+            {
+              "text": "调和级数极限为零",
+              "link": "/bidao/atoms/科学科普-数学概率-调和级数极限为零.html"
+            },
+            {
+              "text": "检查悖论",
+              "link": "/bidao/atoms/科学科普-数学概率-检查悖论.html"
+            },
+            {
+              "text": "开局出布策略",
+              "link": "/bidao/atoms/科学科普-数学概率-开局出布策略.html"
+            },
+            {
+              "text": "狼人杀马尔可夫过程建模",
+              "link": "/bidao/atoms/科学科普-数学概率-狼人杀马尔可夫过程建模.html"
+            },
+            {
+              "text": "马尔可夫性质",
+              "link": "/bidao/atoms/科学科普-数学概率-马尔可夫性质.html"
+            },
+            {
+              "text": "每个球必被取出的概率证明",
+              "link": "/bidao/atoms/科学科普-数学概率-每个球必被取出的概率证明.html"
+            },
+            {
+              "text": "杀人游戏杀手胜率公式",
+              "link": "/bidao/atoms/科学科普-数学概率-杀人游戏杀手胜率公式.html"
+            },
+            {
+              "text": "杀人游戏随机策略最优",
+              "link": "/bidao/atoms/科学科普-数学概率-杀人游戏随机策略最优.html"
+            },
+            {
+              "text": "杀人游戏随机最优策略",
+              "link": "/bidao/atoms/科学科普-数学概率-杀人游戏随机最优策略.html"
+            },
+            {
+              "text": "杀手数量开根号除以二",
+              "link": "/bidao/atoms/科学科普-数学概率-杀手数量开根号除以二.html"
+            },
+            {
+              "text": "深水狼被压制",
+              "link": "/bidao/atoms/科学科普-数学概率-深水狼被压制.html"
+            },
+            {
+              "text": "深水狼策略被压制",
+              "link": "/bidao/atoms/科学科普-数学概率-深水狼策略被压制.html"
+            },
+            {
+              "text": "石头剪刀布的非随机性",
+              "link": "/bidao/atoms/科学科普-数学概率-石头剪刀布的非随机性.html"
+            },
+            {
+              "text": "石头剪刀布的非随机性",
+              "link": "/bidao/atoms/科学科普-数学概率-石头剪刀布非随机性.html"
+            },
+            {
+              "text": "石头剪刀布算法预测",
+              "link": "/bidao/atoms/科学科普-数学概率-石头剪刀布算法预测.html"
+            },
+            {
+              "text": "石头剪刀布心理战术",
+              "link": "/bidao/atoms/科学科普-数学概率-石头剪刀布心理战术.html"
+            },
+            {
+              "text": "无穷次操作花瓶悖论",
+              "link": "/bidao/atoms/科学科普-数学概率-无穷次操作花瓶悖论.html"
+            },
+            {
+              "text": "赢留输变规律",
+              "link": "/bidao/atoms/科学科普-数学概率-赢留输变规律.html"
+            },
+            {
+              "text": "游戏精炼度GR值",
+              "link": "/bidao/atoms/科学科普-数学概率-游戏精炼度gr值.html"
+            },
+            {
+              "text": "友谊悖论",
+              "link": "/bidao/atoms/科学科普-数学概率-友谊悖论.html"
+            },
+            {
+              "text": "指数分布与泊松分布",
+              "link": "/bidao/atoms/科学科普-数学概率-指数分布与泊松分布.html"
             }
           ]
         },
@@ -249,8 +2391,572 @@
           "collapsed": true,
           "items": [
             {
+              "text": "埃拉托色尼测地球周长",
+              "link": "/bidao/atoms/科学科普-数学几何-埃拉托色尼测地球周长.html"
+            },
+            {
+              "text": "叉乘只在三维存在",
+              "link": "/bidao/atoms/科学科普-数学几何-叉乘只在三维存在.html"
+            },
+            {
+              "text": "地图投影必然变形",
+              "link": "/bidao/atoms/科学科普-数学几何-地图投影必然变形.html"
+            },
+            {
+              "text": "等距变换",
+              "link": "/bidao/atoms/科学科普-数学几何-等距变换.html"
+            },
+            {
+              "text": "分形",
+              "link": "/bidao/atoms/科学科普-数学几何-分形.html"
+            },
+            {
+              "text": "高斯绝妙定理",
+              "link": "/bidao/atoms/科学科普-数学几何-高斯绝妙定理.html"
+            },
+            {
+              "text": "高斯曲率的定义",
+              "link": "/bidao/atoms/科学科普-数学几何-高斯曲率的定义.html"
+            },
+            {
+              "text": "海岸线悖论",
+              "link": "/bidao/atoms/科学科普-数学几何-海岸线悖论.html"
+            },
+            {
+              "text": "海岸线的分形维度",
+              "link": "/bidao/atoms/科学科普-数学几何-海岸线分形维度.html"
+            },
+            {
+              "text": "豪斯多夫维度",
+              "link": "/bidao/atoms/科学科普-数学几何-豪斯多夫维度.html"
+            },
+            {
+              "text": "近日点进动改变结论日期",
+              "link": "/bidao/atoms/科学科普-数学几何-近日点进动改变结论日期.html"
+            },
+            {
+              "text": "纠错码与高维球密堆积",
+              "link": "/bidao/atoms/科学科普-数学几何-纠错码与高维球密堆积.html"
+            },
+            {
+              "text": "纽结理论",
+              "link": "/bidao/atoms/科学科普-数学几何-纽结理论.html"
+            },
+            {
+              "text": "平凡结与同痕",
+              "link": "/bidao/atoms/科学科普-数学几何-平凡结与同痕.html"
+            },
+            {
+              "text": "日地距离的尺度对比",
+              "link": "/bidao/atoms/科学科普-数学几何-日地距离的尺度对比.html"
+            },
+            {
+              "text": "向量叉乘",
+              "link": "/bidao/atoms/科学科普-数学几何-向量叉乘.html"
+            },
+            {
+              "text": "用日落倒影算地球半径",
+              "link": "/bidao/atoms/科学科普-数学几何-用日落倒影算地球半径.html"
+            },
+            {
+              "text": "右手坐标系",
+              "link": "/bidao/atoms/科学科普-数学几何-右手坐标系.html"
+            },
+            {
               "text": "圆锥曲线的截法",
               "link": "/bidao/atoms/科学科普-数学几何-圆锥曲线的截法.html"
+            },
+            {
+              "text": "自相似迭代生成分形",
+              "link": "/bidao/atoms/科学科普-数学几何-自相似迭代生成分形.html"
+            },
+            {
+              "text": "自转与公转对日地距离的竞争",
+              "link": "/bidao/atoms/科学科普-数学几何-自转与公转对日地距离的竞争.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/sai/": [
+    {
+      "text": "体系化阅读",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "第一章 · 零元AI影视课的报名入口与课程方背景：从B站爆火到接单渠道",
+          "link": "/sai/knowledge/01-零元ai影视课的报名入口与课程方背景-从b站爆火到接单渠道.html"
+        },
+        {
+          "text": "第二章 · AI剧本、分镜与三视图：零基础学员实际动手做的是什么",
+          "link": "/sai/knowledge/02-ai剧本-分镜与三视图-零基础学员实际动手做的是什么.html"
+        },
+        {
+          "text": "第三章 · 一个月八千的实测结果：收入构成、接单节奏与宣传话术的差距",
+          "link": "/sai/knowledge/03-一个月八千的实测结果-收入构成-接单节奏与宣传话术的差距.html"
+        },
+        {
+          "text": "第四章 · 训练营同学案例：零基础、宝妈、转行者的不同变现路径",
+          "link": "/sai/knowledge/04-训练营同学案例-零基础-宝妈-转行者的不同变现路径.html"
+        },
+        {
+          "text": "第五章 · 入局时机与碎片化自学的局限：为什么现在学、为什么自学不够",
+          "link": "/sai/knowledge/05-入局时机与碎片化自学的局限-为什么现在学-为什么自学不够.html"
+        },
+        {
+          "text": "第六章 · 副业收入与离职底气：八千元之外的心理账",
+          "link": "/sai/knowledge/06-副业收入与离职底气-八千元之外的心理账.html"
+        },
+        {
+          "text": "第七章 · AI副业收入真相：从月入一万三到三万，拆解可复制的收入结构",
+          "link": "/sai/knowledge/07-ai副业收入真相-从月入一万三到三万-拆解可复制的收入结构.html"
+        },
+        {
+          "text": "第八章 · 从零到第一笔收入：学习路径、工具选择与接单渠道",
+          "link": "/sai/knowledge/08-从零到第一笔收入-学习路径-工具选择与接单渠道.html"
+        },
+        {
+          "text": "第九章 · 避坑与筛选：月入五六万是假的，免费课怎么判断值不值得上",
+          "link": "/sai/knowledge/09-避坑与筛选-月入五六万是假的-免费课怎么判断值不值得上.html"
+        },
+        {
+          "text": "第十章 · 心态与时机：为什么现在是入局AI副业的窗口期",
+          "link": "/sai/knowledge/10-心态与时机-为什么现在是入局ai副业的窗口期.html"
+        },
+        {
+          "text": "第十一章 · AI副业的时间窗口与普通人的入局逻辑",
+          "link": "/sai/knowledge/11-ai副业的时间窗口与普通人的入局逻辑.html"
+        },
+        {
+          "text": "第十二章 · 从零基础到接单：AI视频与AI绘画的实操路径",
+          "link": "/sai/knowledge/12-从零基础到接单-ai视频与ai绘画的实操路径.html"
+        },
+        {
+          "text": "第十三章 · 接单渠道、报价与收入结构",
+          "link": "/sai/knowledge/13-接单渠道-报价与收入结构.html"
+        },
+        {
+          "text": "第十四章 · 避坑与心态：零元课、真实收入与离职底气",
+          "link": "/sai/knowledge/14-避坑与心态-零元课-真实收入与离职底气.html"
+        }
+      ]
+    },
+    {
+      "text": "逐视频文章",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "副业项目实测",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "双休害我好惨！我竟靠AI实现躺平!!!",
+              "link": "/sai/articles/双休害我好惨-我竟靠ai实现躺平.html"
+            }
+          ]
+        },
+        {
+          "text": "小白入门指南",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "杭州女孩日赚一万，做三休四，彻底躺平的人生，她是怎么赚钱的？",
+              "link": "/sai/articles/杭州女孩日赚一万-做三休四-彻底躺平的人生-她是怎么赚钱的.html"
+            }
+          ]
+        },
+        {
+          "text": "AI影视课程",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "不吹不黑，亲测AI的我竟然...",
+              "link": "/sai/articles/不吹不黑-亲测ai的我竟然.html"
+            },
+            {
+              "text": "躺着也能赚钱？副业实测",
+              "link": "/sai/articles/躺着也能赚钱-副业实测.html"
+            },
+            {
+              "text": "我亲测！我震惊！我赚钱！原来AI也可以这么简单！",
+              "link": "/sai/articles/我亲测-我震惊-我赚钱-原来ai也可以这么简单.html"
+            },
+            {
+              "text": "想学AI却还在犹豫的看过来！！小白0基础也能上手的AI影视课分享来了！！",
+              "link": "/sai/articles/想学ai却还在犹豫的看过来-小白0基础也能上手的ai影视课分享来了.html"
+            },
+            {
+              "text": "原来AI可以这么简单赚钱！",
+              "link": "/sai/articles/原来ai可以这么简单赚钱.html"
+            }
+          ]
+        },
+        {
+          "text": "AI赚钱案例",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【月入万元以下必看】分享让我月入30000的干货",
+              "link": "/sai/articles/月入万元以下必看-分享让我月入30000的干货.html"
+            },
+            {
+              "text": "普通人做什么副业能在家月入过万",
+              "link": "/sai/articles/普通人做什么副业能在家月入过万.html"
+            },
+            {
+              "text": "这是一起保姆级的AI副业赚钱教程~~~",
+              "link": "/sai/articles/这是一起保姆级的ai副业赚钱教程.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "原子笔记",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "个人成长-案例复盘析",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "训练营同学案例的启示",
+              "link": "/sai/atoms/个人成长-案例复盘析-训练营同学案例的启示.html"
+            },
+            {
+              "text": "中专宝妈签约AI生成师",
+              "link": "/sai/atoms/个人成长-案例复盘析-中专宝妈签约ai生成师.html"
+            }
+          ]
+        },
+        {
+          "text": "个人成长-财富思维课",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "副业收入与离职底气",
+              "link": "/sai/atoms/个人成长-财富思维课-副业收入与离职底气.html"
+            },
+            {
+              "text": "突然变有钱而非熬时间涨薪",
+              "link": "/sai/atoms/个人成长-财富思维课-突然变有钱而非熬时间涨薪.html"
+            },
+            {
+              "text": "政府AI补贴与全民AI趋势",
+              "link": "/sai/atoms/个人成长-财富思维课-政府ai补贴与全民ai趋势.html"
+            },
+            {
+              "text": "AI是普通人的翻身机会",
+              "link": "/sai/atoms/个人成长-财富思维课-ai是普通人的翻身机会.html"
+            },
+            {
+              "text": "AI行业早期入局红利",
+              "link": "/sai/atoms/个人成长-财富思维课-ai行业早期入局红利.html"
+            }
+          ]
+        },
+        {
+          "text": "个人成长-副业心态调",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "第一笔副业收入与离职底气",
+              "link": "/sai/atoms/个人成长-副业心态调-第一笔副业收入与离职底气.html"
+            },
+            {
+              "text": "副业收入与离职底气",
+              "link": "/sai/atoms/个人成长-副业心态调-副业收入与离职底气.html"
+            },
+            {
+              "text": "抓住AI赛道的时间窗口",
+              "link": "/sai/atoms/个人成长-副业心态调-抓住ai赛道的时间窗口.html"
+            }
+          ]
+        },
+        {
+          "text": "个人成长-零基础学ai",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "零基础学AI的可行性",
+              "link": "/sai/atoms/个人成长-零基础学ai-零基础学ai的可行性.html"
+            },
+            {
+              "text": "碎片化自学AI的局限",
+              "link": "/sai/atoms/个人成长-零基础学ai-碎片化自学ai的局限.html"
+            }
+          ]
+        },
+        {
+          "text": "ai副业-副业避坑谈",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "零元课避雷判断标准",
+              "link": "/sai/atoms/ai副业-副业避坑谈-零元课避雷判断标准.html"
+            },
+            {
+              "text": "零元课宣传话术辨别",
+              "link": "/sai/atoms/ai副业-副业避坑谈-零元课宣传话术辨别.html"
+            },
+            {
+              "text": "零元课宣传话术辨析",
+              "link": "/sai/atoms/ai副业-副业避坑谈-零元课宣传话术辨析.html"
+            },
+            {
+              "text": "零元AI课程报名与筛选",
+              "link": "/sai/atoms/ai副业-副业避坑谈-零元ai课程报名与筛选.html"
+            },
+            {
+              "text": "零元AI课宣传与实测差距",
+              "link": "/sai/atoms/ai副业-副业避坑谈-零元ai课宣传与实测差距.html"
+            },
+            {
+              "text": "免费体验课先试后买",
+              "link": "/sai/atoms/ai副业-副业避坑谈-免费体验课先试后买.html"
+            },
+            {
+              "text": "月入五六万是假的",
+              "link": "/sai/atoms/ai副业-副业避坑谈-月入五六万是假的.html"
+            }
+          ]
+        },
+        {
+          "text": "ai副业-副业项目实测",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "抖音萌宠账号带货",
+              "link": "/sai/atoms/ai副业-副业项目实测-抖音萌宠账号带货.html"
+            },
+            {
+              "text": "内部接单平台接单流程",
+              "link": "/sai/atoms/ai副业-副业项目实测-内部接单平台接单流程.html"
+            },
+            {
+              "text": "一个月八千的实测结果",
+              "link": "/sai/atoms/ai副业-副业项目实测-一个月八千的实测结果.html"
+            }
+          ]
+        },
+        {
+          "text": "ai副业-躺平赚钱法",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "AI视频副业入局时机",
+              "link": "/sai/atoms/ai副业-躺平赚钱法-ai视频副业入局时机.html"
+            },
+            {
+              "text": "AI视频行业入局时机",
+              "link": "/sai/atoms/ai副业-躺平赚钱法-ai视频行业入局时机.html"
+            },
+            {
+              "text": "AI行业入局时机红利",
+              "link": "/sai/atoms/ai副业-躺平赚钱法-ai行业入局时机红利.html"
+            }
+          ]
+        },
+        {
+          "text": "ai副业-小白入门指南",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "普通人能学会AI",
+              "link": "/sai/atoms/ai副业-小白入门指南-普通人能学会ai.html"
+            },
+            {
+              "text": "三天入门半个月接单",
+              "link": "/sai/atoms/ai副业-小白入门指南-三天入门半个月接单.html"
+            },
+            {
+              "text": "AI副业市场需求方向",
+              "link": "/sai/atoms/ai副业-小白入门指南-ai副业市场需求方向.html"
+            },
+            {
+              "text": "AI视频风口与普通人机会",
+              "link": "/sai/atoms/ai副业-小白入门指南-ai视频风口与普通人机会.html"
+            }
+          ]
+        },
+        {
+          "text": "ai副业-赚钱干货分享",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "经验分享也是自媒体工作",
+              "link": "/sai/atoms/ai副业-赚钱干货分享-经验分享也是自媒体工作.html"
+            }
+          ]
+        },
+        {
+          "text": "ai副业-ai工具实操",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "数字人直播分成模式",
+              "link": "/sai/atoms/ai副业-ai工具实操-数字人直播分成模式.html"
+            },
+            {
+              "text": "提示词复制粘贴式接单",
+              "link": "/sai/atoms/ai副业-ai工具实操-提示词复制粘贴式接单.html"
+            },
+            {
+              "text": "资产包加现成提示词做视频",
+              "link": "/sai/atoms/ai副业-ai工具实操-资产包加现成提示词做视频.html"
+            },
+            {
+              "text": "AI商业应用课的学习路径",
+              "link": "/sai/atoms/ai副业-ai工具实操-ai商业应用课的学习路径.html"
+            },
+            {
+              "text": "AI生成海报与数字人",
+              "link": "/sai/atoms/ai副业-ai工具实操-ai生成海报与数字人.html"
+            },
+            {
+              "text": "AI生成剧本与分镜",
+              "link": "/sai/atoms/ai副业-ai工具实操-ai生成剧本与分镜.html"
+            },
+            {
+              "text": "AI生成剧本与分镜视频",
+              "link": "/sai/atoms/ai副业-ai工具实操-ai生成剧本与分镜视频.html"
+            },
+            {
+              "text": "AI视频接单变现路径",
+              "link": "/sai/atoms/ai副业-ai工具实操-ai视频接单变现路径.html"
+            },
+            {
+              "text": "AI视频接单收益构成",
+              "link": "/sai/atoms/ai副业-ai工具实操-ai视频接单收益构成.html"
+            },
+            {
+              "text": "ComfyUI做图做视频",
+              "link": "/sai/atoms/ai副业-ai工具实操-comfyui做图做视频.html"
+            }
+          ]
+        },
+        {
+          "text": "ai副业-ai影视课程",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "课程方背景与接单渠道",
+              "link": "/sai/atoms/ai副业-ai影视课程-课程方背景与接单渠道.html"
+            },
+            {
+              "text": "零基础学AI影视的路径",
+              "link": "/sai/atoms/ai副业-ai影视课程-零基础学ai影视的路径.html"
+            },
+            {
+              "text": "零元AI课报名流程",
+              "link": "/sai/atoms/ai副业-ai影视课程-零元ai课报名流程.html"
+            },
+            {
+              "text": "零元AI课实测月入八千",
+              "link": "/sai/atoms/ai副业-ai影视课程-零元ai课实测月入八千.html"
+            },
+            {
+              "text": "零元AI视频课报名流程",
+              "link": "/sai/atoms/ai副业-ai影视课程-零元ai视频课报名流程.html"
+            },
+            {
+              "text": "零元AI视频课报名体验",
+              "link": "/sai/atoms/ai副业-ai影视课程-零元ai视频课报名体验.html"
+            },
+            {
+              "text": "零元AI影视课报名流程",
+              "link": "/sai/atoms/ai副业-ai影视课程-零元ai影视课报名流程.html"
+            },
+            {
+              "text": "内部接单渠道变现",
+              "link": "/sai/atoms/ai副业-ai影视课程-内部接单渠道变现.html"
+            },
+            {
+              "text": "选课看老师作品",
+              "link": "/sai/atoms/ai副业-ai影视课程-选课看老师作品.html"
+            },
+            {
+              "text": "AI剧本与分镜生成流程",
+              "link": "/sai/atoms/ai副业-ai影视课程-ai剧本与分镜生成流程.html"
+            },
+            {
+              "text": "AI剧本与三视图生成",
+              "link": "/sai/atoms/ai副业-ai影视课程-ai剧本与三视图生成.html"
+            },
+            {
+              "text": "AI生成剧本与分镜实操",
+              "link": "/sai/atoms/ai副业-ai影视课程-ai生成剧本与分镜实操.html"
+            },
+            {
+              "text": "AI视频接单渠道与报价",
+              "link": "/sai/atoms/ai副业-ai影视课程-ai视频接单渠道与报价.html"
+            },
+            {
+              "text": "AI影视接单变现路径",
+              "link": "/sai/atoms/ai副业-ai影视课程-ai影视接单变现路径.html"
+            }
+          ]
+        },
+        {
+          "text": "ai副业-ai赚钱案例",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "分镜视频接单收入结构",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-分镜视频接单收入结构.html"
+            },
+            {
+              "text": "高质量视频被短剧剧组签约",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-高质量视频被短剧剧组签约.html"
+            },
+            {
+              "text": "红果短剧分账收入",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-红果短剧分账收入.html"
+            },
+            {
+              "text": "苗苗AI副业做三休四",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-苗苗ai副业做三休四.html"
+            },
+            {
+              "text": "苗苗AI接单报价区间",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-苗苗ai接单报价区间.html"
+            },
+            {
+              "text": "下班两小时AI月入一万三",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-下班两小时ai月入一万三.html"
+            },
+            {
+              "text": "训练营同学变现案例",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-训练营同学变现案例.html"
+            },
+            {
+              "text": "影视外包接单收入",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-影视外包接单收入.html"
+            },
+            {
+              "text": "运营转AI视频接单月入三万",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-运营转ai视频接单月入三万.html"
+            },
+            {
+              "text": "AI分镜视频接单",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-ai分镜视频接单.html"
+            },
+            {
+              "text": "AI副业月入一万五构成",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-ai副业月入一万五构成.html"
+            },
+            {
+              "text": "AI绘画课程接单变现",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-ai绘画课程接单变现.html"
+            },
+            {
+              "text": "AI视频接单渠道与甲方选择",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-ai视频接单渠道与甲方选择.html"
+            },
+            {
+              "text": "AI做图接单流程",
+              "link": "/sai/atoms/ai副业-ai赚钱案例-ai做图接单流程.html"
             }
           ]
         }

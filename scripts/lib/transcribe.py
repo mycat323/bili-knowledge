@@ -9,11 +9,17 @@ from __future__ import annotations
 
 import shutil
 import subprocess
+import time
+import uuid
 from pathlib import Path
 
 import dashscope
 
 from .settings import Settings
+
+# 转写是整条流水线里最贵的一步，失败就重试比交给人工重跑便宜得多。
+STT_ATTEMPTS = 3
+STT_RETRY_DELAYS = (3.0, 8.0)
 
 
 class TranscribeError(RuntimeError):
@@ -45,17 +51,40 @@ def probe_duration(path: Path) -> float:
         raise TranscribeError(f"无法解析音频时长：{result.stdout!r}") from exc
 
 
+def _wait_readable(path: Path, timeout: float = 15.0) -> None:
+    """等切片变成可读。
+
+    Windows 上 ffmpeg 刚写完的 mp3 可能被安全软件的实时扫描短暂占用，
+    直接读/上传会报 `WinError 32 另一个程序正在使用此文件`。
+    """
+    deadline = time.monotonic() + timeout
+    while True:
+        try:
+            with path.open("rb") as handle:
+                handle.read(1)
+            return
+        except OSError:
+            if time.monotonic() >= deadline:
+                raise
+            time.sleep(0.5)
+
+
 def split_audio(audio: Path, output_dir: Path, chunk_seconds: int) -> list[Path]:
-    """按时长切片。用 `-c copy` 直接切流，不重新编码，几十秒的音频是瞬时的。"""
+    """按时长切片。用 `-c copy` 直接切流，不重新编码，几十秒的音频是瞬时的。
+
+    每次调用都用新的子目录：上一次跑剩下的、可能仍被占用的切片文件
+    不会和这一次撞名，重复跑同一个视频也不会互相干扰。
+    """
     _require_ffmpeg()
-    output_dir.mkdir(parents=True, exist_ok=True)
-    for stale in output_dir.glob("chunk-*.mp3"):
-        stale.unlink()
+    shutil.rmtree(output_dir, ignore_errors=True)
+    target_dir = output_dir / uuid.uuid4().hex[:8]
+    target_dir.mkdir(parents=True, exist_ok=True)
 
     duration = probe_duration(audio)
     if duration <= chunk_seconds:
-        target = output_dir / "chunk-0000.mp3"
+        target = target_dir / "chunk-0000.mp3"
         shutil.copyfile(audio, target)
+        _wait_readable(target)
         return [target]
 
     result = subprocess.run(
@@ -63,7 +92,7 @@ def split_audio(audio: Path, output_dir: Path, chunk_seconds: int) -> list[Path]
             "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
             "-i", str(audio),
             "-f", "segment", "-segment_time", str(chunk_seconds),
-            "-c", "copy", str(output_dir / "chunk-%04d.mp3"),
+            "-c", "copy", str(target_dir / "chunk-%04d.mp3"),
         ],
         capture_output=True,
         text=True,
@@ -71,9 +100,11 @@ def split_audio(audio: Path, output_dir: Path, chunk_seconds: int) -> list[Path]
     )
     if result.returncode != 0:
         raise TranscribeError(f"音频切片失败：{result.stderr.strip()[-400:]}")
-    chunks = sorted(output_dir.glob("chunk-*.mp3"))
+    chunks = sorted(target_dir.glob("chunk-*.mp3"))
     if not chunks:
         raise TranscribeError("音频切片后没有得到任何分片")
+    for chunk in chunks:
+        _wait_readable(chunk)
     return chunks
 
 
@@ -118,5 +149,19 @@ def transcribe(audio: Path, work_dir: Path, settings: Settings, *, log=print) ->
     pieces: list[str] = []
     for index, chunk in enumerate(chunks, 1):
         log(f"    转写 {index}/{len(chunks)}：{chunk.name}")
-        pieces.append(_transcribe_chunk(chunk, settings))
+        last: Exception | None = None
+        for attempt, delay in enumerate((0.0, *STT_RETRY_DELAYS)):
+            if delay:
+                # 多为文件被短暂占用或网络抖动，稍等再试一次即可。
+                log(f"      重试第 {attempt} 次（{type(last).__name__}）")
+                time.sleep(delay)
+            try:
+                _wait_readable(chunk)
+                pieces.append(_transcribe_chunk(chunk, settings))
+                last = None
+                break
+            except Exception as exc:  # noqa: BLE001 - 转写失败一律重试，不区分异常类型
+                last = exc
+        if last is not None:
+            raise TranscribeError(f"{chunk.name} 转写失败（已重试 {len(STT_RETRY_DELAYS)} 次）：{last}")
     return "\n".join(pieces)

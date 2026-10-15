@@ -68,11 +68,30 @@
     ],
     "illustration": "knowledge-still-life.png",
     "avatar": "avatar-bidao.jpg",
-    "total": 46,
+    "total": 579,
     "counts": {
-      "knowledge": 5,
-      "articles": 5,
-      "atoms": 36
+      "knowledge": 4,
+      "articles": 72,
+      "atoms": 503
+    }
+  },
+  {
+    "key": "sai",
+    "name": "赛博AI印钞姬",
+    "subject": "AI 副业实测",
+    "description": "逐条实测 B 站上流行的 AI 副业与培训课程：真实收入构成、接单渠道、工具门槛，以及宣传话术与实际结果之间的差距。",
+    "tags": [
+      "AI 副业",
+      "自媒体",
+      "课程实测"
+    ],
+    "illustration": "knowledge-still-life.png",
+    "avatar": "avatar-sai.jpg",
+    "total": 92,
+    "counts": {
+      "knowledge": 14,
+      "articles": 10,
+      "atoms": 68
     }
   }
 ]

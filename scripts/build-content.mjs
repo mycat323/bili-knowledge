@@ -11,51 +11,9 @@ const docsRoot = path.resolve(siteRoot, 'docs');
 const vpRoot = path.resolve(docsRoot, '.vitepress');
 const staticRoot = path.resolve(siteRoot, 'assets');
 
-const VAULTS = [
-  {
-    key: 'xiaolin',
-    name: '小Lin说',
-    dir: '小Lin说-财经商业分析',
-    subject: '财经商业分析',
-    description: '从宏观经济、金融市场到公司与产业，用故事化表达建立理解商业世界的完整框架。',
-    tags: ['宏观经济', '金融市场', '公司产业'],
-    illustration: 'finance-lineart.png',
-    avatar: 'avatar-xiaolin.jpg',
-  },
-  {
-    key: 'daishixiong',
-    name: '戴师兄',
-    dir: '戴师兄-数据分析',
-    subject: '数据分析与职场',
-    description: '围绕数据分析工具、业务思维、职业发展与 AI 协作，整理可落地的学习和工作方法。',
-    tags: ['数据分析', '求职发展', 'AI 应用'],
-    illustration: 'data-lineart.png',
-    avatar: 'avatar-daishixiong.jpg',
-  },
-  {
-    key: 'dabing',
-    name: '大冰连麦',
-    dir: '大冰-沟通技法',
-    subject: '连麦沟通技法',
-    description: '从大冰直播连麦中提炼可复用的沟通模式：怎么听、怎么问、怎么回应，以及职场、情感与人生成长中的真实案例。',
-    tags: ['连麦互动', '沟通技法', '人生成长'],
-    illustration: 'dabing-lineart.png',
-    avatar: 'avatar-dabing.jpg',
-  },
-  {
-    key: 'bidao',
-    name: '毕导',
-    dir: '毕导-科学科普',
-    subject: '科学科普',
-    description: '从生活里的怪现象出发，把光学、力学、概率与材料原理拆成可自己动手验证的问题，顺带交代科学史与常见误解。',
-    tags: ['科学科普', '生活实验', '数学物理'],
-    // 暂无专属雕版线稿，留空时回落到通用插图 knowledge-still-life.png。
-    // 补上专属线稿：把米色底雕版图放进 assets/sources/，在 make-lineart.mjs 末尾
-    // 加一行 toLineArt，再在 assets/images/ 与这里填上文件名。
-    illustration: '',
-    avatar: 'avatar-bidao.jpg',
-  },
-];
+// 知识库注册表放在 scripts/vaults.json：站点侧与抓取侧（scripts/fetch_vault.py）
+// 共用同一份数据，新增 UP 主时两边不会各自维护一份而漂移。
+const VAULTS = JSON.parse(fs.readFileSync(path.join(__dirname, 'vaults.json'), 'utf8'));
 
 const SOURCE_SECTIONS = [
   {
@@ -413,9 +371,15 @@ const ARTICLE_GROUP_RULES = {
 
 const ARTICLE_GROUP_FALLBACK = { name: '其他', order: 99 };
 
-function inferArticleGroup(vaultKey, title, fileBase) {
-  const text = `${title || ''} ${fileBase || ''}`.replace(/^【戴师兄】/, '');
+function inferArticleGroup(vaultKey, title, fileBase, fm = {}) {
+  // 优先用抓取流水线写进 frontmatter 的「分组」（取自该期原子笔记的子题）：
+  // 它对任何 UP 主都自动成立，不需要为每个博主手写正则。
+  // 老的三个知识库源语料由外部流程产出、没有这个字段，自动退回下面的正则规则。
+  const declared = cleanFmValue(fm['分组'] || fm['group'] || '');
+  if (declared) return declared;
+
   const rules = ARTICLE_GROUP_RULES[vaultKey] || [];
+  const text = `${title || ''} ${fileBase || ''}`.replace(/^【戴师兄】/, '');
   for (const rule of rules) {
     if (rule.test(text)) return rule.name;
   }
@@ -433,7 +397,7 @@ function getArticleGroupOrder(vaultKey, groupName) {
 function groupArticleFiles(vaultKey, files) {
   const groups = new Map();
   for (const file of files) {
-    const group = inferArticleGroup(vaultKey, file.title, file.fileBase);
+    const group = inferArticleGroup(vaultKey, file.title, file.fileBase, file.fm);
     if (!groups.has(group)) groups.set(group, []);
     groups.get(group).push(file);
   }

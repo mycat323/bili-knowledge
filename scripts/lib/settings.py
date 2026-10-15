@@ -6,9 +6,9 @@
 
 from __future__ import annotations
 
+import json
 import os
-import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parents[1]
@@ -17,7 +17,7 @@ REPO_ROOT = SITE_ROOT.parent  # 存放「知识库/」的上级目录
 VAULT_ROOT = REPO_ROOT / "知识库"
 CACHE_ROOT = SITE_ROOT / ".cache" / "fetch"
 ENV_FILE = SITE_ROOT / ".env"
-BUILD_CONTENT = SCRIPTS_DIR / "build-content.mjs"
+VAULTS_FILE = SCRIPTS_DIR / "vaults.json"
 
 
 class ConfigError(RuntimeError):
@@ -67,7 +67,7 @@ class Settings:
     llm_base_url: str
     llm_model: str
     llm_api_key: str
-    llm_enable_thinking: bool | None
+    llm_disable_thinking: bool
     audio_chunk_seconds: int
     llm_max_tokens: int
     request_timeout_seconds: int = 1200
@@ -88,7 +88,9 @@ def load_settings() -> Settings:
         llm_base_url=_required("LLM_BASE_URL"),
         llm_model=_required("LLM_MODEL"),
         llm_api_key=_required("LLM_API_KEY"),
-        llm_enable_thinking=_as_bool(os.getenv("LLM_ENABLE_THINKING")),
+        # 实测：开启思考时 completion 里有 65%~80% 是推理 token，而正文长度
+        # 几乎没有变化（2850 vs 2886 字）。批量处理时默认关掉，省钱也更快。
+        llm_disable_thinking=_as_bool(os.getenv("LLM_DISABLE_THINKING")) is not False,
         audio_chunk_seconds=_optional_int("AUDIO_CHUNK_SECONDS", 240),
         llm_max_tokens=_optional_int("LLM_MAX_TOKENS", 8000),
     )
@@ -100,31 +102,82 @@ class VaultSpec:
     name: str
     dir: str
     subject: str
+    description: str = ""
+    tags: list[str] = field(default_factory=list)
+    illustration: str = ""
+    avatar: str = ""
+    # 原子笔记的命名域：{"光学现象": ["透镜成像", ...], ...}。
+    # 留空时由抓取流水线根据视频标题自动推导一份（见 fetch_vault.resolve_taxonomy）。
+    atom_domains: dict[str, list[str]] = field(default_factory=dict)
 
     @property
     def source_dir(self) -> Path:
         return VAULT_ROOT / self.dir
 
+    def to_dict(self) -> dict:
+        data = {
+            "key": self.key,
+            "name": self.name,
+            "dir": self.dir,
+            "subject": self.subject,
+            "description": self.description,
+            "tags": list(self.tags),
+            "illustration": self.illustration,
+            "avatar": self.avatar,
+        }
+        if self.atom_domains:
+            data["atomDomains"] = self.atom_domains
+        return data
 
-# build-content.mjs 的 VAULTS 是站点侧的唯一事实来源，这里解析而不是另建一份注册表，
-# 避免两边配置漂移。解析失败时给出明确提示，要求显式传参。
-_VAULT_BLOCK = re.compile(
-    r"\{\s*key:\s*'([^']+)',\s*name:\s*'([^']+)',\s*dir:\s*'([^']+)',\s*subject:\s*'([^']+)'",
-    re.S,
-)
 
-
+# 知识库注册表是站点侧与抓取侧共用的一份数据（build-content.mjs 也读这个文件），
+# 所以新增 UP 主只需要往这里加一条，不需要改任何代码。
 def read_vault_registry() -> dict[str, VaultSpec]:
-    if not BUILD_CONTENT.exists():
-        raise ConfigError(f"找不到 {BUILD_CONTENT}")
-    text = BUILD_CONTENT.read_text(encoding="utf-8")
+    if not VAULTS_FILE.exists():
+        raise ConfigError(f"找不到知识库注册表 {VAULTS_FILE}")
+    try:
+        raw = json.loads(VAULTS_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise ConfigError(f"{VAULTS_FILE.name} 不是合法 JSON：{exc}") from exc
+    if not isinstance(raw, list) or not raw:
+        raise ConfigError(f"{VAULTS_FILE.name} 应为一个非空数组")
+
     registry: dict[str, VaultSpec] = {}
-    for match in _VAULT_BLOCK.finditer(text):
-        key, name, directory, subject = match.groups()
-        registry[key] = VaultSpec(key=key, name=name, dir=directory, subject=subject)
-    if not registry:
-        raise ConfigError(
-            f"没能从 {BUILD_CONTENT.name} 的 VAULTS 中解析出任何知识库条目；"
-            "请确认该数组仍是 `key / name / dir / subject` 的书写顺序"
-        )
+    for index, item in enumerate(raw):
+        try:
+            spec = VaultSpec(
+                key=item["key"],
+                name=item["name"],
+                dir=item["dir"],
+                subject=item.get("subject", ""),
+                description=item.get("description", ""),
+                tags=list(item.get("tags") or []),
+                illustration=item.get("illustration", ""),
+                avatar=item.get("avatar", ""),
+                atom_domains={
+                    str(domain): [str(sub) for sub in (subs or [])]
+                    for domain, subs in (item.get("atomDomains") or {}).items()
+                },
+            )
+        except (TypeError, KeyError) as exc:
+            raise ConfigError(f"{VAULTS_FILE.name} 第 {index + 1} 条缺少字段 {exc}") from exc
+        registry[spec.key] = spec
     return registry
+
+
+def register_vault(spec: VaultSpec) -> None:
+    """把一个新知识库写进注册表，让 sync 能认出它。已存在同 key 时原地更新。"""
+    raw = json.loads(VAULTS_FILE.read_text(encoding="utf-8"))
+    entry = spec.to_dict()
+    for index, item in enumerate(raw):
+        if item.get("key") == spec.key:
+            # atomDomains 是人工调过的分组口径，自动登记时不要把它覆盖掉。
+            if not entry.get("atomDomains") and item.get("atomDomains"):
+                entry["atomDomains"] = item["atomDomains"]
+            raw[index] = {**item, **entry}
+            break
+    else:
+        raw.append(entry)
+    VAULTS_FILE.write_text(
+        json.dumps(raw, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )

@@ -1,0 +1,110 @@
+[
+  {
+    "key": "xiaolin",
+    "name": "小Lin说",
+    "dir": "小Lin说-财经商业分析",
+    "subject": "财经商业分析",
+    "description": "从宏观经济、金融市场到公司与产业，用故事化表达建立理解商业世界的完整框架。",
+    "tags": [
+      "宏观经济",
+      "金融市场",
+      "公司产业"
+    ],
+    "illustration": "finance-lineart.png",
+    "avatar": "avatar-xiaolin.jpg"
+  },
+  {
+    "key": "daishixiong",
+    "name": "戴师兄",
+    "dir": "戴师兄-数据分析",
+    "subject": "数据分析与职场",
+    "description": "围绕数据分析工具、业务思维、职业发展与 AI 协作，整理可落地的学习和工作方法。",
+    "tags": [
+      "数据分析",
+      "求职发展",
+      "AI 应用"
+    ],
+    "illustration": "data-lineart.png",
+    "avatar": "avatar-daishixiong.jpg"
+  },
+  {
+    "key": "dabing",
+    "name": "大冰连麦",
+    "dir": "大冰-沟通技法",
+    "subject": "连麦沟通技法",
+    "description": "从大冰直播连麦中提炼可复用的沟通模式：怎么听、怎么问、怎么回应，以及职场、情感与人生成长中的真实案例。",
+    "tags": [
+      "连麦互动",
+      "沟通技法",
+      "人生成长"
+    ],
+    "illustration": "dabing-lineart.png",
+    "avatar": "avatar-dabing.jpg"
+  },
+  {
+    "key": "bidao",
+    "name": "毕导",
+    "dir": "毕导-科学科普",
+    "subject": "科学科普",
+    "description": "从生活里的怪现象出发，把光学、力学、概率与材料原理拆成可自己动手验证的问题，顺带交代科学史与常见误解。",
+    "tags": [
+      "科学科普",
+      "生活实验",
+      "数学物理"
+    ],
+    "illustration": "",
+    "avatar": "avatar-bidao.jpg",
+    "atomDomains": {
+      "科学科普": [
+        "光学现象",
+        "力学运动",
+        "流体与热",
+        "声学振动",
+        "数学概率",
+        "数学几何",
+        "化学反应",
+        "材料结构",
+        "生活实验",
+        "食品科学",
+        "科学思维",
+        "科学史"
+      ]
+    }
+  },
+  {
+    "key": "sai",
+    "name": "赛博AI印钞姬",
+    "dir": "赛博AI印钞姬-AI副业实测",
+    "subject": "AI 副业实测",
+    "description": "逐条实测 B 站上流行的 AI 副业与培训课程：真实收入构成、接单渠道、工具门槛，以及宣传话术与实际结果之间的差距。",
+    "tags": [
+      "AI 副业",
+      "自媒体",
+      "课程实测"
+    ],
+    "illustration": "",
+    "avatar": "avatar-sai.jpg",
+    "atomDomains": {
+      "AI副业": [
+        "AI赚钱案例",
+        "副业项目实测",
+        "小白入门指南",
+        "AI影视课程",
+        "躺平赚钱法",
+        "月入过万经",
+        "居家副业选",
+        "AI工具实操",
+        "赚钱干货分享",
+        "副业避坑谈"
+      ],
+      "个人成长": [
+        "零基础学AI",
+        "副业心态调",
+        "时间管理术",
+        "技能提升路",
+        "财富思维课",
+        "案例复盘析"
+      ]
+    }
+  }
+]

@@ -20,8 +20,9 @@
 │   ├── bidao/               # 毕导（knowledge / articles / atoms）
 │   └── .vitepress/          # 配置、主题、slug 映射、侧边栏
 ├── scripts/
+│   ├── vaults.json          # 知识库注册表（站点侧与抓取侧共用）
 │   ├── build-content.mjs    # 内容同步脚本（本地运行，需知识库源文件）
-│   ├── fetch_vault.py       # 抓取流水线入口：UID → 三层知识库
+│   ├── fetch_vault.py       # 抓取流水线入口：空间链接 / UID → 三层知识库
 │   ├── lib/                 # 流水线模块（B 站接口 / 转写 / 模型 / 落盘）
 │   └── validate-vault.mjs   # 源知识库校验（BOM、frontmatter 围栏）
 ├── .env                     # 流水线密钥（不进版本库，参考 .env.example）
@@ -58,9 +59,11 @@ npm run sync -- --allow-partial    # 只重建有源目录的知识库，其余�
 > **只有侧边栏还是旧的**——新知识库的页面会没有左侧导航。
 > `npm run build` 不受影响，它每次都是全新进程。
 
-### 抓取新的内容
+### 抓取一个 UP 主的内容
 
-`scripts/fetch_vault.py` 负责「B 站 UID → 三层知识库语料」，产出直接落在 `sync` 读取的位置。
+`scripts/fetch_vault.py` 是唯一入口：给一个 B 站空间链接或 UID，它就把该 UP 主的视频
+抓成三层知识库语料，产出直接落在 `sync` 读取的位置。**不需要预先注册** ——
+未登记过的知识库会自动写入 `scripts/vaults.json`，昵称与头像自动从 B 站取。
 
 ```bash
 # 首次：建虚拟环境并安装依赖
@@ -68,18 +71,45 @@ uv venv .venv --python 3.12
 uv pip install --python .venv/Scripts/python.exe -r scripts/requirements.txt
 cp .env.example .env        # 填入转写与撰写模型的密钥
 
-# 看看会抓到什么（不下载、不调用模型）
-.venv/Scripts/python.exe scripts/fetch_vault.py --uid <UID> --vault <key> --limit 5 --dry-run
+# 只看会抓到什么（不下载、不调用模型）
+.venv/Scripts/python.exe scripts/fetch_vault.py https://space.bilibili.com/254463269 --all --dry-run
 
-# 正式抓取
-.venv/Scripts/python.exe scripts/fetch_vault.py --uid <UID> --vault <key> --limit 5
+# 抓全部视频
+.venv/Scripts/python.exe scripts/fetch_vault.py https://space.bilibili.com/254463269 --all
+
+# 先抓最近 5 条试水，并指定主题
+.venv/Scripts/python.exe scripts/fetch_vault.py 254463269 --limit 5 --subject 科学科普
+```
+
+第一个位置参数接受这些写法，都会解析出同一个 UID：
+
+```
+https://space.bilibili.com/254463269?spm_id_from=333.40138.feed-card.all.click
+space.bilibili.com/254463269/video
+254463269
+```
+
+也支持在代码里直接调用（`scripts/lib/` 就是一组可复用模块）：
+
+```python
+import sys; sys.path.insert(0, 'scripts')
+from lib import bilibili
+
+mid = bilibili.parse_up_id('https://space.bilibili.com/254463269')
+videos = bilibili.list_videos(mid, 50)           # 投稿列表
+detail = bilibili.video_detail(videos[0].bvid)   # 单视频详情（含分 P / cid）
+bilibili.download_audio(detail.bvid, detail.parts[0].cid, Path('audio.mp3'))
 ```
 
 常用开关：
 
 | 开关 | 作用 |
 | --- | --- |
-| `--limit N` | 抓取条数，按发布时间从新到旧 |
+| `--all` | 处理该 UP 主的全部视频 |
+| `--limit N` | 只抓最近 N 条，默认 5 |
+| `--vault KEY` | 指定知识库 key，默认 `up<UID>` |
+| `--name` / `--dir` / `--subject` / `--description` / `--tags` | 覆盖自动推导的知识库元信息 |
+| `--no-register` | 只出语料，不写 `scripts/vaults.json` |
 | `--bvid BV...` | 只处理指定视频，可重复 |
 | `--dry-run` | 只列出将抓取的视频 |
 | `--no-stt` | 只用转写缓存，不发起新的转写 |
@@ -88,52 +118,38 @@ cp .env.example .env        # 填入转写与撰写模型的密钥
 | `--no-knowledge` | 跳过体系长文阶段 |
 
 中间产物缓存在 `.cache/fetch/<BV号>/`：转写是整条流水线里最贵的一步，
-重复运行会自动复用，不会重复计费。
+重复运行会自动复用，不会重复计费。**中断后重新执行同一条命令即可续跑。**
 
 ## 新增一个 UP 主知识库
 
-以「毕导」（UID 254463269）为例，总共三步。
-
-**1. 在 `scripts/build-content.mjs` 注册**（站点侧的唯一事实来源，抓取脚本会读它）
-
-在 `VAULTS` 数组追加一项，字段顺序必须是 `key / name / dir / subject`：
-
-```js
-{
-  key: 'bidao',                 // 决定 URL 前缀与 docs 目录名
-  name: '毕导',
-  dir: '毕导-科学科普',          // 源知识库子目录名，须与磁盘一致
-  subject: '科学科普',
-  description: '……',
-  tags: ['科学科普', '生活实验', '数学物理'],
-  illustration: 'science-lineart.png',
-  avatar: 'avatar-bidao.jpg',
-}
-```
-
-**2. 补 `ARTICLE_GROUP_RULES`**
-
-同一文件里给新 key 加一份分组规则。不加的话该博主的所有文章都会落进兜底的「其他」分组，
-侧边栏与分区页会退化成一个长列表。
-
-**3. 准备素材**
-
-- `assets/images/avatar-<key>.jpg`：UP 主头像（`sync` 会自动拷到 `docs/public/images/`）
-- `assets/images/<xxx>-lineart.png`：首页卡片用的雕版线稿（可留空，回落到 `knowledge-still-life.png`）。
-  补专属线稿：把米色底雕版图放进 `assets/sources/`，在 `scripts/make-lineart.mjs` 末尾加一行
-  `await toLineArt(...)`，再回来填文件名
-
-**4. 抓内容并发布**
-
 ```bash
-.venv/Scripts/python.exe scripts/fetch_vault.py --uid 254463269 --vault bidao --limit 5
+.venv/Scripts/python.exe scripts/fetch_vault.py https://space.bilibili.com/254463269 --all
 npm run sync -- --allow-partial
 npm run build
 ```
 
-源知识库的目录约定与文件格式见 `scripts/lib/vault.py` 与 `docs/` 下已有页面，
-要点是：原子笔记名必须是 `域-子题-概念`（前两段决定站点分组），正文必须有
-`## 一句话定义`（本地搜索只索引标题和这一节），双链写作 `[[原子笔记名]]`。
+一条命令就够了。自动完成的事情：
+
+| 事项 | 说明 |
+| --- | --- |
+| 解析 UID | 空间链接、带 `?spm_id_from=...` 的分享链接、纯数字都认 |
+| 登记知识库 | 写入 `scripts/vaults.json`（站点与抓取共用的注册表），`sync` 立刻认得它 |
+| 昵称与头像 | 取 B 站昵称；头像存到 `assets/images/avatar-<key>.jpg` |
+| 文章分组 | 每篇文章按该期原子笔记的子题写入 frontmatter 的「分组」，不需要手写正则 |
+| 目录名 | 默认 `<昵称>-<主题>`，可用 `--dir` 覆盖 |
+
+还想再调：
+
+- **主题、简介、标签**：`--subject 科学科普 --description '……' --tags 科学科普,生活实验`
+- **首页雕版线稿**：默认回落到通用插图。要专属的，把米色底雕版图放进 `assets/sources/`，
+  在 `scripts/make-lineart.mjs` 末尾加一行 `await toLineArt(...)`，再把生成的文件名填进
+  `scripts/vaults.json` 的 `illustration`
+- **文章分组正则**：`build-content.mjs` 的 `ARTICLE_GROUP_RULES`。这是可选的老机制，
+  只在文章没有「分组」字段时兜底 —— 三个早期知识库的源语料来自外部流程，靠它分组
+
+语料格式要点（详见 `scripts/lib/vault.py` 与 `docs/` 下已有页面）：原子笔记名必须是
+`域-子题-概念`（前两段决定站点分组），正文必须有 `## 一句话定义`（本地搜索只索引
+标题和这一节），双链写作 `[[原子笔记名]]`。
 
 ## 视觉样式入口
 
