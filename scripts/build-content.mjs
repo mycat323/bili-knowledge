@@ -42,6 +42,19 @@ const VAULTS = [
     illustration: 'dabing-lineart.png',
     avatar: 'avatar-dabing.jpg',
   },
+  {
+    key: 'bidao',
+    name: '毕导',
+    dir: '毕导-科学科普',
+    subject: '科学科普',
+    description: '从生活里的怪现象出发，把光学、力学、概率与材料原理拆成可自己动手验证的问题，顺带交代科学史与常见误解。',
+    tags: ['科学科普', '生活实验', '数学物理'],
+    // 暂无专属雕版线稿，留空时回落到通用插图 knowledge-still-life.png。
+    // 补上专属线稿：把米色底雕版图放进 assets/sources/，在 make-lineart.mjs 末尾
+    // 加一行 toLineArt，再在 assets/images/ 与这里填上文件名。
+    illustration: '',
+    avatar: 'avatar-bidao.jpg',
+  },
 ];
 
 const SOURCE_SECTIONS = [
@@ -381,6 +394,21 @@ const ARTICLE_GROUP_RULES = {
     { name: '人生成长', order: 5, test: (t) => /破局|意义|厌世|迷茫|成长|挣钱|内核|阶层|张雪峰|财富自由|转场|路径依赖/.test(t) },
     { name: '连麦名场面', order: 6, test: (t) => /连麦|封神|高能|精彩|名场面|抬走|黑粉|破防|震惊|在线|整不会|蚌埠|翘嘴/.test(t) },
   ],
+  bidao: [
+    { name: '生活实验', order: 1, test: (t) => /实验|挑战|实测|测试|自制|手工|搭建|发明|改造/.test(t) },
+    {
+      name: '数理科普',
+      order: 2,
+      test: (t) => /数学|物理|化学|概率|方程|函数|量子|力学|统计|公式|几何|光|声|热/.test(t),
+    },
+    { name: '脑洞问题', order: 3, test: (t) => /为什么|如果|假如|能不能|到底|究竟|有多|真的|居然/.test(t) },
+    { name: '科学史话', order: 4, test: (t) => /历史|故事|发明|科学家|诺奖|世纪|起源|祖师爷/.test(t) },
+    {
+      name: '科技与生活',
+      order: 5,
+      test: (t) => /手机|电脑|算法|AI|芯片|电池|材料|能源|工程|机械/.test(t),
+    },
+  ],
 };
 
 const ARTICLE_GROUP_FALLBACK = { name: '其他', order: 99 };
@@ -702,6 +730,58 @@ function writeSidebar(vaults, processedResults) {
   return sidebar;
 }
 
+function readGenerated(name, fallback) {
+  const file = path.join(vpRoot, name);
+  if (!fs.existsSync(file)) return fallback;
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return fallback;
+  }
+}
+
+// 「知识库/」不在本仓库中。缺源目录时 sync 会把对应知识库的页面全删掉再生成空页面，
+// 因此这里先判定每个知识库的源目录是否真的在。
+function vaultHasSources(vault) {
+  const vaultDir = path.join(repoRoot, '知识库', vault.dir);
+  if (!fs.existsSync(vaultDir)) return false;
+  return SOURCE_SECTIONS.some((section) => {
+    const dir = path.join(vaultDir, section.dir);
+    if (!fs.existsSync(dir)) return false;
+    return fs.readdirSync(dir).some((file) => file.endsWith('.md'));
+  });
+}
+
+// --allow-partial：只重建有源目录的知识库，其余保留上一轮已提交的页面与索引。
+function resolveVaultScope() {
+  const allowPartial = process.argv.includes('--allow-partial');
+  const availability = VAULTS.map((vault) => ({ vault, present: vaultHasSources(vault) }));
+  const missing = availability.filter((entry) => !entry.present);
+
+  if (missing.length && !allowPartial) {
+    console.error('\n[sync] 以下知识库的源目录不存在或为空：');
+    for (const { vault } of missing) {
+      console.error(`  - ${vault.name}：知识库/${vault.dir}`);
+    }
+    console.error('\n继续执行会删除 docs/ 下这些知识库已提交的全部页面，并生成空页面。');
+    console.error('源目录（知识库/）不在本仓库中，需要先在本地准备。');
+    console.error('  只重建有源目录的知识库，保留其余页面：npm run sync -- --allow-partial\n');
+    process.exit(1);
+  }
+
+  const preservedKeys = new Set(missing.map((entry) => entry.vault.key));
+  if (preservedKeys.size) {
+    console.warn('\n[sync] --allow-partial：以下知识库缺源目录，保留现有页面与索引不变：');
+    for (const { vault } of missing) console.warn(`  - ${vault.name}（/${vault.key}/）`);
+    console.warn('');
+  }
+
+  return {
+    preservedKeys,
+    available: VAULTS.filter((vault) => !preservedKeys.has(vault.key)),
+  };
+}
+
 function main() {
   const validation = validateVaultSources();
   if (validation.bomFiles.length || validation.fenceIssues.length) {
@@ -713,8 +793,19 @@ function main() {
 
   ensureDir(docsRoot);
 
+  const { preservedKeys, available } = resolveVaultScope();
+
+  // 保留知识库的既有产物：合并回上一轮已经提交的索引，避免它们从站点上消失。
+  const previous = {
+    vaults: readGenerated('vaults.generated.json', []),
+    sidebar: readGenerated('sidebar.generated.json', {}),
+    sections: readGenerated('section-indexes.generated.json', {}),
+    slugs: readGenerated('slug-map.json', {}),
+  };
+
   for (const entry of fs.readdirSync(docsRoot)) {
     if (entry === '.vitepress') continue;
+    if (preservedKeys.has(entry)) continue;
     const p = path.join(docsRoot, entry);
     fs.rmSync(p, { recursive: true, force: true });
   }
@@ -727,7 +818,7 @@ function main() {
   const processedResults = [];
   const vaultStats = [];
 
-  for (const vault of VAULTS) {
+  for (const vault of available) {
     const result = processVault(vault, globalSlugMap);
     processedResults.push(result);
     writeVaultIndex(vault, result.sections);
@@ -739,15 +830,49 @@ function main() {
     console.log(`[${vault.name}] processed ${total} pages: ${details}`);
   }
 
-  writeHomeIndex(vaultStats);
+  // 统计与侧边栏按 VAULTS 顺序拼回保留的知识库，首页与目录页才不会少一个入口。
+  const mergedStats = VAULTS.map((vault) => {
+    const fresh = vaultStats.find((stats) => stats.key === vault.key);
+    if (fresh) return fresh;
+    const carried = previous.vaults.find((stats) => stats.key === vault.key);
+    if (!carried) return null;
+    console.log(`[${carried.name}] preserved from previous build: ${carried.total} pages`);
+    return { ...carried, details: '（本轮未重建）' };
+  }).filter(Boolean);
+
+  writeHomeIndex(mergedStats);
   writeReadingIndexes();
   writeCatalogIndex();
-  writeVaultManifest(vaultStats);
+  writeVaultManifest(mergedStats);
   writeSectionIndexManifest(processedResults);
   writeAboutPage();
-  writeSidebar(VAULTS, processedResults);
+  const sidebar = writeSidebar(available, processedResults);
+
+  if (preservedKeys.size) {
+    const sectionManifest = readGenerated('section-indexes.generated.json', {});
+    for (const key of preservedKeys) {
+      const prefix = `/${key}/`;
+      if (previous.sidebar[prefix]) sidebar[prefix] = previous.sidebar[prefix];
+      if (previous.sections[key]) sectionManifest[key] = previous.sections[key];
+    }
+    fs.writeFileSync(path.join(vpRoot, 'sidebar.generated.json'), JSON.stringify(sidebar, null, 2), 'utf8');
+    fs.writeFileSync(
+      path.join(vpRoot, 'section-indexes.generated.json'),
+      JSON.stringify(sectionManifest, null, 2),
+      'utf8'
+    );
+    const slugMapFile = path.join(vpRoot, 'slug-map.json');
+    const slugMap = readGenerated('slug-map.json', {});
+    for (const [slug, info] of Object.entries(previous.slugs)) {
+      if (preservedKeys.has(info.vault)) slugMap[slug] = info;
+    }
+    fs.writeFileSync(slugMapFile, JSON.stringify(slugMap, null, 2), 'utf8');
+  }
 
   console.log(`\nGenerated ${vaultStats.reduce((s, v) => s + v.total, 0)} pages in ${docsRoot}`);
+  if (preservedKeys.size) {
+    console.log(`Preserved ${preservedKeys.size} vault(s): ${[...preservedKeys].join(', ')}`);
+  }
   console.log('Slug map written to', path.join(vpRoot, 'slug-map.json'));
   console.log('Sidebar written to', path.join(vpRoot, 'sidebar.generated.json'));
 }

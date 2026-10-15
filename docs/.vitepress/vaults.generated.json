@@ -55,5 +55,24 @@
       "articles": 127,
       "atoms": 379
     }
+  },
+  {
+    "key": "bidao",
+    "name": "毕导",
+    "subject": "科学科普",
+    "description": "从生活里的怪现象出发，把光学、力学、概率与材料原理拆成可自己动手验证的问题，顺带交代科学史与常见误解。",
+    "tags": [
+      "科学科普",
+      "生活实验",
+      "数学物理"
+    ],
+    "illustration": "knowledge-still-life.png",
+    "avatar": "avatar-bidao.jpg",
+    "total": 46,
+    "counts": {
+      "knowledge": 5,
+      "articles": 5,
+      "atoms": 36
+    }
   }
 ]

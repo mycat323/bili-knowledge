@@ -1,4 +1,262 @@
 {
+  "/bidao/": [
+    {
+      "text": "体系化阅读",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "第一章 · 科学方法：选题、排除与亲手验证",
+          "link": "/bidao/knowledge/01-科学方法-选题-排除与亲手验证.html"
+        },
+        {
+          "text": "第二章 · 青红酒为什么在坛里是绿的：一场荧光实验",
+          "link": "/bidao/knowledge/02-青红酒为什么在坛里是绿的-一场荧光实验.html"
+        },
+        {
+          "text": "第三章 · 折射率、放大与浓度梯度：液体光学里的三种成因",
+          "link": "/bidao/knowledge/03-折射率-放大与浓度梯度-液体光学里的三种成因.html"
+        },
+        {
+          "text": "第四章 · 跑步机能不能拦住飞机：一条公式、两种同步与一个自指",
+          "link": "/bidao/knowledge/04-跑步机能不能拦住飞机-一条公式-两种同步与一个自指.html"
+        },
+        {
+          "text": "第五章 · 路口那个 X 并不存在：沟槽反射与圆锥曲线",
+          "link": "/bidao/knowledge/05-路口那个-x-并不存在-沟槽反射与圆锥曲线.html"
+        }
+      ]
+    },
+    {
+      "text": "逐视频文章",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "脑洞问题",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】被网友打脸了！居然真能这样？！",
+              "link": "/bidao/articles/毕导-被网友打脸了-居然真能这样.html"
+            }
+          ]
+        },
+        {
+          "text": "其他",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "【毕导】好笑吗，我只看到了一名绝望的机长",
+              "link": "/bidao/articles/毕导-好笑吗-我只看到了一名绝望的机长.html"
+            },
+            {
+              "text": "【毕导】什么时候拿百大？今年高考能拿几分？800w粉丝读评论！",
+              "link": "/bidao/articles/毕导-什么时候拿百大-今年高考能拿几分-800w粉丝读评论.html"
+            },
+            {
+              "text": "【毕导】这个X你肯定见过，但它其实根本不存在",
+              "link": "/bidao/articles/毕导-这个x你肯定见过-但它其实根本不存在.html"
+            },
+            {
+              "text": "【毕导】这是什么妖术？酒在坛子里是绿色，舀出来瞬间变红！",
+              "link": "/bidao/articles/毕导-这是什么妖术-酒在坛子里是绿色-舀出来瞬间变红.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "原子笔记",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "科学科普-光学现象",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "反射红光与荧光竞争",
+              "link": "/bidao/atoms/科学科普-光学现象-反射红光与荧光竞争.html"
+            },
+            {
+              "text": "反射亮线是双曲线",
+              "link": "/bidao/atoms/科学科普-光学现象-反射亮线是双曲线.html"
+            },
+            {
+              "text": "反射线极限为双曲线",
+              "link": "/bidao/atoms/科学科普-光学现象-反射线极限为双曲线.html"
+            },
+            {
+              "text": "高折射率液体的放大极限",
+              "link": "/bidao/atoms/科学科普-光学现象-高折射率液体放大极限.html"
+            },
+            {
+              "text": "沟槽反射",
+              "link": "/bidao/atoms/科学科普-光学现象-沟槽反射.html"
+            },
+            {
+              "text": "沟槽反射光锥",
+              "link": "/bidao/atoms/科学科普-光学现象-沟槽反射光锥.html"
+            },
+            {
+              "text": "厚缸放大倍率等于折射率",
+              "link": "/bidao/atoms/科学科普-光学现象-厚缸放大倍率等于折射率.html"
+            },
+            {
+              "text": "气体的折射率不被放大",
+              "link": "/bidao/atoms/科学科普-光学现象-气体折射率不被放大.html"
+            },
+            {
+              "text": "青红酒光照变绿",
+              "link": "/bidao/atoms/科学科普-光学现象-青红酒光照变绿.html"
+            },
+            {
+              "text": "糖水静置后的白色椭圆",
+              "link": "/bidao/atoms/科学科普-光学现象-糖水静置后的白色椭圆.html"
+            },
+            {
+              "text": "液体的荧光颜色阶梯",
+              "link": "/bidao/atoms/科学科普-光学现象-液体的荧光颜色阶梯.html"
+            },
+            {
+              "text": "荧光吸收高能发射低能",
+              "link": "/bidao/atoms/科学科普-光学现象-荧光吸收高能发射低能.html"
+            },
+            {
+              "text": "LED白光中的蓝光",
+              "link": "/bidao/atoms/科学科普-光学现象-led白光中的蓝光.html"
+            },
+            {
+              "text": "X反射的成因",
+              "link": "/bidao/atoms/科学科普-光学现象-x反射的成因.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-科学思维",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "丁达尔效应被排除",
+              "link": "/bidao/atoms/科学科普-科学思维-丁达尔效应被排除.html"
+            },
+            {
+              "text": "二色性被排除",
+              "link": "/bidao/atoms/科学科普-科学思维-二色性被排除.html"
+            },
+            {
+              "text": "做一遍高考化学山东卷",
+              "link": "/bidao/atoms/科学科普-科学思维-高考化学山东卷得分.html"
+            },
+            {
+              "text": "解释现象的两条路径",
+              "link": "/bidao/atoms/科学科普-科学思维-解释现象的两条路径.html"
+            },
+            {
+              "text": "科普选题的三个来源",
+              "link": "/bidao/atoms/科学科普-科学思维-科普选题的三个来源.html"
+            },
+            {
+              "text": "选题能不能火预判不了",
+              "link": "/bidao/atoms/科学科普-科学思维-科普选题能否走红难以预判.html"
+            },
+            {
+              "text": "亮线只存在于眼中",
+              "link": "/bidao/atoms/科学科普-科学思维-亮线只存在于眼中.html"
+            },
+            {
+              "text": "AI 辅助科普工作流",
+              "link": "/bidao/atoms/科学科普-科学思维-人工智能辅助科普工作流.html"
+            },
+            {
+              "text": "速度的因果链",
+              "link": "/bidao/atoms/科学科普-科学思维-速度的因果链.html"
+            },
+            {
+              "text": "危险化学品实验的法律限制",
+              "link": "/bidao/atoms/科学科普-科学思维-危险化学品实验的法律限制.html"
+            },
+            {
+              "text": "许愿派",
+              "link": "/bidao/atoms/科学科普-科学思维-许愿派.html"
+            },
+            {
+              "text": "自指悖论",
+              "link": "/bidao/atoms/科学科普-科学思维-自指悖论.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-力学运动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "起飞公式",
+              "link": "/bidao/atoms/科学科普-力学运动-起飞公式.html"
+            },
+            {
+              "text": "追踪机身速度",
+              "link": "/bidao/atoms/科学科普-力学运动-追踪机身速度.html"
+            },
+            {
+              "text": "追踪轮速",
+              "link": "/bidao/atoms/科学科普-力学运动-追踪轮速.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-流体与热",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "机翼升力",
+              "link": "/bidao/atoms/科学科普-流体与热-机翼升力.html"
+            },
+            {
+              "text": "糖水浓度梯度形成锥形液柱",
+              "link": "/bidao/atoms/科学科普-流体与热-糖水浓度梯度锥形液柱.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-生活实验",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "炒糖色复刻青红酒荧光",
+              "link": "/bidao/atoms/科学科普-生活实验-炒糖色复刻青红酒荧光.html"
+            },
+            {
+              "text": "铁盘反射图案验证",
+              "link": "/bidao/atoms/科学科普-生活实验-铁盘反射图案验证.html"
+            },
+            {
+              "text": "无动力跑步机",
+              "link": "/bidao/atoms/科学科普-生活实验-无动力跑步机.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-声学振动",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "柔性管口振动发声",
+              "link": "/bidao/atoms/科学科普-声学振动-柔性管口振动发声.html"
+            }
+          ]
+        },
+        {
+          "text": "科学科普-数学几何",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "圆锥曲线的截法",
+              "link": "/bidao/atoms/科学科普-数学几何-圆锥曲线的截法.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "/xiaolin/": [
     {
       "text": "体系化阅读",
