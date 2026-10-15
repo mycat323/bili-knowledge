@@ -151,6 +151,34 @@ npm run build
 `域-子题-概念`（前两段决定站点分组），正文必须有 `## 一句话定义`（本地搜索只索引
 标题和这一节），双链写作 `[[原子笔记名]]`。
 
+## 部署
+
+推 `main` 就触发 `.github/workflows/deploy.yml`：`npm ci` → `npm run build` → GitHub Pages。
+线上地址：https://mycat323.github.io/bili-knowledge/
+
+### 不要重跑旧提交的工作流
+
+**GitHub Pages 只认「最后一次成功的部署」，跟提交新旧无关。** 一个旧提交的 run
+如果比新提交的 run 晚完成，会把线上站点回滚成旧内容。实测：
+
+| run | 提交 | 内容 | 部署完成 |
+| --- | --- | --- | --- |
+| push | `fc9bf43` | 7 个知识库 | 17:36:20 |
+| 手动重跑 | `eeed44f` | 4 个知识库 | **17:39:32** ← 最后上线，站点被盖回 4 个 |
+
+所以：
+
+- 要重新部署，就**推一个新提交**，或者重跑**最新提交**的那次 run —— 不要重跑旧提交。
+- 工作流已设 `concurrency.cancel-in-progress: true`，新提交会取消仍在跑的旧部署；
+  但它拦不住「在推送之后才启动」的旧 run，那种情况只能靠上面这条纪律。
+
+排查线上是哪个提交在上线，看最后完成的部署：
+
+```bash
+curl -s "https://api.github.com/repos/mycat323/bili-knowledge/deployments?environment=github-pages&per_page=3" \
+  | grep -o '"sha": "[a-f0-9]*"' | head -1
+```
+
 ## 视觉样式入口
 
 后续调整网页视觉时，按下面顺序修改，避免内容同步覆盖设计：
